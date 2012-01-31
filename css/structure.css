@@ -1,0 +1,16 @@
+.body {
+    background-image: url('../img/structure/bg/CMAIHomeBG.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.textPane {
+    position:relative;
+    top: 900px;
+    left: 550px;
+    width: 800px;
+    border-color: aqua;
+    border-width: 2px;
+    border-style: solid;
+
+}
