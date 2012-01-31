@@ -1,30 +1,30 @@
-.CMAIHeadlineText {
-    font-size: 16pt;
+.CMAI-Headline-Text {
+    font-size: 18pt;
     font-family: arial, helvetica, sans-serif;
     font-style: italic;
     text-align: center;
 }
 
-.CMAIDateText {
+.CMAI-Date-Text {
     font-size: 14pt;
     font-family: arial, helvetica, sans-serif;
     text-align: center;
+    font-style: normal;
 }
 
-.sectionHeading {
+.section-heading {
     font-size: 14pt;
     font-family: arial, helvetica, sans-serif;
     text-decoration: underline;
     text-align: center;
 }
 
-.bodyText {
+.body-text {
     font-size: 12pt;
     font-family: arial, helvetica, sans-serif;
-    margin: 0 auto;
 }
 
-.homePageTag {
+.home-page-tag {
     font-size: 12pt;
     font-family: arial, helvetica, sans-serif;
     text-decoration: underline;
