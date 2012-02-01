@@ -1,16 +1,77 @@
 .body {
-    background-image: url('../img/structure/bg/CMAIHomeBG.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+    background: url('../img/structure/bg/CMAIHomeBG.jpg') no-repeat scroll;
 }
 
 .textPane {
     position:relative;
-    top: 900px;
-    left: 550px;
+    top: 950px;
+    left: 580px;
     width: 800px;
-    border-color: aqua;
-    border-width: 2px;
-    border-style: solid;
+    /*border: 2px solid aqua;*/
+}
 
+.slideshow {
+    position: absolute;
+    top: 1870px;
+    left: 1200px;
+    border: 7px solid #2A1E08;
+    border-radius: 5px;
+}
+
+.aPlaisanceLogo {
+    position: absolute;
+    top: 2185px;
+    left: 876px;
+}
+
+.home-menu-button {
+    position: absolute;
+    top: 895px;
+    left: 570px;
+}
+
+.instructors-menu-button {
+    position: absolute;
+    top: 898px;
+    left: 650px;
+}
+
+
+.classes-menu-button {
+    position: absolute;
+    top: 899px;
+    left: 770px;
+
+}
+
+.schedule-menu-button {
+    position: absolute;
+    top: 903px;
+    left: 865px;
+
+}
+
+.galleries-menu-button {
+    position: absolute;
+    top: 901px;
+    left: 965px;
+
+}
+
+.contact-menu-button {
+    position: absolute;
+    top: 905px;
+    left: 1070px;
+}
+
+.directions-menu-button {
+    position: absolute;
+    top: 898px;
+    left: 1193px;
+}
+
+.registration-menu-button {
+    position: absolute;
+    top: 905px;
+    left: 1310px;
 }

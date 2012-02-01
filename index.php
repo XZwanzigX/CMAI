@@ -6,6 +6,7 @@
     </head>
 
     <body class="body">
+    <?php include('includes/menu.php');?>
         <div class="textPane">
             <p class="CMAI-Headline-Text">Western Martial Artists, Mark your Calendars for the Inaugural<br> CHIVALRIC MARTIAL ARTS INTERNATIONAL SYMPOSIUM
             <br><em class="CMAI-Date-Text">April 30 &mdash;May 3, 2012 &mdash; Austin, Texas</em>
@@ -28,5 +29,10 @@
 
             <p class="home-page-tag">If you take your martial arts seriously, you can't afford to miss CMAI!</p>
          </div>
+
+        <div class="slideshow">
+            <img src="img/slideshow/01.png"/>
+        </div>
+        <img src="img/aPlaisance.png" class="aPlaisanceLogo"/>
     </body>
 </html>
