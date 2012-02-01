@@ -3,6 +3,17 @@
         <title>Chivalric Martial Arts International Symposium</title>
         <link rel="stylesheet" href="css/structure.css"/>
         <link rel="stylesheet" href="css/textStyles.css"/>
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/fadeslideshow.js">
+               /***********************************************
+               * Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+               * This notice MUST stay intact for legal use
+               * Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+               ***********************************************/
+        </script>
+        <script type="text/javascript" src="js/slideshow.js"></script>
+
     </head>
 
     <body class="body">
@@ -30,9 +41,11 @@
             <p class="home-page-tag">If you take your martial arts seriously, you can't afford to miss CMAI!</p>
          </div>
 
-        <div class="slideshow">
-            <img src="img/slideshow/01.png"/>
+        <div class="slideshow" id="homeSlideshow">
+
         </div>
         <img src="img/aPlaisance.png" class="aPlaisanceLogo"/>
+
+        <img src="img/structure/blank.png" class="blank"/>
     </body>
 </html>

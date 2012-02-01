@@ -12,8 +12,8 @@
 
 .slideshow {
     position: absolute;
-    top: 1870px;
-    left: 1200px;
+    top: 1196px;
+    left: 1196px;
     border: 7px solid #2A1E08;
     border-radius: 5px;
 }
@@ -51,10 +51,10 @@
 
 }
 
-.galleries-menu-button {
+.faq-menu-button {
     position: absolute;
     top: 901px;
-    left: 965px;
+    left: 975px;
 
 }
 
@@ -72,6 +72,12 @@
 
 .registration-menu-button {
     position: absolute;
-    top: 905px;
+    top: 902px;
     left: 1310px;
+}
+
+.blank {
+    position: absolute;
+    top: 2400px;
+    left: 350px;
 }
