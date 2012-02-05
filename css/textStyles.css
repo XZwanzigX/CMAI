@@ -30,3 +30,13 @@
     text-decoration: underline;
     text-align: center;
 }
+
+.instructor-name {
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.class-listing {
+
+}

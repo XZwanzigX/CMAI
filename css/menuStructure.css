@@ -1,0 +1,50 @@
+.home-menu-button {
+    position: absolute;
+    top: 895px;
+    left: 535px;
+}
+
+.instructors-menu-button {
+    position: absolute;
+    top: 898px;
+    left: 620px;
+}
+
+.classes-menu-button {
+    position: absolute;
+    top: 899px;
+    left: 740px;
+
+}
+
+.schedule-menu-button {
+    position: absolute;
+    top: 903px;
+    left: 835px;
+
+}
+
+.faq-menu-button {
+    position: absolute;
+    top: 901px;
+    left: 945px;
+
+}
+
+.contact-menu-button {
+    position: absolute;
+    top: 905px;
+    left: 1040px;
+}
+
+.directions-menu-button {
+    position: absolute;
+    top: 898px;
+    left: 1163px;
+}
+
+.registration-menu-button {
+    position: absolute;
+    top: 902px;
+    left: 1280px;
+}

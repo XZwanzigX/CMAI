@@ -2,6 +2,7 @@
     <head>
         <title>Chivalric Martial Arts International Symposium</title>
         <link rel="stylesheet" href="css/structure.css"/>
+        <link rel="stylesheet" href="css/menuStructure.css"/>
         <link rel="stylesheet" href="css/textStyles.css"/>
 
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
@@ -16,7 +17,7 @@
 
     </head>
 
-    <body class="body">
+    <body class="homePageBody">
     <?php include('includes/menu.php');?>
         <div class="textPane">
             <p class="CMAI-Headline-Text">Western Martial Artists, Mark your Calendars for the Inaugural<br> CHIVALRIC MARTIAL ARTS INTERNATIONAL SYMPOSIUM

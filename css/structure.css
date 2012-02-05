@@ -1,6 +1,13 @@
-.body {
+.homePageBody {
     background: url('../img/structure/bg/CMAIHomeBG.jpg') no-repeat scroll;
     background-position: top center;
+}
+
+.otherPageBody {
+    background: url('../img/structure/bg/CMAIOtherPagesBG.jpg') no-repeat scroll;
+    background-position: top center;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 12pt;
 }
 
 .textPane {
@@ -10,9 +17,15 @@
     width: 800px;
 }
 
+.otherPageText {
+    position: absolute;
+    top: 950px;
+    width: 800px;
+}
+
 .slideshow {
     position: absolute;
-    top: 1191px;
+    top: 1865px;
     left: 1147px;
     border: 7px solid #2A1E08;
     border-radius: 5px;
@@ -22,58 +35,6 @@
     position: absolute;
     top: 2187px;
     left: 830px;
-}
-
-.home-menu-button {
-    position: absolute;
-    top: 895px;
-    left: 535px;
-}
-
-.instructors-menu-button {
-    position: absolute;
-    top: 898px;
-    left: 620px;
-}
-
-
-.classes-menu-button {
-    position: absolute;
-    top: 899px;
-    left: 740px;
-
-}
-
-.schedule-menu-button {
-    position: absolute;
-    top: 903px;
-    left: 835px;
-
-}
-
-.faq-menu-button {
-    position: absolute;
-    top: 901px;
-    left: 945px;
-
-}
-
-.contact-menu-button {
-    position: absolute;
-    top: 905px;
-    left: 1040px;
-}
-
-.directions-menu-button {
-    position: absolute;
-    top: 898px;
-    left: 1163px;
-}
-
-.registration-menu-button {
-    position: absolute;
-    top: 902px;
-    left: 1280px;
 }
 
 .blank {
