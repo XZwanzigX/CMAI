@@ -22,6 +22,7 @@
 .body-text {
     font-size: 12pt;
     font-family: arial, helvetica, sans-serif;
+    text-align: left;
 }
 
 .home-page-tag {

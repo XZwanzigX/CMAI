@@ -1,6 +1,7 @@
 .homePageBody {
     background: url('../img/structure/bg/CMAIHomeBG.jpg') no-repeat scroll;
     background-position: top center;
+    text-align: center;
 }
 
 .otherPageBody {
