@@ -53,6 +53,7 @@
     font-weight:bold;
     font-size: 12pt;
     font-family: arial, helvetica, sans-serif;
+    text-align: left;
 }
 
 .special-emphasis {
@@ -67,4 +68,8 @@
     font-style: normal;
     font-size: 12pt;
     font-family: arial, helvetica, sans-serif;
+}
+
+P{
+    text-align: left;
 }

@@ -44,7 +44,7 @@
 
             <p><span class="faq">Can I bring my own horse?</span></p>
 
-            <div class="aPlaisanceLogo">
+            <div class="aPlaisance-logo-faq">
                 <a href="http://www.aplaisance.com" onmouseover="document.aPlaisance.src='img/structure/aPlaisanceGlow.png';" onmouseout="document.aPlaisance.src='img/structure/aPlaisance.png'"><img src="img/structure/aPlaisance.png" name="aPlaisance" border="0"></a>
             </div>
         </div>
