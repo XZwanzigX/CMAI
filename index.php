@@ -1,9 +1,9 @@
 <html>
     <head>
         <title>Chivalric Martial Arts International Symposium</title>
-        <link rel="stylesheet" href="css/structure.css"/>
+        <link rel="stylesheet" href="css/structure.css">
         <link rel="stylesheet" href="css/menuStructure.css"/>
-        <link rel="stylesheet" href="css/textStyles.css"/>
+        <link rel="stylesheet" href="css/textStyles.css">
 
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
         <script type="text/javascript" src="js/fadeslideshow.js">
@@ -14,12 +14,12 @@
                ***********************************************/
         </script>
         <script type="text/javascript" src="js/slideshow.js"></script>
-
     </head>
 
     <body class="homePageBody">
-    <?php include('includes/menu.php');?>
-        <div class="textPane">
+        <?php include('includes/menu.php');?>
+
+        <div class="home-text-pane">
             <p class="CMAI-Headline-Text">Western Martial Artists, Mark your Calendars for the Inaugural<br> CHIVALRIC MARTIAL ARTS INTERNATIONAL SYMPOSIUM
             <br><em class="CMAI-Date-Text">April 30 &mdash;May 3, 2012 &mdash; Austin, Texas</em>
 
@@ -40,12 +40,16 @@
             <p class="body-text">In addition, participants in the CMAI symposium will also have the opportunity to use their newfound skills in a series of mounted and foot combat tournaments during the Lysts on the Lake jousting tournament on May 4, 5 and 6, 2012.  Show off what you learned in a friendly, but competitive, tournament format.</p>
 
             <p class="home-page-tag">If you take your martial arts seriously, you can't afford to miss CMAI!</p>
-         </div>
 
-        <div class="slideshow" id="homeSlideshow">
+            <div style="position: relative; top: 218px; left: 603px; border: 7px solid #2A1E08; border-radius: 5px;" id="homeSlideshow">
 
+            </div>
+
+            <div class="aPlaisanceLogo">
+                <a href="http://www.aplaisance.com" onmouseover="document.aPlaisance.src='img/structure/aPlaisanceGlow.png';" onmouseout="document.aPlaisance.src='img/structure/aPlaisance.png'"><img src="img/structure/aPlaisance.png" name="aPlaisance" border="0"></a>
+            </div>
         </div>
-        <img src="img/aPlaisance.png" class="aPlaisanceLogo"/>
+
 
         <img src="img/structure/blank.png" class="blank"/>
     </body>

@@ -11,11 +11,11 @@
     font-size: 12pt;
 }
 
-.textPane {
-    position:relative;
-    top: 950px;
-    left: 557px;
-    width: 800px;
+.home-text-pane {
+    position: relative;
+    margin: 0 auto;
+    width:800px;
+    text-algin:left;
 }
 
 .otherPageText {
@@ -41,4 +41,12 @@
     position: absolute;
     top: 2400px;
     left: 350px;
+}
+
+.menu {
+    position:relative;
+    margin: 868px auto 0;
+    width: 870px;
+    height: 100px;
+    text-align: left;
 }
