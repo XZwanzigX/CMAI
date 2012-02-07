@@ -4,11 +4,12 @@
     text-align: center;
 }
 
-.otherPageBody {
+.other-page-body {
     background: url('../img/structure/bg/CMAIOtherPagesBG.jpg') no-repeat scroll;
     background-position: top center;
     font-family: arial,helvetica,sans-serif;
     font-size: 12pt;
+    text-align: center;
 }
 
 .home-text-pane {
@@ -18,16 +19,16 @@
     text-algin:left;
 }
 
-.otherPageText {
+.other-page-text {
     position: absolute;
     top: 950px;
     width: 800px;
 }
 
 .slideshow {
-    position: absolute;
-    top: 1865px;
-    left: 1147px;
+    position: relative;
+    top: 213px;
+    left: 603px;
     border: 7px solid #2A1E08;
     border-radius: 5px;
 }

@@ -2,46 +2,54 @@
     position: absolute;
     top: 23px;
     left: 11px;
+    border: 0;
 }
 
 .instructors-menu-button {
     position: absolute;
     top: 23px;
     left: 104px;
+    border: 0;
 }
 
 .classes-menu-button {
     position: absolute;
     top: 23px;
     left: 240px;
+    border: 0;
 }
 
 .schedule-menu-button {
     position: absolute;
     top: 23px;
     left: 350px;
+    border: 0;
 }
 
 .faq-menu-button {
     position: absolute;
     left: 453px;
     top: 23px;
+    border: 0;
 }
 
 .contact-menu-button {
     position: absolute;
     top: 23px;
     left: 532px;
+    border: 0;
 }
 
 .directions-menu-button {
     position: absolute;
     top: 23px;
     left: 653px;
+    border: 0;
 }
 
 .registration-menu-button {
     position: absolute;
     top: 23px;
     left: 763px;
+    border: 0;
 }

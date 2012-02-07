@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="css/menuStructure.css"/>
         <link rel="stylesheet" href="css/textStyles.css">
 
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
         <script type="text/javascript" src="js/fadeslideshow.js">
                /***********************************************
                * Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
@@ -14,14 +14,15 @@
                ***********************************************/
         </script>
         <script type="text/javascript" src="js/slideshow.js"></script>
+        <script type="text/javascript" src="js/menuMouseovers.js"></script>
     </head>
 
     <body class="homePageBody">
         <?php include('includes/menu.php');?>
 
         <div class="home-text-pane">
-            <p class="CMAI-Headline-Text">Western Martial Artists, Mark your Calendars for the Inaugural<br> CHIVALRIC MARTIAL ARTS INTERNATIONAL SYMPOSIUM
-            <br><em class="CMAI-Date-Text">April 30 &mdash;May 3, 2012 &mdash; Austin, Texas</em>
+            <p class="CMAI-Headline-Text">Western Martial Artists, Mark your Calendars for the Inaugural<br/> CHIVALRIC MARTIAL ARTS INTERNATIONAL SYMPOSIUM
+            <br/><span class="CMAI-Date-Text">April 30 &mdash;May 3, 2012 &mdash; Austin, Texas</span></p>
 
             <p class="section-heading">Is Chivalric Martial Arts International for you?</p>
 
@@ -41,7 +42,7 @@
 
             <p class="home-page-tag">If you take your martial arts seriously, you can't afford to miss CMAI!</p>
 
-            <div style="position: relative; top: 218px; left: 603px; border: 7px solid #2A1E08; border-radius: 5px;" id="homeSlideshow">
+            <div class="slideshow" id="homeSlideshow">
 
             </div>
 
