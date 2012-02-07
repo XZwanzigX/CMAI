@@ -1,50 +1,47 @@
 .home-menu-button {
     position: absolute;
-    top: 895px;
-    left: 535px;
+    top: 23px;
+    left: 11px;
 }
 
 .instructors-menu-button {
     position: absolute;
-    top: 898px;
-    left: 620px;
+    top: 23px;
+    left: 104px;
 }
 
 .classes-menu-button {
     position: absolute;
-    top: 899px;
-    left: 740px;
-
+    top: 23px;
+    left: 240px;
 }
 
 .schedule-menu-button {
     position: absolute;
-    top: 903px;
-    left: 835px;
-
+    top: 23px;
+    left: 350px;
 }
 
 .faq-menu-button {
     position: absolute;
-    top: 901px;
-    left: 945px;
-
+    left: 453px;
+    top: 23px;
 }
 
 .contact-menu-button {
     position: absolute;
-    top: 905px;
-    left: 1040px;
+    top: 23px;
+    left: 532px;
 }
 
 .directions-menu-button {
     position: absolute;
-    top: 898px;
-    left: 1163px;
+    top: 23px;
+    left: 653px;
 }
 
 .registration-menu-button {
     position: absolute;
-    top: 902px;
-    left: 1280px;
+    top: 23px;
+    left: 763px;
 }

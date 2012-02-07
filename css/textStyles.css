@@ -41,3 +41,30 @@
 .class-listing {
 
 }
+
+.faq-heading {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14pt;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.faq {
+    font-weight:bold;
+    font-size: 12pt;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.special-emphasis {
+    font-weight:bold;
+    font-size: 12pt;
+    font-style: italic;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.class-heading {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12pt;
+    font-family: arial, helvetica, sans-serif;
+}

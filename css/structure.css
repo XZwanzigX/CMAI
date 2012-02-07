@@ -33,9 +33,8 @@
 }
 
 .aPlaisanceLogo {
-    position: absolute;
-    top: 2187px;
-    left: 830px;
+    position: relative;
+    top: 294px;
 }
 
 .blank {

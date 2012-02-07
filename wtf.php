@@ -17,7 +17,11 @@
     </head>
 
     <body class="homePageBody">
-        <div style="position: relative; margin:950px auto 0; width:800px; text-algin:left;">
+        <div style="position:relative; margin: 868px auto 0; width: 870px; height: 100px; text-align: left;">
+            <?php include('includes/menu.php');?>
+        </div>
+        <div style="position: relative; margin: 0 auto; width:800px; text-algin:left;">
+
             <p class="CMAI-Headline-Text">Western Martial Artists, Mark your Calendars for the Inaugural<br> CHIVALRIC MARTIAL ARTS INTERNATIONAL SYMPOSIUM
             <br><em class="CMAI-Date-Text">April 30 &mdash;May 3, 2012 &mdash; Austin, Texas</em>
 
@@ -39,10 +43,16 @@
 
             <p class="home-page-tag">If you take your martial arts seriously, you can't afford to miss CMAI!</p>
 
-            <div style="position: relative; top: 255px; left: 603px; border: 7px solid #2A1E08; border-radius: 5px;" id="homeSlideshow">
+            <div style="position: relative; top: 218px; left: 603px; border: 7px solid #2A1E08; border-radius: 5px;" id="homeSlideshow">
 
             </div>
+
+            <div class="aPlaisanceLogo">
+                <a href="http://www.aplaisance.com" onmouseover="document.aPlaisance.src='img/structure/aPlaisanceGlow.png';" onmouseout="document.aPlaisance.src='img/structure/aPlaisance.png'"><img src="img/structure/aPlaisance.png" name="aPlaisance" border="0"></a>
+            </div>
         </div>
+
+
         <img src="img/structure/blank.png" class="blank"/>
     </body>
 </html>
