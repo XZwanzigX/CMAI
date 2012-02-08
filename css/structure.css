@@ -28,6 +28,19 @@
     text-algin:left;
 }
 
+.contact-text-pane {
+    position: relative;
+    margin: 0 auto 1113px;
+    width:800px;
+    text-algin:left;
+}
+
+.directions-text-pane {
+    position: relative;
+    margin: 0 auto 307px;
+    width:800px;
+    text-algin:left;
+}
 
 .slideshow {
     position: relative;
@@ -44,9 +57,18 @@
 
 .aPlaisance-logo-faq {
     position: relative;
-    top: 434px;
+    top: 379px;
 }
 
+.aPlaisance-logo-contact {
+    position: relative;
+    top:967px;
+}
+
+.aPlaisance-logo-directions {
+    position: relative;
+    top:166px;
+}
 .blank {
     position: absolute;
     top: 2400px;
@@ -59,4 +81,9 @@
     width: 870px;
     height: 100px;
     text-align: left;
+}
+
+.contact-form {
+    position: relative;
+    margin: 0 auto;
 }
