@@ -19,11 +19,15 @@
     text-algin:left;
 }
 
-.other-page-text {
-    position: absolute;
-    top: 950px;
-    width: 800px;
+.instructor-text-pane {
+    position: relative;
+    margin: 0 auto;
+    width:800px;
+    height:2341px;
+    border: 1px solid aqua;
+    text-algin:left;
 }
+
 
 .slideshow {
     position: relative;

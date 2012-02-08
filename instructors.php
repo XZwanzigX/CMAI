@@ -5,13 +5,14 @@
         <link rel="stylesheet" href="css/textStyles.css"/>
     </head>
 
-    <body class="otherPageBody">
-        <div class="otherPageText">
+    <body class="other-page-body">
+        <?php include('includes/menu.php');?>
+        <div class="instructor-text-pane">
             <p class="CMAI-Headline-Text">Chivalric Martial Arts International Symposium<br>
             Instructor Bios and Classes</p>
 
-            <em class="instructor-name">Sean Hayes</em>
-            <br>Northwest Academy of Arms
+            <p><em class="instructor-name">Sean Hayes</em>
+            <br>Northwest Academy of Arms</p>
             <p>Sean was born in 1962 and raised in the Midwest region of the United States. He initially studied classical French fencing under Maitre d'armes Adam Adrian Crown in Ithaca, New York; and also pursued studies of rapier and dagger under Maitre Crown. In 1995 he began his studies of classical Italian fencing at California's San Jose State University Fencing Master's Program, under the direction of Dr. William M. Gaugler.</p>
 
             <p>Maestro Gaugler, a graduate of the Accademia Nazionale di Scherma in Naples, employs the system of instruction developed by Masaniello Parise, first director of the celebrated 19th century Military Masters School in Rome (Scuola Magistrale di Scherma), with certain elements drawn from the methods of the earlier Military Fencing Masters schools in Parma (directed by Cesar Enrichetti), Milan (directed by Giuseppe Radailli), and from the later Livornese school (as exemplified by Eugenio Pini and Beppe Nadi).</p>
@@ -99,7 +100,7 @@
 
             <p>Although having ridden off and on throughout his life, Scott began jousting in 2010. He has a great interest in mounted combat and is planning on incorporating an equestrian program into his school of arms.</p>
 
-            <ul>
+            <ul class="class-listing">
                 <li>Fighting multiple opponents</li>
                 <li>Beginning mounted combat</li>
                 <li>Dagger vs other weapons</li>
@@ -109,31 +110,42 @@
             <br>Theresa Wendland is a horsewoman and a scholar of the Chicago Swordplay Guild who made her WMA teaching debut at WMAW 2009. Theresa has been riding horses for over twenty years and has been teaching dressage for six years. Most of her riding career has been spent focusing on classical dressage. She also has experience in jumping and eventing. Since joining the CSG, Theresa has been working to combine her knowledge of horsemanship, of the biomechanics of riding, and of equine behavior with the practice of western martial arts in an effort to understand and to reconstruct mounted combat. Theresa has been extensively researching historical horsemanship and mounted combat from the 4th c. BC to the 18th c. AD with a focus on the Italian and German medieval fighting manuscripts of the 14th and 15th centuries. Theresa has collaborated with Julia Thut of Hammaborg on the interpretation and reconstruction of medieval mounted combat. She has recently moved to Colorado where she is working with members of the Rocky Mountain Swordplay Guild to put together a cohesive mounted combat curriculum.</p>
 
             <ul class="class-listing">
-                <li>Mounted Combat</li>
+                <li><span>Rolling and Falling from Horseback:</span>  basic rolling and falling on the ground and working toward rolling and falling from the saddle as well as emergency dismounts</li>
+                <li><span>Riding for Combat:</span>  This course focuses on specific riding tactics for fighting one on one or in a melee-like setting.  It will also focus on distance and timing, specific footwork, and riding with partners and in a crowd.</li>
+                <li><span>Introduction to Fiore's Sword on Horseback:</span> This class will be an introduction to Fiore's sword on horseback.  We will cover basic guards, cuts, and Fiore's universal parry.  We will then look at several plays that stem from the universal parry and finish with a counter play.</li>
             </ul>
 
             <p><em class="instructor-name">Luke Binks</em>
             <br>Bio pending</p>
 
             <ul class="class-listing">
-                <li>The Riders Seat</li>
-                <li>Weapons Handling</li>
-                <li>Riding in Armour</li>
-                <li>Weapons Handling in Armour</li>
-                <li>The Joust</li>
+                <li><span>Session 1, The Riders Seat,</span> in this session we will focus on the rider's position and the bio mechanical relationship between the horse and rider through his seat. How and why this will affect the horse and its benefits in mounted combat. No armour required.</li>
+                <li><span>Session 2, Weapons Handling,</span> we will look at the correct ways to use your weapons mounted, optimized angles of attack and positioning of the horse in these situations. No armour required</li>
+                <li><span>Session 3, Riding in Armour,</span> This session will be focused on applying new techniques with the seat while mounted in armour. Improving balance and co-ordination with the horse. Armour Required</li>
+                <li><span>Session 4, Weapons Handling in Armour,</span> How to manage your weapons while in armour, with a focus on the lowering of the lance and the importance of the correct technique and angles and the correct use of a lance rest.</li>
+                <li><span>Session 5, The Joust,</span> With armoured riding and weapons handling mastered, this session will have particular focus on the joust and how each course should be run correctly. Starting with positioning of the horse in the lists, receiving your weapon, preparing for the course, running the course and hitting your target, receiving a hit and finishing the run.</li>
             </ul>
 
             <p><em class="instructor-name">Fred Piraux</em></p>
 
             <ul class="class-listing">
-                <li>IJL</li>
+                <li><span>An Introduction to the International Jousting League:</span> This class will cover the details on how to become involved with the IJL; the mission statement, structure and rules; the state of competitive jousting in the world today; how to become an IJL affiliate (as an individual or event); competitions included in the IJL.</li>
+                <li><span>How to Get Started in Competitive Jousting:</span> This class covers the basic of what is needed to start jousting; armour requirements, working with an armourer, safety considerations.</li>
+                <li><span>List Field Operation:</span> This class will cover the details of what is needed to safely construct and run a jousting list field; rules, match rotation and timing, field personnel, how to properly conduct the passes, field safety and procedures.</li>
             </ul>
 
             <p><em class="instructor-name">Tina Walsh</em>
             <br>Tina has been on a dressage journey for about 40 years, including over 20 years competing to FEI levels. Throughout this time, she is still fascinated with the bio mechanical union of horse and rider to the benefit of each. Her educational background is strongly based upon the Spanish Riding School.</p>
 
             <ul class="class-listing">
-                <li>Beginning Riding</li>
+                <li><span>Beginning Riding: </span> This track of classes covers several days and includes: safe handling on the ground, correct mounting, goals to develop a balanced seat capable of directing the horse and serve as a foundation for the other aids, will include off horse exercises to encourage rider fitness; an understanding of rein, leg and weight aids to control the horse laterally and longitudinally if not the ability to accomplish at all 3 gaits. This crash course hopes to show the way ahead as well as cover a lot of information in a short time.  Participants in this series of classes will have the opportunity to try out their new found skills on a Skill at Arms course on Thursday.</li>
+            </ul>
+
+            <p><span class="instructor-name">Randall Parr</span>
+            <br>Dr. Randall Parr, KTJ is CEO of Knights of The Guild, a national award-winning  educational services organization that helps young people evolve into noble, service-oriented adults. A former United States Navy chaplain and present chaplain of the Priory of St. Matthew of The Knights Templar, Dr. Parr is an internationally published writer, consultant, and guest lecturer on ethics and character development for Universities and professional conferences. He is the developer of the EarlyAct FirstKnight, a revolutionary, curriculum-based character education program that uses the model of knighthood and chivalry to teach good character to kids in elementary and middle schools.  Concepts of Modern Chivalry: This presentation will discuss why chivalry is experiencing a revival today, and how traditional ideals of knightly behavior are relevantly translated and applied to modern culture. </p>
+
+            <ul class="class-listing">
+                <li><span>Concepts of Modern Chivalry:</span> This presentation will discuss why chivalry is experiencing a revival today, and how traditional ideals of knightly behavior are relevantly translated and applied to modern culture.</li>
             </ul>
         </div>
     </body>

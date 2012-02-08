@@ -39,7 +39,7 @@
 }
 
 .class-listing {
-
+    text-align: left;
 }
 
 .faq-heading {
@@ -72,4 +72,8 @@
 
 P{
     text-align: left;
+}
+
+SPAN {
+    font-weight: bold;
 }

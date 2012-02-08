@@ -38,14 +38,14 @@
                 <br/>There will socializing, armor repair, horse maintenance, as well as some possible entertainment.</p>
 
             <p><span class="faq">How can I help?</span>
-                <br/>Please contact the event organizer, Steve Hemphill at <a href="mailto:steve@aplaisance.com" class="text-link">steve@aplaisance.com</a></p>
+                <br/>Please contact the event organizer, Steve Hemphill via <a href="mailto:steve@aplaisance.com">email</a></p>
 
             <p><span class="faq">What should I bring?</span></p>
 
             <p class="faq-heading">Equestrian Questions:</p>
 
             <p><span class="faq">Can I bring my own horse?</span>
-                <br/>Yes!  Please contact the event organizer, <a href="mailto:steve@aplaisance.com" class="text-link">Steve Hemphill</a>, to make arrangements.</p>
+                <br/>Yes!  Please contact the event organizer,  <a href="mailto:steve@aplaisance.com">Steve Hemphill</a>, to make arrangements.</p>
 
             <div class="aPlaisance-logo-faq">
                 <a href="http://www.aplaisance.com" onmouseover="document.aPlaisance.src='img/structure/aPlaisanceGlow.png';" onmouseout="document.aPlaisance.src='img/structure/aPlaisance.png'"><img src="img/structure/aPlaisance.png" name="aPlaisance" border="0"></a>
