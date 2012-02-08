@@ -42,6 +42,10 @@
     text-align: left;
 }
 
+.class-name {
+    margin-left: 40px;
+}
+
 .faq-heading {
     font-weight: bold;
     font-style: normal;
@@ -68,6 +72,11 @@
     font-style: normal;
     font-size: 12pt;
     font-family: arial, helvetica, sans-serif;
+}
+
+.day-heading {
+    font-size: 14pt;
+    font-weight: bold;
 }
 
 P{

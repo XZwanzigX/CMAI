@@ -28,6 +28,15 @@
     text-algin:left;
 }
 
+.classes-text-pane {
+    position: relative;
+    margin: 0 auto;
+    width:800px;
+    height:2341px;
+    border: 1px solid aqua;
+    text-algin:left;
+}
+
 .contact-text-pane {
     position: relative;
     margin: 0 auto 1113px;
@@ -69,6 +78,12 @@
     position: relative;
     top:166px;
 }
+
+.aPlaisance-logo-classes{
+    position: relative;
+    top:166px;
+}
+
 .blank {
     position: absolute;
     top: 2400px;
@@ -87,3 +102,4 @@
     position: relative;
     margin: 0 auto;
 }
+
