@@ -72,7 +72,8 @@
                 <tr>
                     <td class="time">9:00a</td>
                     <td>Beginner Riding 2 - Tina Walsh</td>
-                    <td>Beginning Weapons Focus	Selected sword techniques of Gladiatoria  I- Dierk Hagedorn</td>
+                    <td>Beginning Weapons Focus</td>
+                    <td>Selected sword techniques of Gladiatoria  I- Dierk Hagedorn</td>
                     <td>How to Get Started in Competitive Jousting - Fred Piraux</td>
                 </tr>
                 <tr>

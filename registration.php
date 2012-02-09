@@ -5,112 +5,115 @@
         <link rel="stylesheet" href="css/menuStructure.css">
         <link rel="stylesheet" href="css/scheduleStyles.css">
         <link rel="stylesheet" href="css/textStyles.css">
+        <link rel="stylesheet" href="css/formStyles.css">
     </head>
-    <body class="other-page-body">
+    <body>
         <?php include('includes/menu.php');?>
         <div class="registration-text-pane">
-        <form name="" method="post" enctype="multipart/form-data" action="">
-
-        <table class="entry" cellspacing="1">
-            <tr>
-                <td class="row-title">Contact Information</td>
-            </tr>
+            <form name="theForm" method="post" enctype="multipart/form-data" action="includes/registrationProcess.php">
+            <p>
+                <span class="section-heading">Contact Information</span>
+            </p>
 
             <!-- Name -->
-            <tr class="entry">
-                <td class="col_left">
-                    Full Name<font class='red_note'>*</font></td>
-                <td class="col_right">
-                    <input type="text" name="name" size="50" maxlength="75" value="" />
-                </td>
-            </tr>
+            <p class="entry">
+                    <span class="field-label">
+                        First Name<span class="red-note">*</span></span>
+                    <span class="field">
+                        <input type="text" name="first_name" size="50" maxlength="75" value="" />
+                    </span>
+            </p>
 
+            <p class="entry">
+                    <span class="field-label">
+                        Last Name<span class="red-note">*</span></span>
+                    <span class="field">
+                        <input type="text" name="last_name" size="50" maxlength="75" value="" />
+                    </span>
+            </p>
             <!-- Email -->
-            <tr class="entry">
-                <td class="col_left">
-                    E-mail<font class='red_note'>*</font></td>
-                <td class="col_right">
-                    <input type="text" name="email" size="50" maxlength="75" value="" />
-                </td>
-            </tr>
+            <p class="entry">
+                    <span class="field-label">
+                        E-mail<span class="red-note">*</span></span>
+                    <span class="field">
+                        <input type="text" name="email" size="50" maxlength="75" value="" />
+                    </span>
+            </p>
 
             <!-- City -->
-            <tr class="entry">
-                <td class="col_left">
-                    City<font class='red_note'>*</font></td>
-                <td class="col_right">
+            <p class="entry">
+                <span class="field-label">
+                    City<span class="red-note">*</span></span>
+                <span class="field">
                     <input type="text" name="city" value="" />
-                </td>
-            </tr>
+                </span>
+            </p>
 
             <!-- State -->
-            <tr class="entry">
-                <td class="col_left">
-                    State<font class='red_note'>*</font></td>
-                <td class="col_right">
+            <p class="entry">
+                <span class="field-label">
+                    State<span class="red-note">*</span></span>
+                <span class="field">
                     <input type="text" name="state" size="4" maxlength="10" value="" />
-                </td>
-            </tr>
+                </span>
+            </p>
 
             <!-- Zip Code -->
-            <tr class="entry">
-                <td class="col_left">
-                    Zip Code<font class='red_note'>*</font></td>
-                <td class="col_right">
+            <p class="entry">
+                <span class="field-label">
+                    Zip Code<span class="red-note">*</span></span>
+                <span class="field">
                     <input type="text" name="zip" value="" />
-                </td>
-            </tr>
+                </span>
+            </p>
 
             <!-- Country -->
-            <tr class="entry">
-                <td class="col_left">
-                    Country<font class='red_note'>*</font></td>
-                <td class="col_right">
+            <p class="entry">
+                <span class="field-label">
+                    Country<span class="red-note">*</span></span>
+                <span class="field">
                     <input type="text" name="country" value="" />
-                </td>
-            </tr>
+                </span>
+            </p>
 
             <!-- Address -->
-            <tr class="entry">
-                <td class="col_left">
-                    Address<font class='red_note'>*</font></td>
-                <td class="col_right">
+            <p class="entry">
+                <span class="field-label">
+                    Address<span class="red-note">*</span></span>
+                <span class="field">
                     <input type="text" name="address" value="" />
-                </td>
-            </tr>
+                </span>
+            </p>
 
             <!-- Phone Number -->
-            <tr class="entry">
-                <td class="col_left">
-                    Phone Number<font class='red_note'>*</font></td>
-                <td class="col_right">
+            <p class="entry">
+                <span class="field-label">
+                    Phone Number<span class="red-note">*</span></span>
+                <span class="field">
                     <input type="text" name="phone" value="" />
-                </td>
-            </tr>
+                </span>
+            </p>
 
-        </table>
-        <br/>
-        <table class="entry" cellspacing="1">
-            <tr>
-                <td class="row-title">Questionnaire</td>
-            </tr>
+            <p>
+                <span class="section-heading">Questionnaire</span>
+            </p>
 
             <!-- Payment Type -->
-            <tr class="entry">
-                <td class="col_left">
-                    Method of Payment<font class='red_note'>*</font></td>
-                <td class="col_right">
+            <p class="entry">
+                <span class="field-label">
+                    Method of Payment<span class="red-note">*</span></span>
+                <span class="field">
                     <input type="radio" name="payment" value="check" /> Check
                     <input type="radio" name="payment" value="paypal" CHECKED/> Paypal
-                </td>
-            </tr>
+                </span>
+            </p>
 
             <!-- Heard About -->
-            <tr class="entry">
-                <td class="col_left">
-                    How did you hear about this event?</td>
-                <td class="col_right">
-                    <select  name='heard_from'>
+            <p class="entry">
+                <span class="field-label">
+                    How did you hear about this event?</span>
+                <span class="field">
+                    <select  name='how_heard'>
                         <option value='' selected >Choose One...</option>
                         <option value='Friend'  >Friend</option>
                         <option value='Link'  >Link</option>
@@ -119,64 +122,64 @@
                         <option value='Event'  >Event</option>
                         <option value='Other'  >Other:</option>
                     </select>
-                    <input type="text" name="heard_from_other" size="30" maxlength="50" value="" />
-                </td>
-            </tr>
+                    <input type="text" name="how_heard_text" size="30" maxlength="50" value="" />
+                </span>
+            </p>
 
             <!-- Experience -->
-            <tr class="entry">
-                <td class="col_left">
-                    Please rate your martial arts experience <br/> on a scale from 1 to 5: </td>
-                <td class="col_right">
+            <p class="entry">
+                <span class="field-label">
+                    Please rate your martial arts experience <br/> on a scale from 1 to 5: </span>
+                <span class="field">
                     &nbsp;&nbsp;No Experience [<b>1</b>]<input type="radio" name="experience" value="1" />
                     <input type="radio" name="experience" value="2" />
                     <input type="radio" name="experience" value="3" />
                     <input type="radio" name="experience" value="4" />
                     <input type="radio" name="experience" value="5" />[<b>5</b>] Experienced Instructor
-                </td>
-            </tr>
+                </span>
+            </p>
 
             <!-- Club -->
-            <tr class="entry">
-                <td class="col_left">
-                    Name your club/school if any </td>
-                <td class="col_right">
+            <p class="entry">
+                <span class="field-label">
+                    Name your club/school if any </span>
+                <span class="field">
                     <input type="text" name="club" size="50" maxlength="75" value="" />
-                </td>
-            </tr>
+                </span>
+            </p>
 
             <!-- Attended Before  -->
-            <tr class="entry">
-                <td class="col_left">
-                    Have you attended WMA / HEMA events <br/> before?</td>
-                <td class="col_right">
-                    <input type="radio" name="attended" value="no" /> No
-                    <input type="radio" name="attended" value="yes" /> Yes.  If so, which ones?
+            <p class="entry">
+                <span class="field-label">
+                    Have you attended WMA / HEMA events <br/> before?</span>
+                <span class="field">
+                    <input type="radio" name="attended" value="0" /> No
+                    <input type="radio" name="attended" value="1" /> Yes.  If so, which ones?
 
                     <input type="text" name="attended_type" size="30" maxlength="50" value="" />
-                </td>
-            </tr>
+                </span>
+            </p>
 
             <!-- Reasons -->
-            <tr class="entry">
-                <td class="col_left">
-                    What are your primary reasons for <br/> attending this event? </td>
-                <td class="col_right">
-                    <input type='checkbox' name='reasons[instructors]' value='Instructors'  />Instructors<br/>
-                    <input type='checkbox' name='reasons[topics]' value='Topic Areas Covered'  />Topic Areas Covered<br/>
-                    <input type='checkbox' name='reasons[social]' value='Socialization/Camaraderie'  />Socialization/Camaraderie<br/>
-                    <input type='checkbox' name='reasons[tournament]' value='Tournament/Competition'  />Tournament/Competition<br/>
-                    <input type='checkbox' name='reasons[freeplay]' value='Possibility for free-play/sparring/fencing'  />Possibility for free-play/sparring/fencing<br/>
-                    <input type='checkbox' name='reasons[network]' value='Network Opportunities'  />Network Opportunities<br/>
-                    <input type='checkbox' name='reasons[location]' value='Location'  />Location<br/>
-                </td>
-            </tr>
+            <p class="entry">
+                <span class="field-label">
+                    What are your primary reasons for <br/> attending this event? </span>
+                <span class="field">
+                    <input type='checkbox' name='reasons_instructors' value='Instructors'  />Instructors<br/>
+                    <input type='checkbox' name='reasons_topics' value='Topic Areas Covered'  />Topic Areas Covered<br/>
+                    <input type='checkbox' name='reasons_social' value='Socialization/Camaraderie'  />Socialization/Camaraderie<br/>
+                    <input type='checkbox' name='reasons_tournament' value='Tournament/Competition'  />Tournament/Competition<br/>
+                    <input type='checkbox' name='reasons_freeplay' value='Possibility for free-play/sparring/fencing'  />Possibility for free-play/sparring/fencing<br/>
+                    <input type='checkbox' name='reasons_network' value='Network Opportunities'  />Network Opportunities<br/>
+                    <input type='checkbox' name='reasons_location' value='Location'  />Location<br/>
+                </span>
+            </p>
 
             <!-- T-shirt -->
-            <tr class="entry">
-                <td class="col_left">
-                    What size t-shirt do you wear?</td>
-                <td class="col_right">
+            <p class="entry">
+                <span class="field-label">
+                    What size t-shirt do you wear?</span>
+                <span class="field">
                     <select  name='tshirt'>
                         <option value='None' selected >Choose One...</option>
                         <option value='XXS'  >XXS</option>
@@ -188,383 +191,246 @@
                         <option value='2XL'  >2XL</option>
                         <option value='3XL'  >3XL</option>
                     </select>
-                </td>
-            </tr>
+                </span>
+            </p>
 
             <!-- Medical Insurance -->
-            <tr class="entry">
-                <td class="col_left">
-                    Do you have medical insurance?<font class='red_note'>*</font></td>
-                <td class="col_right">
-                    <input type="radio" name="insurance" value="no" /> No
-                    <input type="radio" name="insurance" value="yes" /> Yes
-                </td>
-            </tr>
+            <p class="entry">
+                <span class="field-label">
+                    Do you have medical insurance?<span class="red-note">*</span></span>
+                <span class="field">
+                    <input type="radio" name="insurance" value="0" /> No
+                    <input type="radio" name="insurance" value="1" /> Yes
+                </span>
+            </p>
 
             <!-- Medical Condition -->
-            <tr class="entry">
-                <td class="col_left">
-                    Do you have any medical, mental, or <br/> psychological conditions that could <br/> impair or affect your ability to <br/> participate in this event or <br/> effect others you may work with?<font class='red_note'>*</font></td>
-                <td class="col_right">
-                    <input type="radio" name="condition" value="no" /> No
-                    <input type="radio" name="condition" value="yes" /> Yes.  If so, please explain:
+            <p class="entry">
+                <span class="field-label">
+                    Do you have any medical, mental, or <br/> psychological conditions that could <br/> impair or affect your ability to <br/> participate in this event or <br/> effect others you may work with?<span class="red-note">*</span></span>
+                <span class="field">
+                    <input type="radio" name="condition" value="0" /> No
+                    <input type="radio" name="condition" value="1" /> Yes.  If so, please explain:
 
                     <input type="text" name="condition_type" size="30" maxlength="256" value="" />
-                </td>
-            </tr>
+                </span>
+            </p>
 
             <!-- Longsword Tournament -->
-            <tr class="entry">
-                <td class="col_left">
-                    Do you want to participate in the <br/> longsword tournament?</td>
-                <td class="col_right">
-                    <input type="radio" name="longsword" value="no" /> No
-                    <input type="radio" name="longsword" value="yes" /> Yes
-                </td>
-            </tr>
-        </table>
-        <br/>
-        <table class="entry" cellspacing="1">
-            <tr>
-                <td class="row-title">Please make your class selections below:</td>
-            </tr>
-        </table>
-        <br/>
-        <table class='page_row'>
-            <tr><td class='row-title' colspan=3>Friday March 16th</tr>
-            <tr class='cat'>
-                <td>
-                    <b><font class='col1'> Time</font></b></td>
-                <td>
-                    Floor One</td>
-                <td>
-                    Floor Two</td>
-                <td>
-                    Floor Three</td>
-                <td>
-                    Floor Four</td>
-                <td>
-                    None</td>
-            </tr>
-            <tr class='list'>
-                <td>
-                    <b><font class='col1'> 9:00am - 10:45am</font></b></td>
-                <td>
-                    <b>Entering and Binding</b><br><br>Jake Norwood<br><input type='radio' name='schedule[9:00am - 10:45am : Friday March 16th]' value='&lt;b&gt;Entering and Binding&lt;/b&gt;Jake Norwood' />
-                </td>
-                <td>
-                    <b>Dussack</b><br><br>Keith Myers<br><input type='radio' name='schedule[9:00am - 10:45am : Friday March 16th]' value='&lt;b&gt;Dussack&lt;/b&gt;Keith Myers' />
-                </td>
-                <td>
-                    <b>Fiore's Eight Cuts</b><br><br>Brian Stokes<br><input type='radio' name='schedule[9:00am - 10:45am : Friday March 16th]' value='&lt;b&gt;Fiore&#039;s Eight Cuts&lt;/b&gt;Brian Stokes' />
-                </td>
-                <td>
-                    <b>Intro to Bolognese Sword and Buckler</b><br><br>Steve Reich<br><input type='radio' name='schedule[9:00am - 10:45am : Friday March 16th]' value='&lt;b&gt;Intro to Bolognese Sword and Buckler&lt;/b&gt;Steve Reich' />
-                </td>
-                <td>
-                    None<br><input type='radio' name='schedule[9:00am - 10:45am : Friday March 16th]' value='None' CHECKED/>
-                </td>
-            </tr>
-            <tr class='list'>
-                <td>
-                    <b><font class='col1'> 11:00am - 12:45pm</font></b></td>
-                <td>
-                    <b>Meyer's Rappier</b><br><br>Lee Smith<br><input type='radio' name='schedule[11:00am - 12:45pm : Friday March 16th]' value='&lt;b&gt;Meyer&#039;s Rappier&lt;/b&gt;Lee Smith' />
-                </td>
-                <td>
-                    <b>Fiore's Functional Guards</b><br><br>Bob Charron<br><input type='radio' name='schedule[11:00am - 12:45pm : Friday March 16th]' value='&lt;b&gt;Fiore&#039;s Functional Guards&lt;/b&gt;Bob Charron' />
-                </td>
-                <td>
-                    <b>Decision Making Skill Drills</b><br><br>Scott Brown<br><input type='radio' name='schedule[11:00am - 12:45pm : Friday March 16th]' value='&lt;b&gt;Decision Making Skill Drills&lt;/b&gt;Scott Brown' />
-                </td>
-                <td>
-                    <b>Fighting from Longpoint</b><br><br>Michael Edelson<br><input type='radio' name='schedule[11:00am - 12:45pm : Friday March 16th]' value='&lt;b&gt;Fighting from Longpoint&lt;/b&gt;Michael Edelson' />
-                </td>
-                <td>
-                    None<br><input type='radio' name='schedule[11:00am - 12:45pm : Friday March 16th]' value='None' CHECKED/>
-                </td>
-            </tr>
-            <tr class='list'>
-                <td>
-                    <b><font class='col1'> 12:45pm - 2:00pm</font></b></td>
-                <td>
-                    Lunch</td>
-                <td>
-                    Lunch</td>
-                <td>
-                    Lunch</td>
-                <td>
-                    Lunch</td>
-                <td>
-                    None<br><input type='radio' name='schedule[12:45pm - 2:00pm : Friday March 16th]' value='None' CHECKED/>
-                </td>
-            </tr>
-            <tr class='list'>
-                <td>
-                    <b><font class='col1'> 2:00pm - 3:45pm</font></b></td>
-                <td>
-                    <b>Gedecktes Heibfechten</b><br><br>Christoph Amberger<br><input type='radio' name='schedule[2:00pm - 3:45pm : Friday March 16th]' value='&lt;b&gt;Gedecktes Heibfechten&lt;/b&gt;Christoph Amberger' />
-                </td>
-                <td>
-                    <b>Sparring as a Training Tool</b><br><br>Axel Pettersson<br><input type='radio' name='schedule[2:00pm - 3:45pm : Friday March 16th]' value='&lt;b&gt;Sparring as a Training Tool&lt;/b&gt;Axel Pettersson' />
-                </td>
-                <td>
-                    <b>Fiore's Advantage</b><br>(Dagger vs. Longsword)<br>Charles Deily<br><input type='radio' name='schedule[2:00pm - 3:45pm : Friday March 16th]' value='&lt;b&gt;Fiore&#039;s Advantage&lt;/b&gt;(Dagger vs. Longsword)Charles Deily' />
-                </td>
-                <td>
-                    <b>Judging Workshop</b><br><br>Matt Galas & Scott Brown<br><input type='radio' name='schedule[2:00pm - 3:45pm : Friday March 16th]' value='&lt;b&gt;Judging Workshop&lt;/b&gt;Matt Galas &amp; Scott Brown' />
-                </td>
-                <td>
-                    None<br><input type='radio' name='schedule[2:00pm - 3:45pm : Friday March 16th]' value='None' CHECKED/>
-                </td>
-            </tr>
-            <tr class='list'>
-                <td>
-                    <b><font class='col1'> 4:00pm - 5:45pm</font></b></td>
-                <td>
-                    <b>Franco-Belgian <br>Longsword Tournament</b><br>Invitation Only<br><input type='radio' name='schedule[4:00pm - 5:45pm : Friday March 16th]' value='&lt;b&gt;Franco-Belgian Longsword Tournament&lt;/b&gt;Invitation Only' />
-                </td>
-                <td>
-                    <b>Franco-Belgian<br> Longsword Tournament</b><br>Invitation Only<br><input type='radio' name='schedule[4:00pm - 5:45pm : Friday March 16th]' value='&lt;b&gt;Franco-Belgian Longsword Tournament&lt;/b&gt;Invitation Only' />
-                </td>
-                <td>
-                    <b>Franco-Belgian<br> Longsword Tournament</b><br>Invitation Only<br><input type='radio' name='schedule[4:00pm - 5:45pm : Friday March 16th]' value='&lt;b&gt;Franco-Belgian Longsword Tournament&lt;/b&gt;Invitation Only' />
-                </td>
-                <td>
-                    <b>19th Century Grappling</b><br><br>Chris Amendola<br><input type='radio' name='schedule[4:00pm - 5:45pm : Friday March 16th]' value='&lt;b&gt;19th Century Grappling&lt;/b&gt;Chris Amendola' />
-                </td>
-                <td>
-                    None<br><input type='radio' name='schedule[4:00pm - 5:45pm : Friday March 16th]' value='None' CHECKED/>
-                </td>
-            </tr>
-        </table>
-        <br>
-        <table class='page_row'>
-            <tr><td class='row-title' colspan=3>Saturday March 17th</tr>
-            <tr class='cat'>
-                <td>
-                    <b><font class='col1'> Time</font></b></td>
-                <td>
-                    Floor One</td>
-                <td>
-                    Floor Two</td>
-                <td>
-                    Floor Three</td>
-                <td>
-                    Floor Four</td>
-                <td>
-                    None</td>
-            </tr>
-            <tr class='list'>
-                <td>
-                    <b><font class='col1'> 9:00am - 10:45am</font></b></td>
-                <td>
-                    <b>Krumphau</b><br><br>Jeff Tsay<br><input type='radio' name='schedule[9:00am - 10:45am : Saturday March 17th]' value='&lt;b&gt;Krumphau&lt;/b&gt;Jeff Tsay' />
-                </td>
-                <td>
-                    <b>Empty Hand<br> Striking for HEMA</b><br>Jason Taylor<br><input type='radio' name='schedule[9:00am - 10:45am : Saturday March 17th]' value='&lt;b&gt;Empty Hand Striking for HEMA&lt;/b&gt;Jason Taylor' />
-                </td>
-                <td>
-                    <b>Antrim Irish<br>Stick Fighting</b><br>Maxime Chouinard<br><input type='radio' name='schedule[9:00am - 10:45am : Saturday March 17th]' value='&lt;b&gt;Antrim IrishStick Fighting&lt;/b&gt;Maxime Chouinard' />
-                </td>
-                <td>
-                    <b>Attacking in Bolognese Sword and Buckler</b><br><br>Steve Reich<br><input type='radio' name='schedule[9:00am - 10:45am : Saturday March 17th]' value='&lt;b&gt;Attacking in Bolognese Sword and Buckler&lt;/b&gt;Steve Reich' />
-                </td>
-                <td>
-                    None<br><input type='radio' name='schedule[9:00am - 10:45am : Saturday March 17th]' value='None' CHECKED/>
-                </td>
-            </tr>
-            <tr class='list'>
-                <td>
-                    <b><font class='col1'> 11:00am - 12:45pm</font></b></td>
-                <td>
-                    <b>Thrusting Skills<br>From Longpoint</b><br>Matt Galas<br><input type='radio' name='schedule[11:00am - 12:45pm : Saturday March 17th]' value='&lt;b&gt;Thrusting SkillsFrom Longpoint&lt;/b&gt;Matt Galas' />
-                </td>
-                <td>
-                    <b>Unarmed Vs. Dagger<br></b><br>Jay Vail<br><input type='radio' name='schedule[11:00am - 12:45pm : Saturday March 17th]' value='&lt;b&gt;Unarmed Vs. Dagger&lt;/b&gt;Jay Vail' />
-                </td>
-                <td>
-                    <b>German Sickle<br></b><br>Jason Taylor<br><input type='radio' name='schedule[11:00am - 12:45pm : Saturday March 17th]' value='&lt;b&gt;German Sickle&lt;/b&gt;Jason Taylor' />
-                </td>
-                <td>
-                    <b>Quarterstaff</b><br><br>Roberto Martinez-Loyo<br><input type='radio' name='schedule[11:00am - 12:45pm : Saturday March 17th]' value='&lt;b&gt;Quarterstaff&lt;/b&gt;Roberto Martinez-Loyo' />
-                </td>
-                <td>
-                    None<br><input type='radio' name='schedule[11:00am - 12:45pm : Saturday March 17th]' value='None' CHECKED/>
-                </td>
-            </tr>
-            <tr class='list'>
-                <td>
-                    <b><font class='col1'> 12:45pm - 2:00pm</font></b></td>
-                <td>
-                    Lunch</td>
-                <td>
-                    Lunch</td>
-                <td>
-                    Lunch</td>
-                <td>
-                    Lunch</td>
-                <td>
-                    None<br><input type='radio' name='schedule[12:45pm - 2:00pm : Saturday March 17th]' value='None' CHECKED/>
-                </td>
-            </tr>
-            <tr class='list'>
-                <td>
-                    <b><font class='col1'> 2:00pm - 3:45pm</font></b></td>
-                <td>
-                    <b>Hammertertz Forum<br>Longsword Tournament</b><br><br><input type='radio' name='schedule[2:00pm - 3:45pm : Saturday March 17th]' value='&lt;b&gt;Hammertertz ForumLongsword Tournament&lt;/b&gt;' />
-                </td>
-                <td>
-                    <b>Hammertertz Forum<br> Longsword Tournament</b><br><br><input type='radio' name='schedule[2:00pm - 3:45pm : Saturday March 17th]' value='&lt;b&gt;Hammertertz Forum Longsword Tournament&lt;/b&gt;' />
-                </td>
-                <td>
-                    <b>Hammertertz Forum<br>Longsword Tournament</b><br><br><input type='radio' name='schedule[2:00pm - 3:45pm : Saturday March 17th]' value='&lt;b&gt;Hammertertz ForumLongsword Tournament&lt;/b&gt;' />
-                </td>
-                <td>
-                    <b>Tempo and Measure<br>For Longsword</b><br>Bob Charron<br><input type='radio' name='schedule[2:00pm - 3:45pm : Saturday March 17th]' value='&lt;b&gt;Tempo and MeasureFor Longsword&lt;/b&gt;Bob Charron' />
-                </td>
-                <td>
-                    None<br><input type='radio' name='schedule[2:00pm - 3:45pm : Saturday March 17th]' value='None' CHECKED/>
-                </td>
-            </tr>
-            <tr class='list'>
-                <td>
-                    <b><font class='col1'> 4:00pm - 5:45pm</font></b></td>
-                <td>
-                    <b>Hammertertz Forum<br> Longsword Tournament</b><br><br><input type='radio' name='schedule[4:00pm - 5:45pm : Saturday March 17th]' value='&lt;b&gt;Hammertertz Forum Longsword Tournament&lt;/b&gt;' />
-                </td>
-                <td>
-                    <b>Hammertertz Forum<br>Longsword Tournament</b><br><br><input type='radio' name='schedule[4:00pm - 5:45pm : Saturday March 17th]' value='&lt;b&gt;gt;Hammertertz ForumLongsword Tournament&lt;/b&gt;' />
-                </td>
-                <td>
-                    <b>Hammertertz Forum<br>Longsword Tournament</b><br><br><input type='radio' name='schedule[4:00pm - 5:45pm : Saturday March 17th]' value='&lt;b&gt;Hammertertz ForumLongsword Tournament&lt;/b&gt;' />
-                </td>
-                <td>
-                    <b>Dueling Smallsword</b><br><br>Bob McPherson<br><input type='radio' name='schedule[4:00pm - 5:45pm : Saturday March 17th]' value='&lt;b&gt;Dueling Smallsword&lt;/b&gt;Bob McPherson' />
-                </td>
-                <td>
-                    None<br><input type='radio' name='schedule[4:00pm - 5:45pm : Saturday March 17th]' value='None' CHECKED/>
-                </td>
-            </tr>
-        </table>
-        <br>
-        <table class='page_row'>
-            <tr><td class='row-title' colspan=3>Sunday March 18th</tr>
-            <tr class='cat'>
-                <td>
-                    <b><font class='col1'> Time</font></b></td>
-                <td>
-                    Floor One</td>
-                <td>
-                    Floor Two</td>
-                <td>
-                    Floor Three</td>
-                <td>
-                    Floor Four</td>
-                <td>
-                    None</td>
-            </tr>
-            <tr class='list'>
-                <td>
-                    <b><font class='col1'> 9:00am - 10:00am</font></b><br><input type='radio' name='schedule[9:00am - 10:00am : Sunday March 18th]' value='9:00am - 10:00am' />
-                </td>
-                <td>
-                    <b>Guild Life:<br>A Lecture</b><br>Matt Galas<br><input type='radio' name='schedule[9:00am - 10:00am : Sunday March 18th]' value='&lt;b&gt;Guild Life:A Lecture&lt;/b&gt;Matt Galas' />
-                </td>
-                <td>
-                    <b>Guild Life:<br>A Lecture</b><br>Matt Galas<br><input type='radio' name='schedule[9:00am - 10:00am : Sunday March 18th]' value='&lt;b&gtgt;Guild Life:A Lecture&lt;/b&gt;Matt Galas' />
-                </td>
-                <td>
-                    <b>Guild Life:<br>A Lecture<br></b>Matt Galas<br><input type='radio' name='schedule[9:00am - 10:00am : Sunday March 18th]' value='&lt;b&gt;Guild Life:A Lecture&lt;/b&gt;Matt Galas' />
-                </td>
-                <td>
-                    <b>Guild Life:<br>A Lecture</b><br>Matt Galas<br><input type='radio' name='schedule[9:00am - 10:00am : Sunday March 18th]' value='&lt;b&gt;Guild Life:A Lecture&lt;/b&gt;Matt Galas' />
-                </td>
-                <td>
-                    None<br><input type='radio' name='schedule[9:00am - 10:00am : Sunday March 18th]' value='None' CHECKED/>
-                </td>
-            </tr>
-            <tr class='list'>
-                <td>
-                    <b><font class='col1'> 10:00am - 11:45pm</font></b><br><input type='radio' name='schedule[10:00am - 11:45pm : Sunday March 18th]' value='10:00am - 11:45pm' />
-                </td>
-                <td>
-                    <b>Entering and Controlling<br>The Krieg</b><br>Jean Chandler/Christian Trosclair<br><input type='radio' name='schedule[10:00am - 11:45pm : Sunday March 18th]' value='&lt;b&gt;Entering and ControllingThe Krieg&lt;/b&gt;Jean Chandler/Christian Trosclair' />
-                </td>
-                <td>
-                    <b>Italian Sabre<br></b>Bob McPherson<br><br><input type='radio' name='schedule[10:00am - 11:45pm : Sunday March 18th]' value='&lt;b&gt;Italian Sabre&lt;/b&gt;Bob McPherson' />
-                </td>
-                <td>
-                    <b>Fiore's Nine<br>Blocks</b><br>Brian Stokes<br><br><input type='radio' name='schedule[10:00am - 11:45pm : Sunday March 18th]' value='&lt;b&gt;Fiore&#039;s NineBlocks&lt;/b&gt;Brian Stokes' />
-                </td>
-                <td>
-                    <b>Wrestling From<br>Wallertstein</b><br>Jay Vail<br><input type='radio' name='schedule[10:00am - 11:45pm : Sunday March 18th]' value='&lt;b&gt;Wrestling FromWallertstein&lt;/b&gt;Jay Vail' />
-                </td>
-                <td>
-                    None<br><input type='radio' name='schedule[10:00am - 11:45pm : Sunday March 18th]' value='None' CHECKED/>
-                </td>
-            </tr>
-            <tr class='list'>
-                <td>
-                    <b><font class='col1'> 11:45pm - 1:00pm</font></b><br><input type='radio' name='schedule[11:45pm - 1:00pm : Sunday March 18th]' value='11:45pm - 1:00pm' />
-                </td>
-                <td>
-                    Lunch</td>
-                <td>
-                    Lunch</td>
-                <td>
-                    Lunch</td>
-                <td>
-                    Lunch</td>
-                <td>
-                    None<br><input type='radio' name='schedule[11:45pm - 1:00pm : Sunday March 18th]' value='None' CHECKED/>
-                </td>
-            </tr>
-            <tr class='list'>
-                <td>
-                    <b><font class='col1'> 1:00pm - 2:45pm</font></b><br><input type='radio' name='schedule[1:00pm - 2:45pm : Sunday March 18th]' value='1:00pm - 2:45pm' />
-                </td>
-                <td>
-                    <b>Hammertertz Forum<br>Dussack Tournament</b><br><br><input type='radio' name='schedule[1:00pm - 2:45pm : Sunday March 18th]' value='&lt;b&gt;Hammertertz ForumDussack Tournament&lt;/b&gt;' />
-                </td>
-                <td>
-                    <b>Hammertertz Forum<br>Dussack Tournament</b><br><br><input type='radio' name='schedule[1:00pm - 2:45pm : Sunday March 18th]' value='&lt;b&gt;Hammertertz ForumDussack Tournament&lt;/b&gt;' />
-                </td>
-                <td>
-                    <b>Hammertertz Forum<br>Dussack Tournament</b><br><br><input type='radio' name='schedule[1:00pm - 2:45pm : Sunday March 18th]' value='&lt;b&gt;Hammertertz ForumDussack Tournament&lt;/b&gt;' />
-                </td>
-                <td>
-                    <b>TBD</b><br>TBD<br><input type='radio' name='schedule[1:00pm - 2:45pm : Sunday March 18th]' value='&lt;b&gt;TBD&lt;/b&gt;TBD' />
-                </td>
-                <td>
-                    None<br><input type='radio' name='schedule[1:00pm - 2:45pm : Sunday March 18th]' value='None' CHECKED/>
-                </td>
-            </tr>
-            <tr class='list'>
-                <td>
-                    <b><font class='col1'> 3:00pm - 4:45pm</font></b><br><input type='radio' name='schedule[3:00pm - 4:45pm : Sunday March 18th]' value='3:00pm - 4:45pm' />
-                </td>
-                <td>
-                    <b>Secret Classes</b><br>?<br><input type='radio' name='schedule[3:00pm - 4:45pm : Sunday March 18th]' value='&lt;b&gt;Secret Classes&lt;/b&gt;?' />
-                </td>
-                <td>
-                    <b>Secret Classes</b><br>?<br><input type='radio' name='schedule[3:00pm - 4:45pm : Sunday March 18th]' value='&lt;b&gt;Secret Classes&lt;/b&gt;?' />
-                </td>
-                <td>
-                    <b>Secret Classes</b><br>?<br><input type='radio' name='schedule[3:00pm - 4:45pm : Sunday March 18th]' value='&lt;b&gt;Secret Classes&lt;/b&gt;?' />
-                </td>
-                <td>
-                    <b>Secret Classes</b><br>?<br><input type='radio' name='schedule[3:00pm - 4:45pm : Sunday March 18th]' value='&lt;b&gt;Secret Classes&lt;/b&gt;?' />
-                </td>
-                <td>
-                    None<br><input type='radio' name='schedule[3:00pm - 4:45pm : Sunday March 18th]' value='None' CHECKED/>
-                </td>
-            </tr>
-        </table>
-        <br>
-        <input type="submit" class="button-small" name="next" value="Next" />
-        <input type="submit" class="button-small" name="cancel" value="Cancel" />
+            <p class="entry">
+                <span class="field-label">
+                    Do you want to participate in the <br/> longsword tournament?</span>
+                <span class="field">
+                    <input type="radio" name="longsword" value="0" /> No
+                    <input type="radio" name="longsword" value="1" /> Yes
+                </span>
+            </p>
 
+            <p>
+                <span class="section-heading">Please make your class selections below:</span>
+            </p>
+
+            <br>
+            <table class="schedule-table">
+                <tr>
+                    <td class="schedule-day" colspan="5">Monday 4/30</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="eq-field">Equestrian</td>
+                    <td class="harness-field">Harness Focus Field</td>
+                    <td class="foot-field-2">Foot Two</td>
+                    <td class="classroom">Classroom</td>
+                </tr>
+                <tr>
+                    <td class="time">9:00a</td>
+                    <td colspan="4">Introduction to CMAI Horses, armor, weapons and the rules &mdash;All instructors</td>
+                </tr>
+                <tr>
+                    <td class="time">10:45a<br/><input type="radio" name="m_1045" value="-1" checked="true"/></td>
+                    <td><input type="radio" name="m_1045" value="1"/>Jousting 1: The Rider's Seat - Luke Binks</td>
+                    <td><input type="radio" name="m_1045" value="20"/>Basic movement focus</td>
+                    <td><input type="radio" name="m_1045" value="39"/>Great stick &mdash; Ken Mondeshein</td>
+                    <td><input type="radio" name="m_1045" value="58"/>Concepts of Modern Chivalry- Randall Parr</td>
+                </tr>
+                <tr>
+                    <td class="lunch">12:30p</td>
+                    <td class="lunch" colspan="4">Lunch</td>
+                </tr>
+                <tr>
+                    <td class="time">1:30p<br/><input type="radio" name="m_1330" value="-1" checked="true"/></td>
+                    <td><input type="radio" name="m_1330" value="2"/>Beginner Riding 1 - Tina Walsh</td>
+                    <td rowspan="2"><input type="radio" name="m_1330" value="21"/>Body awareness, Sensitivity, Falling in armor, Wrestling</td>
+                    <td><input type="radio" name="m_1330" value="40"/>Taking control of the dagger fight- Bob Charrette</td>
+                    <td><input type="radio" name="m_1330" value="59"/>An Introduction to the International Jousting League - Fred Piraux</td>
+                </tr>
+                <tr>
+                    <td class="time">3:15p<br/><input type="radio" name="m_1515" value="-1" checked="true"/></td>
+                    <td><input type="radio" name="m_1515" value="3"/>Jousting 2: Weapons Handling - Luke Binks</td>
+                    <td><input type="radio" name="m_1515" value="41"/>"God, the Art, myself, and my sword": Fiore de Liberi's Unarmoured Combat -- Sean Hayes</td>
+                    <td><input type="radio" name="m_1515" value="60"/>A Tour through Il Fior di Battaglia's structure - Bob Charrette</td>
+                </tr>
+                <tr>
+                    <td class="time">5:00p<br/><input type="radio" name="m_1700" value="-1" checked="true"/></td>
+                    <td><input type="radio" name="m_1700" value="4"/>Mounted Combat 1: Rolling and Falling from Horseback - Theresa Wendland</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+
+            <table class="schedule-table">
+                <tr>
+                    <td class="schedule-day" colspan="5">Tuesday 5/1</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="eq-field">Equestrian</td>
+                    <td class="harness-field">Harness Focus Field</td>
+                    <td class="foot-field-2">Foot Two</td>
+                    <td class="classroom">Classroom</td>
+                </tr>
+                <tr>
+                    <td class="time">9:00a<br/><input type="radio" name="t_0900" value="-1" checked="true"/></td>
+                    <td><input type="radio" name="t_0900" value="5"/>Beginner Riding 2 - Tina Walsh</td>
+                    <td><input type="radio" name="t_0900" value="24"/>Beginning Weapons Focus</td>
+                    <td><input type="radio" name="t_0900" value="43"/>Selected sword techniques of Gladiatoria  I- Dierk Hagedorn</td>
+                    <td><input type="radio" name="t_0900" value="62"/>How to Get Started in Competitive Jousting - Fred Piraux</td>
+                </tr>
+                <tr>
+                    <td class="time">10:45a<br/><input type="radio" name="t_1045" value="-1" checked="true"/></td>
+                    <td><input type="radio" name="t_1045" value="6"/> 3: Riding in Armour - Luke Binks</td>
+                    <td><input type="radio" name="t_1045" value="25"/>Dagger , Sword, Axe, and Spear</td>
+                    <td><input type="radio" name="t_1045" value="44"/>Two-Ubiquitous Throws of Armizare-- Greg Mele</td>
+                    <td><input type="radio" name="t_1045" value="63"/>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="lunch">12:30p</td>
+                    <td class="lunch" colspan="4">Lunch</td>
+                </tr>
+                <tr>
+                    <td class="time">1:30p<br/><input type="radio" name="t_1330" value="-1" checked="true"/></td>
+                    <td><input type="radio" name="t_1330" value="7"/>Beginner Riding 3 - Tina Walsh</td>
+                    <td rowspan="2"><input type="radio" name="t_1330" value="26"/>Dagger , Sword, Axe, and Spear continued</td>
+                    <td><input type="radio" name="t_1330" value="45"/>Fundamentals of the system - footwork, guards, blows and parries. aka "Pollaxe for Dummies" -- Jason Smth</td>
+                    <td><input type="radio" name="t_1330" value="64"/>War, Tournament, Knighthood, and Society- Ken Mondeshien</td>
+                </tr>
+                <tr>
+                    <td class="time">3:15p<br/><input type="radio" name="t_1515" value="-1" checked="true"/></td>
+                    <td><input type="radio" name="t_1515" value="8"/>Jousting 4: Weapons Handling in Armour - Luke Binks</td>
+                    <td><input type="radio" name="t_1515" value="46"/>Selected Mordschlag techniques of Gladiatoria II- Dierk Hagedorn</td>
+                    <td><input type="radio" name="t_1515" value="65"/>Building from Interpretation to Curriculum - Sean Hayes</td>
+                </tr>
+                <tr>
+                    <td class="time">5:00p<br/><input type="radio" name="t_1700" value="-1" checked="true"/></td>
+                    <td><input type="radio" name="t_1700" value="9"/>Mounted Combat 2: Riding for Combat</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+
+            <table class="schedule-table">
+                <tr>
+                    <td class="schedule-day" colspan="5">Wednesday 5/2</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="eq-field">Equestrian</td>
+                    <td class="harness-field">Harness Focus Field</td>
+                    <td class="foot-field-2">Foot Two</td>
+                    <td class="classroom">Classroom</td>
+                </tr>
+                <tr>
+                    <td class="time">9:00a<br/><input type="radio" name="w_0900" value="-1" checked="true"/></td>
+                    <td><input type="radio" name="w_0900" value="10"/>Beginner Riding 4 - Tina Walsh</td>
+                    <td><input type="radio" name="w_0900" value="29"/>Coached Combat in Harness</td>
+                    <td><input type="radio" name="w_0900" value="48"/>Hooks, disarms and binds: Intricacies of the Knightly swiss army knife -- Jason Smith </td>
+                    <td><input type="radio" name="w_0900" value="67"/>List Field Operation - Fred Piraux</td>
+                </tr>
+                <tr>
+                    <td class="time">10:45a<br/><input type="radio" name="w_1045" value="-1" checked="true"/></td>
+                    <td><input type="radio" name="w_1045" value="11"/>Jousting 5: The Joust</td>
+                    <td><input type="radio" name="w_1045" value="30"/>Coached Combat in Harness</td>
+                    <td><input type="radio" name="w_1045" value="49"/>Sword in Armour: Fighting at the Full Sword and the Half Sword-- Sean Hayes</td>
+                    <td><input type="radio" name="w_1045" value="68"/>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="lunch">12:30p</td>
+                    <td class="lunch" colspan="4">Lunch</td>
+                </tr>
+                <tr>
+                    <td class="time">1:30p<br/><input type="radio" name="w_1330" value="-1" checked="true"/></td>
+                    <td>Lysts on the Lake Joust Practice 1a</td>
+                    <td><input type="radio" name="w_1330" value="31"/>Coached Combat in Harness</td>
+                    <td><input type="radio" name="w_1330" value="50"/>Selected dagger techniques of Gladiatoria III - Dierk Hagedorn</td>
+                    <td><input type="radio" name="w_1330" value="69"/>Historical European Martial Arts: A Historical Overview-Ken Mondeshien</td>
+                </tr>
+                <tr>
+                    <td class="time">3:15p<br/><input type="radio" name="w_1515" value="-1" checked="true"/></td>
+                    <td>Lysts on the Lake Joust Practice 1b</td>
+                    <td><input type="radio" name="w_1515" value="32"/>Coached Combat in Harness</td>
+                    <td><input type="radio" name="w_1515" value="51"/>The sinister pollaxe: Playing from the left in Le Jeu -- Jason Smith</td>
+                    <td><input type="radio" name="w_1515" value="70"/>The Condottiere- Greg Mele</td>
+                </tr>
+                <tr>
+                    <td class="time">5:00p<br/><input type="radio" name="w_1700" value="-1" checked="true"/></td>
+                    <td><input type="radio" name="w_1700" value="14"/>Mounted Combat 3: Introduction to Fiore's Sword on Horseback -  Theresa Wendland</td>
+                    <td><input type="radio" name="w_1700" value="33"/>&nbsp;</td>
+                    <td><input type="radio" name="w_1700" value="52"/>&nbsp;</td>
+                    <td><input type="radio" name="w_1700" value="71"/>&nbsp;</td>
+                </tr>
+            </table>
+
+            <table class="schedule-table">
+                <tr>
+                    <td class="schedule-day" colspan="5">Thursday 5/3</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="eq-field">Equestrian</td>
+                    <td class="harness-field">Harness Focus Field</td>
+                    <td class="foot-field-2">Foot Two</td>
+                    <td class="classroom">Classroom</td>
+                </tr>
+                <tr>
+                    <td class="time">9:00a<br/><input type="radio" name="th_0900" value="-1" checked="true"/></td>
+                    <td>Lysts on the Lake Joust Practice 2a</td>
+                    <td rowspan="2"><input type="radio" name="th_0900" value="34"/>Harness repair</td>
+                    <td><input type="radio" name="th_0900" value="53"/>Selected sword techniques of Gladiatoria IV - Dierk Hagedorn</td>
+                    <td><input type="radio" name="th_0900" value="72"/>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="time">10:45a<br/><input type="radio" name="th_1045" value="-1" checked="true"/></td>
+                    <td>Lysts on the Lake Joust Practice 2b</td>
+                    <td><input type="radio" name="th_1045" value="54"/>Train what you Fight: from Cutting Drill to Solo Form to Partnered Exercise --Greg Mele</td>
+                    <td><input type="radio" name="th_1045" value="73"/>The Judicial Duel in Italy - Tom Leoni</td>
+                </tr>
+                <tr>
+                    <td class="lunch">12:30p</td>
+                    <td class="lunch" colspan="4">Lunch</td>
+                </tr>
+                <tr>
+                    <td class="time">1:30p<br/><input type="radio" name="th_1330" value="-1" checked="true"/></td>
+                    <td rowspan="2"><input type="radio" name="th_1330" value="17"/>Beginner Skill at Arms</td>
+                    <td rowspan="2"><input type="radio" name="th_1330" value="36"/>Discussion of Rules for Deed at Arms</td>
+                    <td><input type="radio" name="th_1330" value="55"/>&nbsp;</td>
+                    <td><input type="radio" name="th_1330" value="74"/>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="time">3:15p<br/><input type="radio" name="th_1515" value="-1" checked="true"/></td>
+                    <td><input type="radio" name="th_1515" value="56"/>&nbsp;</td>
+                    <td><input type="radio" name="th_1515" value="75"/>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="time">5:00p<br/><input type="radio" name="th_1700" value="-1" checked="true"/></td>
+                    <td><input type="radio" name="th_1700" value="19"/>Tirocinium</td>
+                    <td><input type="radio" name="th_1700" value="38"/>&nbsp;</td>
+                    <td><input type="radio" name="th_1700" value="57"/>&nbsp;</td>
+                    <td><input type="radio" name="th_1700" value="76"/>&nbsp;</td>
+                </tr>
+            </table>
+            <input type="submit" class="button-small" name="register" value="Register" />
         </form>
         </div>
 

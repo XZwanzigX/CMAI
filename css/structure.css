@@ -37,6 +37,12 @@
     text-algin:left;
 }
 
+.registration-text-pane {
+    position: relative;
+    margin: 0 auto;
+    width:800px;
+    text-algin:left;
+}
 .contact-text-pane {
     position: relative;
     margin: 0 auto 1113px;
