@@ -1,27 +1,25 @@
 <?php
 
 $mysqli = new mysqli('localhost','lysts','lysts','lysts_dev');
-$parameterTypes = 'ssssssssssssisisssiisiiiiiiiiiiiiiiiiiiiii';
-$insert = 'insert into cmai_registrant (first_name, last_name, email, city, state, postal_code, country, address,
-                        phone_number, payment_method, how_heard, how_heard_text, experience, club_or_school,
-                        attended_other_wmas, other_wmas_attended, reasons_for_attending, tshirt_size, medical_insurance,
-                        limiting_conditions, limiting_conditions_explanation, participate_longsword_tournament, monday_0900,
-                        monday_1045, monday_1330, monday_1515, monday_1700, tuesday_0900, tuesday_1045, tuesday_1330,
-                        tuesday_1515, tuesday_1700, wednesday_0900, wednesday_1045, wednesday_1330, wednesday_1515,
-                        wednesday_1700, thursday_0900, thursday_1045, thursday_1330, thursday_1515, thursday_1700)
-            values (?, ?, ?, ?, ?, ?, ?,
-                        ?, ?, ?, ?, ?, ?,
-                        ?, ?, ?, ?, ?,
-                        ?, ?, ?, ?,
-                        ?, ?, ?, ?, ?, ?, ?,
-                        ?, ?, ?, ?, ?, ?,
-                        ?, ?, ?, ?, ?, ?)';
+$parameterTypes = 'ssssssssssssisisssiissiiiiiiiiiiiiiiiiiiii';
+$insert = 'insert into cmai_registrant (first_name, last_name, email, city, state, postal_code, country, address, phone_number, payment_method,
+                                        how_heard, how_heard_text, experience, club_or_school, attended_other_wmas,other_wmas_attended,
+                                        reasons_for_attending, tshirt_size, medical_insurance, limiting_conditions, limiting_conditions_explanation,
+                                        participate_longsword_tournament,
+                                        monday_0900, monday_1045, monday_1330, monday_1515, monday_1700,
+                                        tuesday_0900, tuesday_1045, tuesday_1330, tuesday_1515, tuesday_1700,
+                                        wednesday_0900, wednesday_1045, wednesday_1330, wednesday_1515, wednesday_1700,
+                                        thursday_0900, thursday_1045, thursday_1330, thursday_1515, thursday_1700)
+            values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
+                    ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
+                    ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
+                    ?, ?, ?)';
 
 if(mysqli_connect_errno()) {
       echo "Connection Failed: " . mysqli_connect_errno();
       exit();
 }
-echo 'praper statment';
+
 if($stmt = $mysqli -> prepare($insert)) {
     processParameters();
     processReasonsForAttending();
@@ -82,6 +80,6 @@ function processParameters()
 
 function processReasonsForAttending()
 {
-    return "$_POST[reasons_instructors] , $_POST[reasons_topics] , $_POST[reasons_social], $_POST[reasons_tournament], $_POST[reasons_freeplay], $_POST[reasons_network], $_POST[reasons_location]";
+    $_POST['reasons_for_attending']  = "$_POST[reasons_instructors] , $_POST[reasons_topics] , $_POST[reasons_social], $_POST[reasons_tournament], $_POST[reasons_freeplay], $_POST[reasons_network], $_POST[reasons_location]";
 }
 ?>
