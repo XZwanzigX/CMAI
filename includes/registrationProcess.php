@@ -25,6 +25,7 @@ function processReasonsForAttending() {
 }
 
 function insert_registration() {
+    $result = false;
     $mysqli = new mysqli('localhost', 'lysts', 'lysts', 'lysts_dev');
     $parameterTypes = 'ssssssssssssisisssiissiiiiiiiiiiiiiiiiiiii';
     $insert = 'insert into cmai_registrant (first_name, last_name, email, city, state, postal_code, country, address, phone_number, payment_method,
@@ -74,14 +75,26 @@ function insert_registration() {
                           $_POST['m_1045'], $_POST['m_1330'], $_POST['m_1515'], $_POST['m_1700'], $_POST['t_0900'], $_POST['t_1045'], $_POST['t_1330'],
                           $_POST['t_1515'], $_POST['t_1700'], $_POST['w_0900'], $_POST['w_1045'], $_POST['w_1330'], $_POST['w_1515'],
                           $_POST['w_1700'], $_POST['th_0900'], $_POST['th_1045'], $_POST['th_1330'], $_POST['th_1515'], $_POST['th_1700']) or die('Bind params failed.');
-        $stmt->execute() or die($stmt->error);
+        $result = $stmt->execute();
+        if (!$result) { mail('webmaster@aplaisance.com', 'DB problem', "Insert to DB failed. <p> Post data: $_POST" . mysql_error()); }
         $stmt->close();
         $mysqli->close();
 
-        echo'Winnar!';
     }
+    return $result;
 }
 
-insert_registration();
+function displayFormMessage($message) {
+    session_start();
+    $_SESSION['formResponse'] = $message;
+    header('Location: ../formSubmission.php');
+    exit();
+}
+
+if (insert_registration()) {
+    displayFormMessage('Thank you for submitting your application for Chivalric Martial Arts International Symposium!');
+} else {
+    displayFormMessage("Sorry, we are temporarily unable to process your application.  The webmaster has been notified of the error and will contact you shortly.");
+}
 
 ?>
