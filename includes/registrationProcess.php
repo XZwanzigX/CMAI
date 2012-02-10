@@ -1,4 +1,5 @@
 <?php
+include('../../db/dbConnection.php');
 function processParameters() {
     $monday2BlockClass = 21;
     $tuesday2BlockClass = 26;

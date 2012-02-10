@@ -30,7 +30,7 @@
                     <td>Jousting 1: The Rider's Seat - Luke Binks</td>
                     <td>Basic movement focus</td>
                     <td>Great stick &mdash; Ken Mondeshein</td>
-                    <td>&nbsp;</td>
+                    <td>Concepts of Modern Chivalry- Randall Parr</td>
                 </tr>
                 <tr>
                     <td class="lunch">12:30p</td>
@@ -40,14 +40,14 @@
                     <td class="time">1:30p</td>
                     <td>Beginner Riding 1 - Tina Walsh</td>
                     <td rowspan="2">Body awareness, Sensitivity, Falling in armor, Wrestling</td>
-                    <td>"God, the Art, myself, and my sword": Fiore de Liberi's Unarmoured Combat -- Sean Hayes</td>
+                    <td>Taking control of the dagger fight- Bob Charrette</td>
                     <td>An Introduction to the International Jousting League - Fred Piraux</td>
                 </tr>
                 <tr>
                     <td class="time">3:15p</td>
                     <td>Jousting 2: Weapons Handling - Luke Binks</td>
-                    <td>Taking control of the dagger fight- Bob Charrette</td>
-                    <td>&nbsp;</td>
+                    <td>"God, the Art, myself, and my sword": Fiore de Liberi's Unarmoured Combat -- Sean Hayes</td>
+                    <td>A Tour through Il Fior di Battaglia's structure - Bob Charrette</td>
                 </tr>
                 <tr>
                     <td class="time">5:00p</td>
@@ -92,13 +92,13 @@
                     <td>Beginner Riding 3 - Tina Walsh</td>
                     <td rowspan="2">Dagger , Sword, Axe, and Spear continued</td>
                     <td>Fundamentals of the system - footwork, guards, blows and parries. aka "Pollaxe for Dummies" -- Jason Smth</td>
-                    <td>&nbsp;</td>
+                    <td>War, Tournament, Knighthood, and Society- Ken Mondeshien</td>
                 </tr>
                 <tr>
                     <td class="time">3:15p</td>
                     <td>Jousting 4: Weapons Handling in Armour - Luke Binks</td>
                     <td>Selected Mordschlag techniques of Gladiatoria II- Dierk Hagedorn</td>
-                    <td>&nbsp;</td>
+                    <td>Building from Interpretation to Curriculum - Sean Hayes</td>
                 </tr>
                 <tr>
                     <td class="time">5:00p</td>
@@ -124,14 +124,14 @@
                     <td class="time">9:00a</td>
                     <td>Beginner Riding 4 - Tina Walsh</td>
                     <td>Coached Combat in Harness</td>
-                    <td>Sword in Armour: Fighting at the Full Sword and the Half Sword-- Sean Hayes</td>
+                    <td>Hooks, disarms and binds: Intricacies of the Knightly swiss army knife -- Jason Smith</td>
                     <td>List Field Operation - Fred Piraux</td>
                 </tr>
                 <tr>
                     <td class="time">10:45a</td>
                     <td>Jousting 5: The Joust</td>
                     <td>Coached Combat in Harness</td>
-                    <td>Hooks, disarms and binds: Intricacies of the Knightly swiss army knife -- Jason Smith</td>
+                    <td>Sword in Armour: Fighting at the Full Sword and the Half Sword-- Sean Hayes</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
@@ -143,14 +143,14 @@
                     <td>Lysts on the Lake Joust Practice 1a</td>
                     <td>Coached Combat in Harness</td>
                     <td>Selected dagger techniques of Gladiatoria III - Dierk Hagedorn</td>
-                    <td>&nbsp;</td>
+                    <td>Historical European Martial Arts: A Historical Overview-Ken Mondeshien</td>
                 </tr>
                 <tr>
                     <td class="time">3:15p</td>
                     <td>Lysts on the Lake Joust Practice 1b</td>
                     <td>Coached Combat in Harness</td>
                     <td>The sinister pollaxe: Playing from the left in Le Jeu -- Jason Smith</td>
-                    <td>&nbsp;</td>
+                    <td>The Condottiere- Greg Mele</td>
                 </tr>
                 <tr>
                     <td class="time">5:00p</td>
@@ -183,7 +183,7 @@
                     <td class="time">10:45a</td>
                     <td>Lysts on the Lake Joust Practice 2b</td>
                     <td>Train what you Fight: from Cutting Drill to Solo Form to Partnered Exercise --Greg Mele</td>
-                    <td>&nbsp;</td>
+                    <td>The Judicial Duel in Italy - Tom Leoni</td>
                 </tr>
                 <tr>
                     <td class="lunch">12:30p</td>
