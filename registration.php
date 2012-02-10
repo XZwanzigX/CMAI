@@ -556,10 +556,10 @@
                 </tr>
                 <tr>
                     <td class="time">10:45a<br/><input type="radio" name="t_1045" value="-1" checked="true"/></td>
-                    <td><input type="radio" name="t_1045" value="6"/> 3: Riding in Armour - Luke Binks</td>
+                    <td><input type="radio" name="t_1045" value="6"/>Jousting 3: Riding in Armour - Luke Binks</td>
                     <td><input type="radio" name="t_1045" value="25"/>Dagger , Sword, Axe, and Spear</td>
                     <td><input type="radio" name="t_1045" value="44"/>Two-Ubiquitous Throws of Armizare-- Greg Mele</td>
-                    <td><input type="radio" name="t_1045" value="63"/>&nbsp;</td>
+                    <td><input type="radio" name="t_1045" value="63"/>Medieval Warhorse- Theresa Wendland</td>
                 </tr>
                 <tr>
                     <td class="lunch">12:30p</td>
@@ -610,7 +610,7 @@
                     <td><input type="radio" name="w_1045" value="11"/>Jousting 5: The Joust</td>
                     <td><input type="radio" name="w_1045" value="30"/>Coached Combat in Harness</td>
                     <td><input type="radio" name="w_1045" value="49"/>Sword in Armour: Fighting at the Full Sword and the Half Sword-- Sean Hayes</td>
-                    <td><input type="radio" name="w_1045" value="68"/>&nbsp;</td>
+                    <td><input type="radio" name="w_1045" value="68"/>Concepts of Modern Chivalry- Randall Parr</td>
                 </tr>
                 <tr>
                     <td class="lunch">12:30p</td>
@@ -633,9 +633,9 @@
                 <tr>
                     <td class="time">5:00p<br/><input type="radio" name="w_1700" value="-1" checked="true"/></td>
                     <td><input type="radio" name="w_1700" value="14"/>Mounted Combat 3: Introduction to Fiore's Sword on Horseback -  Theresa Wendland</td>
-                    <td><input type="radio" name="w_1700" value="33"/>&nbsp;</td>
-                    <td><input type="radio" name="w_1700" value="52"/>&nbsp;</td>
-                    <td><input type="radio" name="w_1700" value="71"/>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                 </tr>
             </table>
 
@@ -655,7 +655,7 @@
                     <td>Lysts on the Lake Joust Practice 2a</td>
                     <td rowspan="2"><input type="radio" name="th_0900" value="34"/>Harness repair</td>
                     <td><input type="radio" name="th_0900" value="53"/>Selected sword techniques of Gladiatoria IV - Dierk Hagedorn</td>
-                    <td><input type="radio" name="th_0900" value="72"/>&nbsp;</td>
+                    <td><input type="radio" name="th_0900" value="72"/>Concepts of Modern Chivalry- Randall Parr</td>
                 </tr>
                 <tr>
                     <td class="time">10:45a<br/><input type="radio" name="th_1045" value="-1" checked="true"/></td>
@@ -671,20 +671,20 @@
                     <td class="time">1:30p<br/><input type="radio" name="th_1330" value="-1" checked="true"/></td>
                     <td rowspan="2"><input type="radio" name="th_1330" value="17"/>Beginner Skill at Arms</td>
                     <td rowspan="2"><input type="radio" name="th_1330" value="36"/>Discussion of Rules for Deed at Arms</td>
-                    <td><input type="radio" name="th_1330" value="55"/>&nbsp;</td>
-                    <td><input type="radio" name="th_1330" value="74"/>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="time">3:15p<br/><input type="radio" name="th_1515" value="-1" checked="true"/></td>
-                    <td><input type="radio" name="th_1515" value="56"/>&nbsp;</td>
-                    <td><input type="radio" name="th_1515" value="75"/>&nbsp;</td>
+                    <td class="time">3:15p</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="time">5:00p<br/><input type="radio" name="th_1700" value="-1" checked="true"/></td>
                     <td><input type="radio" name="th_1700" value="19"/>Tirocinium</td>
-                    <td><input type="radio" name="th_1700" value="38"/>&nbsp;</td>
-                    <td><input type="radio" name="th_1700" value="57"/>&nbsp;</td>
-                    <td><input type="radio" name="th_1700" value="76"/>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                 </tr>
             </table>
             <input type="submit" class="button-small" name="register" value="Register" />

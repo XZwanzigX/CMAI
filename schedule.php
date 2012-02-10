@@ -81,7 +81,7 @@
                     <td>Jousting 3: Riding in Armour - Luke Binks</td>
                     <td>Dagger , Sword, Axe, and Spear</td>
                     <td>Two-Ubiquitous Throws of Armizare-- Greg Mele</td>
-                    <td>&nbsp;</td>
+                    <td>Medieval Warhorse- Theresa Wendland</td>
                 </tr>
                 <tr>
                     <td class="lunch">12:30p</td>
@@ -132,7 +132,7 @@
                     <td>Jousting 5: The Joust</td>
                     <td>Coached Combat in Harness</td>
                     <td>Sword in Armour: Fighting at the Full Sword and the Half Sword-- Sean Hayes</td>
-                    <td>&nbsp;</td>
+                    <td>Concepts of Modern Chivalry- Randall Parr</td>
                 </tr>
                 <tr>
                     <td class="lunch">12:30p</td>
@@ -177,7 +177,7 @@
                     <td>Lysts on the Lake Joust Practice 2a</td>
                     <td rowspan="2">Harness repair</td>
                     <td>Selected sword techniques of Gladiatoria IV - Dierk Hagedorn</td>
-                    <td>&nbsp;</td>
+                    <td>Concepts of Modern Chivalry- Randall Parr</td>
                 </tr>
                 <tr>
                     <td class="time">10:45a</td>
