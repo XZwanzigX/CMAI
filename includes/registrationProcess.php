@@ -26,7 +26,7 @@ function processReasonsForAttending() {
 
 function insert_registration() {
     $result = false;
-    $mysqli = new mysqli('localhost', 'lysts', 'lysts', 'lysts_dev');
+    $mysqli = getConnection();
     $parameterTypes = 'ssssssssssssisisssiissiiiiiiiiiiiiiiiiiiii';
     $insert = 'insert into cmai_registrant (first_name, last_name, email, city, state, postal_code, country, address, phone_number, payment_method,
                                         how_heard, how_heard_text, experience, club_or_school, attended_other_wmas,other_wmas_attended,
@@ -82,6 +82,12 @@ function insert_registration() {
 
     }
     return $result;
+}
+
+function getConnection()
+{
+    $mysqli = new mysqli('localhost', 'lysts', 'lysts', 'lysts_dev');
+    return $mysqli;
 }
 
 function displayFormMessage($message) {
