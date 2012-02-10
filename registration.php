@@ -7,24 +7,19 @@
         <link rel="stylesheet" href="css/textStyles.css">
         <link rel="stylesheet" href="css/formStyles.css">
 
-        <script type="text/javascript" src="http://closure-library.googlecode.com/svn/trunk/closure/goog/base.js"></script>
-        <script type="text/javascript">
-            goog.require('goog.dom');
-            goog.require('goog.json');
-            goog.require('goog.proto2.ObjectSerializer');
-            goog.require('goog.string.StringBuffer');
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $("#theForm").validate();
+            });
         </script>
-        <script type="text/javascript" src="js/libphonenumber/i18n/phonenumbers/phonemetadata.pb.js"></script>
-        <script type="text/javascript" src="js/libphonenumber/i18n/phonenumbers/phonenumber.pb.js"></script>
-        <script type="text/javascript" src="js/libphonenumber/i18n/phonenumbers/metadata.js"></script>
-        <script type="text/javascript" src="js/libphonenumber/i18n/phonenumbers/phonenumberutil.js"></script>
-        <script type="text/javascript" src="js/libphonenumber/i18n/phonenumbers/asyoutypeformatter.js"></script>
-        <script type="text/javascript" src="js/formValidation.js"></script>
     </head>
     <body>
         <?php include('includes/menu.php');?>
         <div class="registration-text-pane">
-            <form name="theForm" method="post" enctype="multipart/form-data" action="includes/registrationProcess.php" onsubmit="return validateForm();">
+            <form id="theForm" method="post" enctype="multipart/form-data" action="includes/registrationProcess.php">
             <p>
                 <span class="section-heading">Contact Information</span>
             </p>
@@ -34,7 +29,7 @@
                     <span class="field-label">
                         First Name<span class="red-note">*</span></span>
                     <span class="field">
-                        <input type="text" name="first_name" size="50" maxlength="75" value="" />
+                        <input type="text" name="first_name" size="50" maxlength="75" class="required"/>
                     </span>
             </p>
 
@@ -42,7 +37,7 @@
                     <span class="field-label">
                         Last Name<span class="red-note">*</span></span>
                     <span class="field">
-                        <input type="text" name="last_name" size="50" maxlength="75" value="" />
+                        <input type="text" name="last_name" size="50" maxlength="75"  class="required"/>
                     </span>
             </p>
             <!-- Email -->
@@ -50,7 +45,7 @@
                     <span class="field-label">
                         E-mail<span class="red-note">*</span></span>
                     <span class="field">
-                        <input type="text" name="email" size="50" maxlength="75" value="" />
+                        <input type="text" name="email" size="50" maxlength="75"  class="required email"/>
                     </span>
             </p>
 
@@ -59,7 +54,7 @@
                 <span class="field-label">
                     City<span class="red-note">*</span></span>
                 <span class="field">
-                    <input type="text" name="city" value="" />
+                    <input type="text" name="city"  class="required"/>
                 </span>
             </p>
 
@@ -68,7 +63,7 @@
                 <span class="field-label">
                     State<span class="red-note">*</span></span>
                 <span class="field">
-                    <input type="text" name="state" size="4" maxlength="10" value="" />
+                    <input type="text" name="state" size="4" maxlength="10"  class="required"/>
                 </span>
             </p>
 
@@ -77,7 +72,7 @@
                 <span class="field-label">
                     Zip Code<span class="red-note">*</span></span>
                 <span class="field">
-                    <input type="text" name="zip" value="" />
+                    <input type="text" name="zip" class="required"/>
                 </span>
             </p>
 
@@ -86,7 +81,7 @@
                 <span class="field-label">
                     Country<span class="red-note">*</span></span>
                 <span class="field">
-                    <select size="1" id="Country" name="country">
+                    <select size="1" id="Country" name="country" class="required">
                         <option value="">Select One</option>
                         <option value="US">United States</option>
                         <option value="CA">Canada</option>
@@ -343,7 +338,7 @@
                 <span class="field-label">
                     Address<span class="red-note">*</span></span>
                 <span class="field">
-                    <input type="text" name="address" value="" />
+                    <input type="text" name="address" class="required"/>
                 </span>
             </p>
 
@@ -352,7 +347,7 @@
                 <span class="field-label">
                     Phone Number<span class="red-note">*</span></span>
                 <span class="field">
-                    <input type="text" name="phone" value="" />
+                    <input type="text" name="phone" class="required"/>
                 </span>
             </p>
 
@@ -384,7 +379,7 @@
                         <option value='Event'  >Event</option>
                         <option value='Other'  >Other:</option>
                     </select>
-                    <input type="text" name="how_heard_text" size="30" maxlength="50" value="" />
+                    <input type="text" name="how_heard_text" size="30" maxlength="50" />
                 </span>
             </p>
 
@@ -406,7 +401,7 @@
                 <span class="field-label">
                     Name your club/school if any </span>
                 <span class="field">
-                    <input type="text" name="club" size="50" maxlength="75" value="" />
+                    <input type="text" name="club" size="50" maxlength="75" />
                 </span>
             </p>
 
@@ -418,7 +413,7 @@
                     <input type="radio" name="attended" value="0" /> No
                     <input type="radio" name="attended" value="1" /> Yes.  If so, which ones?
 
-                    <input type="text" name="attended_type" size="30" maxlength="50" value="" />
+                    <input type="text" name="attended_type" size="30" maxlength="50" />
                 </span>
             </p>
 
@@ -461,8 +456,8 @@
                 <span class="field-label">
                     Do you have medical insurance?<span class="red-note">*</span></span>
                 <span class="field">
-                    <input type="radio" name="insurance" value="0" /> No
-                    <input type="radio" name="insurance" value="1" /> Yes
+                    <input type="radio" name="insurance" value="0" class="required"/> No
+                    <input type="radio" name="insurance" value="1" class="required"/> Yes
                 </span>
             </p>
 
@@ -471,10 +466,10 @@
                 <span class="field-label">
                     Do you have any medical, mental, or <br/> psychological conditions that could <br/> impair or affect your ability to <br/> participate in this event or <br/> effect others you may work with?<span class="red-note">*</span></span>
                 <span class="field">
-                    <input type="radio" name="condition" value="0" /> No
-                    <input type="radio" name="condition" value="1" /> Yes.  If so, please explain:
+                    <input type="radio" name="condition" value="0"  class="required"/> No
+                    <input type="radio" name="condition" value="1"  class="required"/> Yes.  If so, please explain:
 
-                    <input type="text" name="condition_type" size="30" maxlength="256" value="" />
+                    <input type="text" name="condition_type" size="30" maxlength="256" />
                 </span>
             </p>
 

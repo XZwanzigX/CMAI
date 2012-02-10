@@ -3,7 +3,7 @@ function processParameters() {
     $monday2BlockClass = 21;
     $tuesday2BlockClass = 26;
     $thursdayAm2BlockClass = 34;
-    $thursdayTiro = 19;
+    $thursdayDeed = 36;
     $thursdayBeginnerSAA = 17;
 
     $_POST['m_0900'] = -1;
@@ -15,7 +15,7 @@ function processParameters() {
 
     if ($_POST['th_0900'] == $thursdayAm2BlockClass) { $_POST['th_1045'] = $thursdayAm2BlockClass; }
 
-    if ($_POST['th_1330'] == $thursdayTiro) { $_POST['th_1515'] = $thursdayTiro; }
+    if ($_POST['th_1330'] == $thursdayDeed) { $_POST['th_1515'] = $thursdayDeed; }
 
     if ($_POST['th_1330'] == $thursdayBeginnerSAA) { $_POST['th_1515'] = $thursdayBeginnerSAA; }
 }
