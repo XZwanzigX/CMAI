@@ -6,5 +6,6 @@ BEGIN
 
     ELSE
        SELECT name INTO v_name from cmai_classes where class_id=id;
+       RETURN v_name;
     END IF;
 END;

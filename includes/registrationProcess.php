@@ -23,12 +23,12 @@ function processParameters() {
 
 function processReasonsForAttending() {
     $reasonList = "$_POST[reasons_instructors] , $_POST[reasons_topics] , $_POST[reasons_social], $_POST[reasons_tournament], $_POST[reasons_freeplay], $_POST[reasons_network], $_POST[reasons_location]";
-    $_POST['reasons_for_attending']  = str_replace(", ,", ",", $reasonList) . 'annoying';
+    $_POST['reasons_for_attending']  = str_replace(", ,", ",", $reasonList);
 }
 
 function insert_registration() {
     $result = false;
-    $mysqli = getConnection();
+    $mysqli = localConnection();
     $parameterTypes = 'ssssssssssssisisssiissiiiiiiiiiiiiiiiiiiii';
     $insert = 'insert into cmai_registrant (first_name, last_name, email, city, state, postal_code, country, address, phone_number, payment_method,
                                         how_heard, how_heard_text, experience, club_or_school, attended_other_wmas,other_wmas_attended,
@@ -86,12 +86,6 @@ function insert_registration() {
     return $result;
 }
 
-function getConnection()
-{
-    $mysqli = new mysqli('localhost', 'lysts', 'lysts', 'lysts_dev');
-    return $mysqli;
-}
-
 function displayFormMessage($message) {
     session_start();
     $_SESSION['formResponse'] = $message;
@@ -101,7 +95,7 @@ function displayFormMessage($message) {
 
 function getClassInformation($br)
 {
-    $conn = getConnection();
+    $conn = localConnection();
 
     $sql = 'select classname(monday_0900), classname(monday_1045), classname(monday_1330), classname(monday_1515), classname(monday_1700),
                    classname(tuesday_0900), classname(tuesday_1045), classname(tuesday_1330), classname(tuesday_1515), classname(tuesday_1700),
@@ -124,6 +118,11 @@ function getClassInformation($br)
 }
 
 function getRegistrantInfo($br) {
+    $attendedPrevious = $_POST['attended'] == 1 ? 'Yes' : 'No';
+    $medicalInsurance = $_POST['insurance'] == 1 ? 'Yes' : 'No';
+    $limitingConditions = $_POST['condition'] == 1 ? 'Yes' : 'No';
+    $longswordTourney = $_POST['longsword'] == 1 ? 'Yes' : 'No';
+
     return "Name: {$_POST['first_name']} {$_POST['last_name']}$br
             Email:{$_POST['email']}$br
             City: {$_POST['city']}$br
@@ -136,12 +135,12 @@ function getRegistrantInfo($br) {
             How did you hear about us: {$_POST['how_heard']} {$_POST['how_heard_text']}$br
             Experience level: {$_POST['experience']} $br
             Club: {$_POST['club']}$br
-            Attended previous WMAs?: {$_POST['attended']} {$_POST['attended_type']}$br
+            Attended previous WMAs?: {$attendedPrevious} {$_POST['attended_type']}$br
             Reasons for attending: {$_POST['reasons_for_attending']}$br
             T-Shirt size: {$_POST['tshirt']}$br
-            Has medical insurance: {$_POST['insurance']}$br
-            Limiting conditions: {$_POST['condition']} {$_POST['condition_type']}$br
-            Participate in Longsword tourney: {$_POST['longsword']}$br$br";
+            Has medical insurance: {$medicalInsurance}$br
+            Limiting conditions: {$limitingConditions} {$_POST['condition_type']}$br
+            Participate in Longsword tourney: {$longswordTourney}$br$br";
 }
 
 function constructRegistrationEmail($br) {
