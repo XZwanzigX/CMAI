@@ -3,17 +3,11 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Feb 10, 2012 at 01:49 PM
+-- Generation Time: Feb 10, 2012 at 04:39 PM
 -- Server version: 5.1.54
 -- PHP Version: 5.3.5-1ubuntu7.6
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
 
 --
 -- Database: `lysts_dev`
@@ -101,16 +95,16 @@ INSERT INTO `cmai_classes` (`class_id`, `day`, `field`, `time`, `name`) VALUES
 (60, 'Monday', 'Classroom', '3:15p', 'A Tour through Il Fior di Battaglia''s structure - Bob Charrette'),
 (61, 'Monday', 'Classroom', '5:00p', ''),
 (62, 'Tuesday', 'Classroom', '9:00a', 'How to Get Started in Competitive Jousting - Fred Piraux'),
-(63, 'Tuesday', 'Classroom', '10:45a', ''),
+(63, 'Tuesday', 'Classroom', '10:45a', 'Medieval Warhorse- Theresa Wendland'),
 (64, 'Tuesday', 'Classroom', '1:30p', 'War, Tournament, Knighthood, and Society- Ken Mondeshien'),
 (65, 'Tuesday', 'Classroom', '3:15p', 'Building from Interpretation to Curriculum - Sean Hayes'),
 (66, 'Tuesday', 'Classroom', '5:00p', ''),
 (67, 'Wednesday', 'Classroom', '9:00a', 'List Field Operation - Fred Piraux'),
-(68, 'Wednesday', 'Classroom', '10:45a', ''),
+(68, 'Wednesday', 'Classroom', '10:45a', 'Concepts of Modern Chivalry- Randall Parr'),
 (69, 'Wednesday', 'Classroom', '1:30p', 'Historical European Martial Arts: A Historical Overview-Ken Mondeshien'),
 (70, 'Wednesday', 'Classroom', '3:15p', 'The Condottiere- Greg Mele'),
 (71, 'Wednesday', 'Classroom', '5:00p', ''),
-(72, 'Thursday', 'Classroom', '9:00a', ''),
+(72, 'Thursday', 'Classroom', '9:00a', 'Concepts of Modern Chivalry- Randall Parr'),
 (73, 'Thursday', 'Classroom', '10:45a', 'The Judicial Duel in Italy - Tom Leoni'),
 (74, 'Thursday', 'Classroom', '1:30p', ''),
 (75, 'Thursday', 'Classroom', '3:15p', ''),
