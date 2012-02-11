@@ -668,9 +668,9 @@
                     <td class="lunch" colspan="4">Lunch</td>
                 </tr>
                 <tr>
-                    <td class="time">1:30p<br/><input type="radio" name="th_1330" value="-1" checked="true"/></td>
-                    <td rowspan="2"><input type="radio" name="th_1330" value="17"/>Beginner Skill at Arms</td>
-                    <td rowspan="2"><input type="radio" name="th_1330" value="36"/>Discussion of Rules for Deed at Arms</td>
+                    <td class="time">1:30p</td>
+                    <td rowspan="2">Beginner Skill at Arms</td>
+                    <td rowspan="2">Discussion of Rules for Deed at Arms</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
@@ -680,8 +680,8 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="time">5:00p<br/><input type="radio" name="th_1700" value="-1" checked="true"/></td>
-                    <td><input type="radio" name="th_1700" value="19"/>Tirocinium</td>
+                    <td class="time">5:00p</td>
+                    <td>Tirocinium</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
