@@ -26,7 +26,7 @@
                 <br/>There will be some armor available that can be borrowed, and if you have extra armor, consider bringing it as well.</p>
 
             <p><span class="faq">Is there a hotel that I can stay at with reduced pricing?</span>
-                <br/>The CMAI will be booking a block of rooms for all of our instructors students and Lysts on the Lake participants.</p>
+                <br/>There are several hotels in the area.  Please check here for an updated list.</p>
 
             <p><span class="faq">Is there a meal plan?</span>
                 <br/>There will be a meal plan available at the event so that participants will not have to travel off site, or you are welcome to travel to any nearby eatery.</p>
@@ -40,7 +40,13 @@
             <p><span class="faq">How can I help?</span>
                 <br/>Please contact the event organizer, Steve Hemphill via <a href="mailto:steve@aplaisance.com">email</a></p>
 
-            <p><span class="faq">What should I bring?</span></p>
+            <p><span class="faq">What should I bring?</span>
+            <br/>We all want to be prepared for anything, but here are some suggestions:<br/>
+            <span>Scholars-</span> notebook, pen and pencil, camera, video, comfortable clothes, sunscreen, hat.<br/>
+            <span>Footmen-</span> (everything for the scholar and) armor, arming clothes, athletic clothes, practice sword, pollaxe simulator, practice dagger, spear simulator.  Details for deed at arms will be posted on the website under rules.<br/>
+            <span>Riders-</span> (everything for scholars and) Riding clothes, period clothes, boots or shoes with heel, equestrian equipment.<br/>
+            <span>Mounted Combat riders-</span>(everything for scholars, footmen and riders)<br/>
+            <span>Jousters-</span>  (everything for scholars, footmen and riders) and an ecranche, </p>
 
             <p class="faq-heading">Equestrian Questions:</p>
 

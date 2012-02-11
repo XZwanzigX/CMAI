@@ -126,7 +126,53 @@
 
 
             <p><span class="class-heading">Classroom Instruction</span><br>
-            Classes on all aspects of knighthood and chivalry will be ongoing from a number of authorities</p>
+            Classroom instruction is a great way to slow down, sit back and really delve into many  aspects of knighthood and chivalry during the middle ages and currently as well as some classes geared toward  expanding your understanding of Historical European Martial Arts.</p>
+
+            <p><span>Western Combative theory-Ken Mondeshien</span><br/>
+            There is remarkable continuity in the way in which combative actions have
+            been described since the late fourteenth century. In order to better
+            understand the tactics and strategies described in medieval fencing
+            manuals, we must first learn their intellectual underpinnings. This class
+            will explain both the history and current use of the classification of
+            fencing actions in the Western tradition.</p>
+
+            <p><span>Historical European Martial Arts: A Historical Overview-Ken Mondeshien</span><br/>
+            How has fencing evolved from the enigmatic sword and buckler play in I.33
+            to the byzantine rules of the modern sort of fencing? How have Western
+            Martial Arts changed from a life-and-death martial art to a sport? This
+            class will explore the history of Western martial arts, our sources, and
+            how recent history has transformed both the arts and our understanding of
+            them.</p>
+
+            <p><span>War, Tournament, Knighthood, and Society- Ken Mondeshien</span><br/>
+            What was a knight? What was his role in society? How did the tournament
+            fit into this? We will explore the self-conception of the medieval knight,
+            and the uses of the tournament from everything from training for battle to
+            political theatre.</p>
+
+            <p><span>Building from Interpretation to Curriculum - Sean Hayes</span><br/>
+            This presentation will cover the basics of developing a curriculum from primary sources, using the Fior di Battaglia and Royal Armouries MS I.33 as examples.  Lesson plans and curricula are distinct from the technical (or "how-to") sources.  A program of instruction includes fundamental physical and movement training that supports the technique shown in the sources, and it also includes tactical training derived from the techniques and commentaries of the original masters.  The class will consist of lecture, question-and-answer, and demonstration.</p>
+
+            <p><span>Concepts of Modern Chivalry- Randall Parr</span><br/>
+            This presentation will discuss why chivalry is experiencing a revival today, and how traditional ideals of knightly behavior are relevantly translated and applied to modern culture.</p>
+
+            <p><span>A Tour through Il Fior di Battaglia's structure - Bob Charrette</span><br/>
+            Bob will present  a class that  is a combination of AV presentation and practice, reexamining Fiore’s system of Remedies, Scholars and Counters, showing an even higher level of internal organization and forethought than is generally recognized by students of Armizare.</p>
+
+            <p><span>The Condottierre - Greg Mele</span><br/>
+            The condottierre were the mercenary soldier leaders of the professional, military free companies contracted by the Italian city-states and the Papacy from the late Middle Ages and throughout the Renaissance. Greg will take you through and introduction to these men and how the system worked.</p>
+
+            <p><span>The Judicial Duel in Italy - Tom Leoni</span><br/>
+            Understanding the judicial duel is understanding one of the principal contexts framing the martial arts that we study. In this brief lecture, Tom will present the way in which the judicial duel was viewed during its heyday in Italy (mid 1550s); however, please bear in mind that although the duel went in and out of legality throughout the ages, most of its tenets remained firmly established in the moral code of Italian society—practically all the way into the 20th Century.</p>
+
+            <p><span">An Introduction to the International Jousting League  - Fred Piraux</span><br/>
+            This class will cover the details on how to become involved with the IJL; the mission statement, structure and rules; the state of competitive jousting in the world today; how to become an IJL affiliate (as an individual or event); competitions included in the IJL.</p>
+
+            <p><span>How to Get Started in Competitive Jousting  - Fred Piraux</span><br/>
+            This class covers the basic of what is needed to start jousting; armour requirements, working with an armourer, safety considerations.</p>
+
+            <p><span>List Field Operation  - Fred Piraux</span><br/>
+            This class will cover the details of what is needed to safely construct and run a jousting list field; rules, match rotation and timing, field personnel, how to properly conduct the passes, field safety and procedures.</p>
 
             <p class="CMAI-Headline-Text">Foot combat field 2 Specialized--training</p>
 

@@ -116,7 +116,8 @@
             </ul>
 
             <p><em class="instructor-name">Luke Binks</em>
-            <br>Bio pending</p>
+            <br>'Red Hart Reproductions'.<br>
+            Luke has been coaching jousters for about 8 years, and has done this all over the world, He coached the Historic Enterprises knights school in 2008 and 2009. He now lives in Norway where he spends his days  armouring, coaching riding and jousting professionally with a riding school named Trollspeilet.</p>
 
             <ul class="class-listing">
                 <li><span>Session 1, The Riders Seat,</span> in this session we will focus on the rider's position and the bio mechanical relationship between the horse and rider through his seat. How and why this will affect the horse and its benefits in mounted combat. No armour required.</li>
