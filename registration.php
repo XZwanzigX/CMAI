@@ -16,7 +16,7 @@
             });
         </script>
     </head>
-    <body>
+    <body class="other-page-body">
         <?php include('includes/menu.php');?>
         <div class="registration-text-pane">
             <form id="theForm" method="post" enctype="multipart/form-data" action="includes/registrationProcess.php">
@@ -365,6 +365,11 @@
                 </span>
             </p>
 
+            <p class="entry">
+                <span class="field-label">
+                    Promo Code</span> <span class="field"><input type="text" name="promo_code"/>
+                </span>
+            </p>
             <!-- Heard About -->
             <p class="entry">
                 <span class="field-label">
@@ -482,7 +487,13 @@
                     <input type="radio" name="longsword" value="1" /> Yes
                 </span>
             </p>
-
+            <p class="entry">
+                <span class="field-label">Do you need a horse?</span>
+                <span class="field">
+                    <input type="radio" name="need_horse" value="0" />No
+                    <input type="radio" name="need_horse" value="1" />Yes
+                </span>
+            </p>
             <p>
                 <span class="section-heading">Please make your class selections below:</span>
             </p>
