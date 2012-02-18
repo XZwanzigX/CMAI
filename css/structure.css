@@ -12,9 +12,38 @@
     text-align: center;
 }
 
+.schedule-body {
+    background: url('../img/structure/bg/ScheduleBG.jpg') no-repeat scroll;
+    background-position: top center;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 12pt;
+    text-align: center;
+}
+.classes-body {
+    background: url('../img/structure/bg/ClassesBG.jpg') no-repeat scroll;
+    background-position: top center;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 12pt;
+    text-align: center;
+}
+.instructors-body {
+    background: url('../img/structure/bg/InstructorBG.jpg') no-repeat scroll;
+    background-position: top center;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 12pt;
+    text-align: center;
+}
+
 .home-text-pane {
     position: relative;
     margin: 0 auto;
+    width:800px;
+    text-algin:left;
+}
+
+.schedule-text-pane {
+    position: relative;
+    margin: 0 auto 340px;
     width:800px;
     text-algin:left;
 }
@@ -75,12 +104,22 @@
     top: 220px;
 }
 
+.aPlaisance-logo-schedule {
+    position: relative;
+    top: 220px;
+}
+
 .aPlaisance-logo-contact {
     position: relative;
     top:967px;
 }
 
 .aPlaisance-logo-directions {
+    position: relative;
+    top:166px;
+}
+
+.aPlaisance-logo-classes{
     position: relative;
     top:166px;
 }

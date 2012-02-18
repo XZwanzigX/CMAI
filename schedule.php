@@ -7,9 +7,9 @@
         <link rel="stylesheet" href="css/scheduleStyles.css">
     </head>
 
-    <body class="other-page-body">
+    <body class="schedule-body">
         <?php include('includes/menu.php');?>
-        <div class="home-text-pane">
+        <div class="schedule-text-pane">
             <table class="schedule-table">
                 <tr>
                     <td class="schedule-day" colspan="5">Monday 4/30</td>
@@ -209,6 +209,8 @@
                     <td>&nbsp;</td>
                 </tr>
             </table>
+
+            <img src="img/structure/aPlaisance.png" class="aPlaisance-logo-schedule">
         </div>
     </body>
 </html>
