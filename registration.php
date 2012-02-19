@@ -16,7 +16,7 @@
             });
         </script>
     </head>
-    <body class="other-page-body">
+    <body>
         <?php include('includes/menu.php');?>
         <div class="registration-text-pane">
             <form id="theForm" method="post" enctype="multipart/form-data" action="includes/registrationProcess.php">
@@ -647,7 +647,7 @@
                 </tr>
                 <tr>
                     <td class="time">3:15p<br/><input type="radio" name="th_1515" value="-1" checked="true"/></td>
-                    <td><input type="radio" name="th_1515" value="14"/>Lysts on the Lake Joust Practice 2a</td>
+                    <td>Lysts on the Lake Joust Practice 2a</td>
                     <td><input type="radio" name="th_1515" value="32"/>Coached Combat in Harness</td>
                     <td><input type="radio" name="th_1515" value="50"/>The sinister pollaxe: Playing from the left in Le Jeu -- Jason Smith</td>
                     <td><input type="radio" name="th_1515" value="68"/>The Condottiere- Greg Mele</td>
@@ -661,7 +661,7 @@
                 </tr>
                 <tr>
                     <td class="lunch">6:30p</td>
-                    <td class="lunch" colspan="4">Lysts on the Lake Competitor Meet and Greet Dinner</td>
+                    <td class="lunch" colspan="4">Dinner</td>
                 </tr>
                 <tr>
                     <td class="time">8:00p</td>
@@ -697,7 +697,7 @@
                     <td><input type="radio" name="f_1030" value="72"/>The Judicial Duel in Italy - Tom Leoni (move to another time)</td>
                 </tr>
                 <tr>
-                    <td class="lunch">12:30p</td>
+                    <td class="lunch">12:00n</td>
                     <td class="lunch" colspan="4">Lunch</td>
                 </tr>
                 <tr>

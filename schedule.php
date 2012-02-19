@@ -208,7 +208,7 @@
                     <td>The Judicial Duel in Italy - Tom Leoni</td>
                 </tr>
                 <tr>
-                    <td class="lunch">12:30p</td>
+                    <td class="lunch">12:00n</td>
                     <td class="lunch" colspan="4">Lunch</td>
                 </tr>
                 <tr>
