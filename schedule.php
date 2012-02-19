@@ -60,7 +60,7 @@
 
             <table class="schedule-table">
                 <tr>
-                    <td class="schedule-day" colspan="5">Wednesday 5/8</td>
+                    <td class="schedule-day" colspan="5">Wednesday 5/9</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
@@ -185,7 +185,7 @@
 
             <table class="schedule-table">
                 <tr>
-                    <td class="schedule-day" colspan="5">Thursday 5/11</td>
+                    <td class="schedule-day" colspan="5">Friday 5/11</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
@@ -202,7 +202,7 @@
                     <td>Concepts of Modern Chivalry- Randall Parr</td>
                 </tr>
                 <tr>
-                    <td class="time">10:45a</td>
+                    <td class="time">10:30a</td>
                     <td>Tirocinium</td>
                     <td>Train what you Fight: from Cutting Drill to Solo Form to Partnered Exercise --Greg Mele</td>
                     <td>The Judicial Duel in Italy - Tom Leoni</td>
