@@ -7,7 +7,7 @@
 
     </head>
 
-    <body class="other-page-body">
+    <body class="classes-body">
         <?php include('includes/menu.php');?>
         <div class="classes-text-pane">
             <p class="CMAI-Headline-Text">Classes</p>

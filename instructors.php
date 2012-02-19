@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="css/textStyles.css"/>
     </head>
 
-    <body class="other-page-body">
+    <body class="instructors-body">
         <?php include('includes/menu.php');?>
         <div class="instructor-text-pane">
             <p class="CMAI-Headline-Text">Chivalric Martial Arts International Symposium<br>

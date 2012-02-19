@@ -12,7 +12,7 @@
         <div class="schedule-text-pane">
             <table class="schedule-table">
                 <tr>
-                    <td class="schedule-day" colspan="5">Monday 4/30</td>
+                    <td class="schedule-day" colspan="5">Tuesday 5/8</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
@@ -60,7 +60,7 @@
 
             <table class="schedule-table">
                 <tr>
-                    <td class="schedule-day" colspan="5">Tuesday 5/1</td>
+                    <td class="schedule-day" colspan="5">Wednesday 5/8</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
@@ -81,7 +81,7 @@
                     <td>Jousting 3: Riding in Armour - Luke Binks</td>
                     <td>Dagger , Sword, Axe, and Spear</td>
                     <td>Two-Ubiquitous Throws of Armizare-- Greg Mele</td>
-                    <td>Medieval Warhorse- Theresa Wendland</td>
+                    <td>TBD- Tom Leoni</td>
                 </tr>
                 <tr>
                     <td class="lunch">12:30p</td>
@@ -102,7 +102,18 @@
                 </tr>
                 <tr>
                     <td class="time">5:00p</td>
-                    <td>Mounted Combat 2: Riding for Combat</td>
+                    <td>Mounted Combat 2: Riding for Combat - Theresa Wendland</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="lunch">6:30p</td>
+                    <td class="lunch" colspan="4">Lysts on the Lake Competitor Meet and Greet Dinner</td>
+                </tr>
+                <tr>
+                    <td class="time">8:00p</td>
+                    <td>Lysts on the Lake Joust Practice 1a</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -111,7 +122,7 @@
 
             <table class="schedule-table">
                 <tr>
-                    <td class="schedule-day" colspan="5">Wednesday 5/2</td>
+                    <td class="schedule-day" colspan="5">Thursday 5/10</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
@@ -129,7 +140,7 @@
                 </tr>
                 <tr>
                     <td class="time">10:45a</td>
-                    <td>Jousting 5: The Joust</td>
+                    <td>Jousting 5: The Joust - Luke Binks</td>
                     <td>Coached Combat in Harness</td>
                     <td>Sword in Armour: Fighting at the Full Sword and the Half Sword-- Sean Hayes</td>
                     <td>Concepts of Modern Chivalry- Randall Parr</td>
@@ -140,14 +151,14 @@
                 </tr>
                 <tr>
                     <td class="time">1:30p</td>
-                    <td>Lysts on the Lake Joust Practice 1a</td>
+                    <td>Lysts on the Lake Joust Practice 1b</td>
                     <td>Coached Combat in Harness</td>
                     <td>Selected dagger techniques of Gladiatoria III - Dierk Hagedorn</td>
                     <td>Historical European Martial Arts: A Historical Overview-Ken Mondeshien</td>
                 </tr>
                 <tr>
                     <td class="time">3:15p</td>
-                    <td>Lysts on the Lake Joust Practice 1b</td>
+                    <td>Lysts on the Lake Joust Practice 2a</td>
                     <td>Coached Combat in Harness</td>
                     <td>The sinister pollaxe: Playing from the left in Le Jeu -- Jason Smith</td>
                     <td>The Condottiere- Greg Mele</td>
@@ -159,11 +170,22 @@
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
+                <tr>
+                    <td class="lunch">6:30p</td>
+                    <td class="lunch" colspan="4">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="time">8:00p</td>
+                    <td>Lysts on the Lake Joust Practice 2b</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
             </table>
 
             <table class="schedule-table">
                 <tr>
-                    <td class="schedule-day" colspan="5">Thursday 5/3</td>
+                    <td class="schedule-day" colspan="5">Thursday 5/11</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
@@ -174,14 +196,14 @@
                 </tr>
                 <tr>
                     <td class="time">9:00a</td>
-                    <td>Lysts on the Lake Joust Practice 2a</td>
-                    <td rowspan="2">Harness repair</td>
+                    <td>Beginner Skill at Arms</td>
+                    <td rowspan="2">Discussion of Rules for Deed at Arms</td>
                     <td>Selected sword techniques of Gladiatoria IV - Dierk Hagedorn</td>
                     <td>Concepts of Modern Chivalry- Randall Parr</td>
                 </tr>
                 <tr>
                     <td class="time">10:45a</td>
-                    <td>Lysts on the Lake Joust Practice 2b</td>
+                    <td>Tirocinium</td>
                     <td>Train what you Fight: from Cutting Drill to Solo Form to Partnered Exercise --Greg Mele</td>
                     <td>The Judicial Duel in Italy - Tom Leoni</td>
                 </tr>
@@ -191,22 +213,11 @@
                 </tr>
                 <tr>
                     <td class="time">1:30p</td>
-                    <td rowspan="2">Beginner Skill at Arms</td>
-                    <td rowspan="2">Discussion of Rules for Deed at Arms</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td colspan="4">Gate Opens</td>
                 </tr>
                 <tr>
-                    <td class="time">3:15p</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="time">5:00p</td>
-                    <td>Tirocinium</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="time">3:00p</td>
+                    <td colspan="4">&nbsp;</td>
                 </tr>
             </table>
 
