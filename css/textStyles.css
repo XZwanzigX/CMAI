@@ -79,10 +79,19 @@
     font-weight: bold;
 }
 
+.textLink {
+    color: #1D3A7E;
+    text-decoration: none;
+}
+
 P{
     text-align: left;
 }
 
 SPAN {
     font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
 }

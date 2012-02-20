@@ -112,13 +112,29 @@ function displayFormMessage($message) {
     session_start();
     $_SESSION['formResponse'] = $message;
     $_SESSION['buttonType'] = determineButtonType();
+    $_SESSION['id'] = obtainRegistrantId();
 
     header('Location: ../formSubmission.php');
     exit();
 }
 
-function getClassInformation($br)
-{
+function obtainRegistrantId() {
+    $conn = localConnection();
+    $sql = 'select id from cmai_registrant where email=?';
+
+    if (!$stmt = $conn->prepare($sql)) {'Statement prep failed.';}
+    $stmt->bind_param('s', $_POST['email']);
+    if (!$stmt->execute()) { echo $stmt->error;}
+
+    $stmt->bind_result($id);
+    $stmt->fetch();
+    $stmt->close();
+    $conn->close();
+
+    return $id;
+}
+
+function getClassInformation($br) {
     $conn = localConnection();
 
     $sql = 'select classname(tuesday_0900), classname(tuesday_1045), classname(tuesday_1330), classname(tuesday_1515), classname(tuesday_1700),
@@ -176,6 +192,7 @@ function constructRegistrationEmail($br) {
 
     return $registrantInfo . $classes;
 }
+
 function emailRegistrationData() {
     $message = constructRegistrationEmail('\n');
     $subject = "CMAI Registration for {$_POST['first_name']} {$_POST['last_name']}";
