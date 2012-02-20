@@ -21,7 +21,10 @@
                     if ($key == 'formResponse') {
                         echo $value;
                     } else if ($key == 'buttonType') {
+                        echo('To pay for your classes, click the Add To Cart button to the right: ');
                         include($value);
+                        echo('<p>Add a meal plan:');
+                        include('includes/paypal/mealPlan.htm');
                     }
                 }
 
