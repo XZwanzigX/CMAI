@@ -77,9 +77,42 @@ function insert_registration() {
     return $result;
 }
 
+function equestrianClassSelected() {
+    return (1 == $_POST['t_1045']) ||
+           (2 == $_POST['t_1330']) ||
+            (3 == $_POST['t_1515']) ||
+            (4 == $_POST['t_5:00']) ||
+            (5 == $_POST['w_0900']) ||
+            (6 == $_POST['w_1045']) ||
+            (7 == $_POST['w_1330']) ||
+            (8 == $_POST['w_1515']) ||
+            (9 == $_POST['w_1700']) ||
+            (11 == $_POST['th_0900']) ||
+            (12 == $_POST['th_1045']) ||
+            (15 == $_POST['th_1700']);
+
+}
+
+function determineButtonType() {
+    $eq = equestrianClassSelected();
+    $promo = $_POST['promo_code'] == 'lucky';
+
+    if ($eq && $promo) {
+        return 'includes/paypal/eqForTeachers.htm';
+    } else if ($eq && !$promo) {
+        return 'includes/paypal/footAndEq.htm';
+    } else if (!$eq && !$promo) {
+        return 'includes/paypal/foot.htm';
+    } else {
+        return '';
+    }
+}
+
 function displayFormMessage($message) {
     session_start();
     $_SESSION['formResponse'] = $message;
+    $_SESSION['buttonType'] = determineButtonType();
+
     header('Location: ../formSubmission.php');
     exit();
 }
@@ -151,7 +184,7 @@ function emailRegistrationData() {
 }
 
 if (insert_registration()) {
-    $responseMessage = 'Thank you for applying for the Chivalric Martial Arts International Symposium!  Your application information is listed below.  If any of this is incorrect, please contact the <a href="mailto:webmaster@aplaisance.com" class="textLink">webmaster</a>.<br><br>'
+    $responseMessage = 'Thank you for applying for the Chivalric Martial Arts International Symposium!  In order to confirm your Your application information is listed below.  If any of this is incorrect, please contact the <a href="mailto:webmaster@aplaisance.com" class="textLink">webmaster</a>.<br><br>'
                        . constructRegistrationEmail('<br>');
 
     emailRegistrationData();

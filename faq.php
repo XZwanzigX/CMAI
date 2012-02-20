@@ -8,7 +8,7 @@
 
     <body class="other-page-body">
         <?php include('includes/menu.php');?>
-        <div class="home-text-pane">
+        <div class="faq-text-pane">
             <span class="CMAI-Headline-Text">Frequently Asked Questions about CMAI</span>
 
             <p class="faq-heading">General questions:</p>

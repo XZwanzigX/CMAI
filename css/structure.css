@@ -5,7 +5,7 @@
 }
 
 .other-page-body {
-    background: url('../img/structure/bg/CMAIOtherPagesBG.jpg') no-repeat scroll;
+    background: url('../img/structure/bg/ScheduleBG.jpg') no-repeat scroll;
     background-position: top center;
     font-family: arial,helvetica,sans-serif;
     font-size: 12pt;
@@ -37,6 +37,13 @@
 .home-text-pane {
     position: relative;
     margin: 0 auto;
+    width:800px;
+    text-algin:left;
+}
+
+.faq-text-pane {
+    position: relative;
+    margin: 0 auto 767px;
     width:800px;
     text-algin:left;
 }
@@ -101,7 +108,7 @@
 
 .aPlaisance-logo-faq {
     position: relative;
-    top: 220px;
+    top: 690px;
 }
 
 .aPlaisance-logo-schedule {
