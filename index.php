@@ -22,7 +22,7 @@
 
         <div class="home-text-pane">
             <p class="CMAI-Headline-Text">Western Martial Artists, Mark your Calendars for the Inaugural<br/> CHIVALRIC MARTIAL ARTS INTERNATIONAL SYMPOSIUM
-            <br/><span class="CMAI-Date-Text">April 30 &mdash;May 3, 2012 &mdash; Austin, Texas</span></p>
+            <br/><span class="CMAI-Date-Text">May 8 &mdash; May 11, 2012 &mdash; Austin, Texas</span></p>
 
             <p class="section-heading">Is Chivalric Martial Arts International for you?</p>
 
