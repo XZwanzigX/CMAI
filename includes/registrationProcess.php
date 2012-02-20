@@ -9,6 +9,7 @@ function processParameters() {
     $_POST['w_2000'] = -1;
     $_POST['th_2000'] = -1;
     $_POST['th_1700'] = -1;
+    $_POST['payment'] = 'PAYPAL';
 
     if ($_POST['t_1330'] == $tuesday2BlockClass) { $_POST['m_1515'] = $tuesday2BlockClass; }
 
@@ -118,6 +119,14 @@ function displayFormMessage($message) {
     exit();
 }
 
+function displayErrorPage($message) {
+    session_start();
+    $_SESSION['formResponse'] = $message;
+
+    header('Location: ../formError.php');
+    exit();
+}
+
 function obtainRegistrantId() {
     $conn = localConnection();
     $sql = 'select id from cmai_registrant where email=?';
@@ -172,7 +181,6 @@ function getRegistrantInfo($br) {
             Country: {$_POST['country']}$br
             Address: {$_POST['address']}$br
             Phone: {$_POST['phone']}$br
-            Payment: {$_POST['payment']}$br
             Promo Code: {$_POST['promo_code']}$br
             How did you hear about us: {$_POST['how_heard']} {$_POST['how_heard_text']}$br
             Experience level: {$_POST['experience']} $br

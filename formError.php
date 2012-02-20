@@ -16,15 +16,9 @@
                 ini_set('display_errors', 'Off');
                 error_reporting(0);
                 session_start();
-
                 foreach($_SESSION as $key => $value) {
-                    if ($key == 'formResponse') {
-                        echo $value;
-                    } else if ($key == 'buttonType') {
-                        include($value);
-                    }
+                    echo $value;
                 }
-
                 session_destroy();
             ?>
             </p>

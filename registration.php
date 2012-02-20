@@ -355,16 +355,6 @@
                 <span class="section-heading">Questionnaire</span>
             </p>
 
-            <!-- Payment Type -->
-            <p class="entry">
-                <span class="field-label">
-                    Method of Payment<span class="red-note">*</span></span>
-                <span class="field">
-                    <input type="radio" name="payment" value="check" /> Check
-                    <input type="radio" name="payment" value="paypal" CHECKED/> Paypal
-                </span>
-            </p>
-
             <p class="entry">
                 <span class="field-label">
                     Promo Code</span> <span class="field"><input type="text" name="promo_code"/>
