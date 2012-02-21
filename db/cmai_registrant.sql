@@ -3,17 +3,11 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Feb 10, 2012 at 01:49 PM
+-- Generation Time: Feb 20, 2012 at 08:41 PM
 -- Server version: 5.1.54
--- PHP Version: 5.3.5-1ubuntu7.6
+-- PHP Version: 5.3.5-1ubuntu7.7
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
 
 --
 -- Database: `lysts_dev`
@@ -25,7 +19,6 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 -- Table structure for table `cmai_registrant`
 --
 
-DROP TABLE IF EXISTS `cmai_registrant`;
 CREATE TABLE IF NOT EXISTS `cmai_registrant` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `first_name` varchar(100) NOT NULL,
@@ -50,11 +43,6 @@ CREATE TABLE IF NOT EXISTS `cmai_registrant` (
   `limiting_conditions` tinyint(1) NOT NULL,
   `limiting_conditions_explanation` varchar(1000) NOT NULL,
   `participate_longsword_tournament` tinyint(1) NOT NULL,
-  `monday_0900` int(11) NOT NULL,
-  `monday_1045` int(11) NOT NULL,
-  `monday_1330` int(11) NOT NULL,
-  `monday_1515` int(11) NOT NULL,
-  `monday_1700` int(11) NOT NULL,
   `tuesday_0900` int(11) NOT NULL,
   `tuesday_1045` int(11) NOT NULL,
   `tuesday_1330` int(11) NOT NULL,
@@ -65,10 +53,16 @@ CREATE TABLE IF NOT EXISTS `cmai_registrant` (
   `wednesday_1330` int(11) NOT NULL,
   `wednesday_1515` int(11) NOT NULL,
   `wednesday_1700` int(11) NOT NULL,
+  `wednesday_2000` int(11) NOT NULL,
   `thursday_0900` int(11) NOT NULL,
   `thursday_1045` int(11) NOT NULL,
   `thursday_1330` int(11) NOT NULL,
   `thursday_1515` int(11) NOT NULL,
   `thursday_1700` int(11) NOT NULL,
+  `thursday_2000` int(11) NOT NULL,
+  `friday_0900` int(11) NOT NULL,
+  `friday_1030` int(11) NOT NULL,
+  `need_horse` tinyint(1) NOT NULL,
+  `promo_code` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=48 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=63 ;
