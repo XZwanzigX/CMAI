@@ -1,5 +1,6 @@
 <?php
-include('../../db/dbConnection.php');
+//include('../../db/dbConnection.php');
+include('../../../db/dbConnection.php');
 function processParameters() {
     $tuesday2BlockClass = 20;
     $wednesday2BlockClass = 25;
@@ -23,7 +24,8 @@ function processReasonsForAttending() {
 
 function insert_registration() {
     $result = false;
-    $mysqli = localConnection();
+//    $mysqli = localConnection();
+    $mysqli = evilCupcakes();
     $parameterTypes = 'ssssssssssssisisssiisiiiiiiiiiiiiiiiiiiiiis';
     $insert = 'insert into cmai_registrant (first_name, last_name, email, city, state, postal_code, country, address, phone_number, payment_method,
                                         how_heard, how_heard_text, experience, club_or_school, attended_other_wmas,other_wmas_attended,
@@ -128,7 +130,8 @@ function displayErrorPage($message) {
 }
 
 function obtainRegistrantId() {
-    $conn = localConnection();
+//    $conn = localConnection();
+    $conn = evilCupcakes();
     $sql = 'select id from cmai_registrant where email=?';
 
     if (!$stmt = $conn->prepare($sql)) {'Statement prep failed.';}
@@ -144,7 +147,8 @@ function obtainRegistrantId() {
 }
 
 function getClassInformation($br) {
-    $conn = localConnection();
+//    $conn = localConnection();
+    $conn = evilCupcakes();
 
     $sql = 'select classname(tuesday_0900), classname(tuesday_1045), classname(tuesday_1330), classname(tuesday_1515), classname(tuesday_1700),
                    classname(wednesday_0900), classname(wednesday_1045), classname(wednesday_1330), classname(wednesday_1515), classname(wednesday_1700), classname(wednesday_2000),

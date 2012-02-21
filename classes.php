@@ -16,24 +16,8 @@
 
             <p>Classes will be 90 min long with a 15 min break between them.</p>
 
-            <p class="CMAI-Headline-Text">Types of Classes</p>
-
-            <p class="section-heading">Progressive Training</p>
-
-
-            <p>The focus of this training will be practical application.  Students will be able to fall in, find a partner and follow along with the class. All instructors who are not participating in other classes will combine efforts to teach concepts irrespective of their personal research interests.</p>
-
-            <p>The first day will focus on the wearing of harness, moving, falling, and infighting (wrestling and dagger) Day two will begin to expand into the knightly weapons i.e. Sword and Spear and by the third day the poleaxe will be added.  The progressive training will allow you to move in and out of this track to be able to concentrate on horsemanship as well.</p>
-
-            <p>Classes will be of two types: <span class="special-emphasis">Focused training</span> where the lead instructor will present concepts and the students will partner practice these concepts. <span class="special-emphasis">Coached In harness</span>  where students will practice the concepts with instructors and other students in a coached environment to improve the students understanding and ability to apply these concepts while in combat in harness.</p>
-
-            <p>Focus training will not require full harness to participate, though full harness is always preferred. Coached training will require more harness to fully explore these concepts, but can be done provided sufficient protective equipment is worn. Participation in  coached training is mandatory to all who intend in participating in the tournament.</p>
-
-            <p class="section-heading">Specialized Training</p>
-
-            <p>These are classes where our instructors can present material specific to their research, especially research on a particular historic manual. See specific class descriptions below:</p>
-            <p class="section-heading">Equestrian Training
-            <br>This is the part that you will find no where else in the world. For this event we have instruction in riding at any level, games and skills, mounted combats, and finally jousting.</p>
+            <p><span class="section-heading">Equestrian Training</span>
+            <br>This is the part that you will find no where else in the world. For this event we have instruction in riding at any level, games and skills, mounted combat, and finally jousting.</p>
 
             <p><span class="class-heading">Basic Riding</span><br>
                 This track of classes covers several days and includes: safe handling on the ground, correct mounting, goals to develop a balanced seat capable of directing the horse and serve as a foundation for the other aids, will include off horse exercises to encourage rider fitness; an understanding of rein, leg and weight aids to control the horse laterally and longitudinally if not the ability to accomplish at all 3 gaits. This crash course hopes to show the way ahead as well as cover a lot of information in a short time. Participants are encouraged to attend all the classes in the track as each session builds on the skills of the previous class.  Participants in this series of classes will have the opportunity to try out their new found skills on a Skill at Arms course on Thursday.</p>
@@ -66,7 +50,7 @@
             Required Equipment: Boots with heel , comfortable long pants (riding pants recommended)</p>
 
             <p><span class="class-heading">Mounted Combat</span><br>
-            These classes begin to combine horsemanship with the understanding of combat on the horse. Just as footwork is the basis of all martial arts, horsemanship is the basis of all martial arts on horseback. These classes will take the moderate horseman, and teach the rider to used his horsemanship to defeat an opponent on horseback. Throws, grapples, displacements, and other techniques will be taught. There will be an “equisims” available for those who don’t ride, but wish to cover the material. Specific training on the behourd will be discussed as well.</p>
+            These classes begin to combine horsemanship with the understanding of combat on the horse. Just as footwork is the basis of all martial arts, horsemanship is the basis of all martial arts on horseback. These classes will take the moderate horseman, and teach the rider to used his horsemanship to defeat an opponent on horseback. Throws, grapples, displacements, and other techniques will be taught. There will be an "equisims" available for those who don't ride, but wish to cover the material. Specific training on the behourd will be discussed as well.</p>
 
             <p class="day-heading">Day 1</p>
 
@@ -84,13 +68,13 @@
 
             <p class="day-heading">Day 3</p>
 
-            <p><span>5:00p</span>             	<span class="class-name">Mounted Combat 2: Introduction to Fiore's Sword on Horseback</span><br>
+            <p><span>5:00p</span>             	<span class="class-name">Mounted Combat 3: Introduction to Fiore's Sword on Horseback</span><br>
             <span>Instructor:</span> Theresa Wendland<br>
             <span>Required Equipment:</span> Boots with heel , comfortable long pants (riding pants recommended)<br>
             Fiore's universal parry and several plays from the universal parry as well as his first counter.</p>
 
             <p><span class="class-heading">The Joust</span><br>
-            The purpose of this clinic is to address, diagnose and remedy common misconceptions and issues pertaining to the cavalry man and his horse. Riders interested in participating in the tirocinium joust (the novice joust on Thursday afternoon, 5/3/12) are required to participate in all of these classes. As this track of classes builds on the skill obtained in the previous class, we recommend that riders interested in jousting attend all of these classes.</p>
+            The purpose of this clinic is to address, diagnose and remedy common misconceptions and issues pertaining to the cavalry man and his horse. Riders interested in participating in the Tirocinium joust (the novice joust on Friday afternoon, 5/11/12) are required to participate in all of these classes. As this track of classes builds on the skill obtained in the previous class, we recommend that riders interested in jousting attend all of these classes.</p>
 
             <p class="day-heading">Day 1</p>
 
@@ -125,7 +109,7 @@
             With armoured riding and weapons handling mastered, this session will have particular focus on the joust and how each course should be run correctly. Starting with positioning of the horse in the lists, receiving your weapon, preparing for the course, running the course and hitting your target, receiving a hit and finishing the run.</p>
 
 
-            <p><span class="class-heading">Classroom Instruction</span><br>
+            <p><span class="section-heading">Classroom Instruction</span><br>
             Classroom instruction is a great way to slow down, sit back and really delve into many  aspects of knighthood and chivalry during the middle ages and currently as well as some classes geared toward  expanding your understanding of Historical European Martial Arts.</p>
 
             <p><span>Western Combative theory-Ken Mondeshien</span><br/>
@@ -156,16 +140,10 @@
             <p><span>Concepts of Modern Chivalry- Randall Parr</span><br/>
             This presentation will discuss why chivalry is experiencing a revival today, and how traditional ideals of knightly behavior are relevantly translated and applied to modern culture.</p>
 
-            <p><span>A Tour through Il Fior di Battaglia's structure - Bob Charrette</span><br/>
-            Bob will present  a class that  is a combination of AV presentation and practice, reexamining Fiore’s system of Remedies, Scholars and Counters, showing an even higher level of internal organization and forethought than is generally recognized by students of Armizare.</p>
-
-            <p><span>The Condottierre - Greg Mele</span><br/>
-            The condottierre were the mercenary soldier leaders of the professional, military free companies contracted by the Italian city-states and the Papacy from the late Middle Ages and throughout the Renaissance. Greg will take you through and introduction to these men and how the system worked.</p>
-
             <p><span>The Judicial Duel in Italy - Tom Leoni</span><br/>
             Understanding the judicial duel is understanding one of the principal contexts framing the martial arts that we study. In this brief lecture, Tom will present the way in which the judicial duel was viewed during its heyday in Italy (mid 1550s); however, please bear in mind that although the duel went in and out of legality throughout the ages, most of its tenets remained firmly established in the moral code of Italian society—practically all the way into the 20th Century.</p>
 
-            <p><span">An Introduction to the International Jousting League  - Fred Piraux</span><br/>
+            <p><span>An Introduction to the International Jousting League  - Fred Piraux</span><br/>
             This class will cover the details on how to become involved with the IJL; the mission statement, structure and rules; the state of competitive jousting in the world today; how to become an IJL affiliate (as an individual or event); competitions included in the IJL.</p>
 
             <p><span>How to Get Started in Competitive Jousting  - Fred Piraux</span><br/>
@@ -174,97 +152,73 @@
             <p><span>List Field Operation  - Fred Piraux</span><br/>
             This class will cover the details of what is needed to safely construct and run a jousting list field; rules, match rotation and timing, field personnel, how to properly conduct the passes, field safety and procedures.</p>
 
-            <p class="CMAI-Headline-Text">Foot combat field 2 Specialized--training</p>
+            <p><span class="CMAI-Headline-Text">Foot Combat</span><br/>
+            These training sessions will not <em>require</em> full harness to participate, but the Armored Combat series will require more harness to fully explore these concepts. Please consider a mail shirt, gauntlets, and a helmet as a minimum to provided sufficient protection to explore many of the armored classes. Participation in the Armored Combat series is mandatory to all who intend in participating in the armored Deeds at Arms.</p>
 
             <p class="day-heading">Day 1</p>
 
-            <p><span>AM1</span> 		<span class="class-name">Introduction to armor, weapons and the rules</span><br>
-            <span>Instructor:</span> All Instructors<br>
-            <span>Required Equipment:</span> Everything.<br>
-            For this period we will cover the rules of the classes, nomenclature, practice methods in armor.</p>
+            <p><span>10:45a</span>              	<span class="class-name">"God, the Art, myself, and my sword": Fiore de Liberi's Unarmoured Combat</span><br>
+            <span>Instructor:</span> Sean Hayes<br>
+            <span>Required Equipment:</span> steel longsword, gambeson, head, face and eye protection that simulates an unarmoured head (such as a fencing mask), leather gloves.<br>
+            <em>Out of envy, some Masters challenged me to combat with sharp swords in a gambeson and without any other defensive weapon besides a pair of chamois gloves. Five times I was compelled by honor to fight in strange places, far away from relatives or friends and without anything to rely upon besides God, the Art, myself, Fiore, and my sword. By the grace of God, I came through each time with my honor intact and without any physical injuries.”- Fiore dei Liberi, Fior di Battaglia, 1410</em>
+            <br><br>
+            Based on these experiences, Fiore advises his students that fighting in armour in the lists is preferable to fighting without armour, since without armour “a single failed parry can be fatal , while in the lists a combatant wearing good armor can receive multiple hits and still go on to win the fight.”  This class will examine the fundamentals of fighting without armour, focusing on tactical approaches shown by Fiore to strike without being struck, how to fight at wide range, and how to close for grappling.  Required Equipment: steel longsword, gambeson, head, face and eye protection that simulates an unarmoured head (such as a fencing mask), leather gloves.
+            </p>
 
-            <p><span>AM2</span> 		<span class="class-name">Great Stick</span><br>
+            <p><span>1:30p</span>			<span class="class-name">Armored Combat 1</span><br>
+            <span>Instructor:</span> Foot Combat Instructors<br>
+            <span>Required Equipment:</span> Harness<br>
+            The first day will focus on the wearing of harness, moving in harness, body awareness and sensitivity in harness, and the weakness of armor.</p>
+
+            <p><span>3:15p</span>             	<span class="class-name">Fundamentals of the system - footwork, guards, blows and parries. aka "Pollaxe for Dummies"</span><br>
+            <span>Instructor:</span> Jason Smith<br>
+            <span>Required Equipment:</span> Pollaxe simulator<br>
+            This class will focus on the fundamentals of the Burgundian pollaxe manuscript "Le Jeu de la Hache."  Core mechanics and concepts will be visited, such as footwork, the attacks, defences and precepts of the system. All levels of student are welcome,</p>
+
+            <p class="day-heading">Day 2</p>
+
+            <p><span>9:00a</span> 		<span class="class-name">Great Stick</span><br>
             <span>Instructor:</span> Ken Mondeshein<br>
             <span>Required Equipment:</span> a large stick<br>
             The greatstick is the living descendant of the longsword, and provides an excellent and historically accurate way to begin internalizing both physical mechanics and basic fencing principles. This class will concentrate on basic manipulation and tactical ideas, with a focus on
             giving students a technical basis for the study of medieval martial arts.</p>
 
-            <p><span>PM1</span>              	<span class="class-name">"God, the Art, myself, and my sword": Fiore de Liberi's Unarmoured Combat</span><br>
-            <span>Instructor:</span> Sean Hayes<br>
-            <span>Required Equipment:</span> sword, gorget, mask or helmet.</p>
+            <p><span>10:45a</span>			<span class="class-name">Armored Combat 2</span><br>
+            <span>Instructor:</span> Foot Combat Instructors<br>
+            <span>Required Equipment:</span> Harness, dagger simulator<br>
+            The focus will be on wrestling in armor, falling in armor, the use of the dagger in harness</p>
 
-            <p><span>PM2</span>             	<span class="class-name">Taking Control of the Dagger Fight</span><br>
-            <span>Instructor:</span> Bob Charrette<br>
-            <span>Required Equipment:</span> Dagger trainer<br>
-            Dagger play is basic weapon-body interaction full of mixed weapon and wrestling actions.  In this class we will explore techniques to find the cues necessary for successful response under pressure. Lessons learned here lay a groundwork for using all other weapons.</p>
-
-            <p><span>PM3</span>            	<span class="class-name">Selected sword techniques of Gladiatoria  II</span><br>
-            <span>Instructor:</span> Dierk Hagedorn<br>
-            <span>Required Equipment:</span> longsword, some harness preferable<br>
-            Particular and peculiar techniques from Gladiatoria. In this class we will look at some techniques that are unique to the Gladiatoria manuscripts or only seldom found in other sources like straß der glider / road of the joints etc.</p>
-
-            <p class="day-heading">Day 2</p>
-
-            <p><span>AM1</span>            	<span class="class-name">Selected Mordschlag techniques of Gladiatoria  II-</span>
-            <span>Instructor:</span> Dierk Hagedorn<br>
-            <span>Required Equipment:</span> longsword, some harness preferable<br>
-            Assorted mordschlag techniques. The dreaded mordschlag is featured on only roughly half a dozen pages, and we shall dare to look at all of them.</p>
-
-            <p><span>AM2</span>            	<span class="class-name">Two-Ubiquitous Throws of Armizare</span><br>
-            <span>Instructor:</span> Greg Mele<br>
-            <span>Required Equipment:</span> Everything.</p>
-
-            <p><span>PM1</span>            	<span class="class-name">The old fallback, dagger against other weapons</span><br>
-            <span>Instructor:</span> Scott Wilson
-            <span>Required Equipment:</span> dagger primarily, longsword, pollaxe, spear, some harness preferable<br>
-            This class will cover the drawing of the dagger and its use against an armoured or unarmoured opponent wielding a sword, spear or pollaxe.</p>
-
-            <p><span>PM2</span> 		<span class="class-name">Selected sword techniques of Gladiatoria III</span><br>
-            <span>Instructor:</span> Dierk hagedorn<br>
-            <span>Required Equipment:</span> dagger, longsword, some harness preferable<br>
-            An attempt to reconstruct a couple of techniques from the Wolfenbüttel Gladiatoria manuscript. Numerous sword and dagger techniques are only depicted in image but unfortunately are utterly void of any text. A somewhat experimentational workshop.</p>
-
-            <p><span>PM3</span>             	<span class="class-name">Fundamentals of the system - footwork, guards, blows and parries. aka "Pollaxe for Dummies"</span><br>
-            <span>Instructor:</span> Jason Smith<br>
-            <span>Required Equipment:</span> Pollaxe simulator<br>
-            This class will focus on the fundamentals of the Burgundian pollaxe manuscript "Le Jeu de la Hache."  Core mechanics and concepts will be visited, such as footwork, the attacks, defences and precepts of the system. All levels of student are welcome,</p>
-
-            <p class="day-heading">Day 3</p>
-
-            <p><span>AM1</span>            	<span class="class-name">Train what you Fight: from Cutting Drill to Solo Form to Partnered Exercise</span><br>
-            <span>Instructor:</span> Greg Mele<br>
-            <span>Required Equipment:</span> Everything.</p>
-
-            <p><span>AM2</span>            	<span class="class-name">Hooks, disarms and binds: Intricacies of the Knightly Swiss army knife</span><br>
+            <p><span>1:30p</span>            	<span class="class-name">Hooks, disarms and binds: Intricacies of the Knightly Swiss army knife</span><br>
             <span>Instructor:</span> Jason Smith<br>
             <span>Required Equipment:</span> Pollaxe simulator<br>
             The pollaxe is a versatile weapon, and favoured by the knightly class in single combat for that versatility. This class will explore that versatility through the Burgundian manuscript "Le Jeu de la Hache" and its plays as they occur from the bind. Included the various hooks, disarms, grapples and takedowns of the system, with an exploration of how we can apply the principles outside of canon. Some previous pollaxe experience is preferred, but not required.</p>
 
-            <p><span>PM1</span>            	<span class="class-name">Fighting multiple opponents-</span><br>
+            <p><span>3:15p</span>			<span class="class-name">Armored Combat 3</span><br>
+            <span>Instructor:</span> Foot Combat Instructors<br>
+            <span>Required Equipment:</span> Harness, dagger, sword, poleaxe,  spear simulators<br>
+            Session three will introduce the knightly weapons i.e. Sword, Spear and Poleaxe.  drills and combat</p>
+
+            <p class="day-heading">Day 3</p>
+
+            <p><span>9:00a</span> 		           	<span class="class-name">The Dagger of Fiore</span><br>
             <span>Instructor:</span> Scott Wilson<br>
-            <span>Required Equipment:</span> Everything.<br>
-            A quick examination of techniques and concepts used when facing multiple armed opponents whether on foot or on horse.</p>
+            <span>Required Equipment:</span> dagger simulator<br>
+            The dagger is a person's "go to" weapon of self defense. Fiore's dagger section is the longest and most involved part of the manual. Students will train dagger techniques and learn which ones are "good in armor" and why.</p>
 
-            <p><span>PM2</span>            	<span class="class-name">Selected dagger techniques of Gladiatoria --IV</span><br>
-            <span>Instructor:</span> Dierk Hagedorn<br>
-            <span>Required Equipment:</span> Dagger, some harness<br>
-            The first six techniques with the dagger. From which originate all wrestlings of the limbs and other techniques of the dagger, as the manuscripts say.</p>
+            <p><span>10:45a</span>            	<span class="class-name">Sword in Armour: Fighting at the Full Sword and the Half Sword--</span><br>
+            <span>Instructor:</span> Sean Hayes<br>
+            <span>Required Equipment:</span> steel longsword with rubber or leather blunt attached, harness<br>
+            Armoured combat often employs the sword as a short spear, by grasping the blade with one hand, commonly referred to as "half-swording."  While most of the armoured guards show this style of grip, Fiore also uses the sword in a "standard" grip, at the full sword.  This class will practice the use of both forms in matched and unmatched combinations, and examine the tactical uses of switching between these grips.
 
-            <p><span>PM3</span>             	<span class="class-name">The sinister pollaxe: Playing from the left in Le Jeu --</span>
+            <p><span>1:30p</span>             	<span class="class-name">The sinister pollaxe: Playing from the left in Le Jeu --</span>
             <span>Instructor:</span> Jason Smith<br>
             <span>Required Equipment:</span> pollaxe<br>
             In this class, we will visit the left-handed plays of the manuscript and how it deals with playing against someone fighting from the left. Students will visit the plays from both perspectives to experience how the principles illustrated in the manuscript can be applied regardless of handedness, and how the dynamics of off-hand play affect the fight. Having attended the introductory Jeu class "Pollaxe for Dummies" is preferred, or some previous experience with the pollaxe.</p>
 
-            <p class="day-heading">Day 4</p>
-
-            <p><span>AM1</span>            	<span class="class-name">Sword in Armour: Fighting at the Full Sword and the Half Sword--</span><br>
-            <span>Instructor:</span> Sean Hayes<br>
-            <span>Required Equipment:</span> sword, harness<br>
-
-            <p><span>AM2</span>            	<span class="class-name">open</span><br>
-            <p><span>PM1</span>            	<span class="class-name">open</span><br>
-            <p><span>PM2</span>            	<span class="class-name">open</span><br>
-            <p><span>PM3</span>            	<span class="class-name">open</p>
+            <p><span>3:15p</span>			<span class="class-name">Armored Combat 4</span><br>
+            <span>Instructor:</span> Foot Combat Instructors<br>
+            <span>Required Equipment:</span> Harness, dagger, sword, poleaxe,  spear simulators<br>
+            Students will practice the concepts with instructors and other students in a coached environment to improve the students understanding and ability to apply these concepts while in combat in harness.</p>
 
             <div class="aPlaisance-logo-classes">
                 <a href="http://www.aplaisance.com" onmouseover="document.aPlaisance.src='img/structure/aPlaisanceGlow.png';" onmouseout="document.aPlaisance.src='img/structure/aPlaisance.png'"><img src="img/structure/aPlaisance.png" name="aPlaisance" border="0"></a>
