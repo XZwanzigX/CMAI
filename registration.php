@@ -355,11 +355,6 @@
                 <span class="section-heading">Questionnaire</span>
             </p>
 
-            <p class="entry">
-                <span class="field-label">
-                    Promo Code</span> <span class="field"><input type="text" name="promo_code"/>
-                </span>
-            </p>
             <!-- Heard About -->
             <p class="entry">
                 <span class="field-label">
@@ -381,7 +376,7 @@
             <!-- Experience -->
             <p class="entry">
                 <span class="field-label">
-                    Please rate your martial arts experience <br/> on a scale from 1 to 5: </span>
+                    Please rate your western/chivalric martial arts experience <br/> on a scale from 1 to 5: </span>
                 <span class="field">
                     &nbsp;&nbsp;No Experience [<b>1</b>]<input type="radio" name="experience" value="1" />
                     <input type="radio" name="experience" value="2" />
@@ -415,7 +410,7 @@
             <!-- Reasons -->
             <p class="entry">
                 <span class="field-label">
-                    What are your primary reasons for <br/> attending this event? </span>
+                    What are your primary reasons for <br/> attending this event?<br/> </span>
                 <span class="field">
                     <input type='checkbox' name='reasons_instructors' value='Instructors'  />Instructors<br/>
                     <input type='checkbox' name='reasons_topics' value='Topic Areas Covered'  />Topic Areas Covered<br/>
@@ -424,25 +419,6 @@
                     <input type='checkbox' name='reasons_freeplay' value='Possibility for free-play/sparring/fencing'  />Possibility for free-play/sparring/fencing<br/>
                     <input type='checkbox' name='reasons_network' value='Network Opportunities'  />Network Opportunities<br/>
                     <input type='checkbox' name='reasons_location' value='Location'  />Location<br/>
-                </span>
-            </p>
-
-            <!-- T-shirt -->
-            <p class="entry">
-                <span class="field-label">
-                    What size t-shirt do you wear?</span>
-                <span class="field">
-                    <select  name='tshirt'>
-                        <option value='None' selected >Choose One...</option>
-                        <option value='XXS'  >XXS</option>
-                        <option value='XS'  >XS</option>
-                        <option value='S'  >S</option>
-                        <option value='M'  >M</option>
-                        <option value='L'  >L</option>
-                        <option value='XL'  >XL</option>
-                        <option value='2XL'  >2XL</option>
-                        <option value='3XL'  >3XL</option>
-                    </select>
                 </span>
             </p>
 
@@ -459,7 +435,7 @@
             <!-- Medical Condition -->
             <p class="entry">
                 <span class="field-label">
-                    Do you have any medical, mental, or <br/> psychological conditions that could <br/> impair or affect your ability to <br/> participate in this event or <br/> effect others you may work with?<span class="red-note">*</span></span>
+                    Do you have any medical <br/> physical or psychological <br/> conditions that could <br/> impair or affect your ability to <br/> participate in this event or <br/> affect others you may work with?<span class="red-note">*</span></span>
                 <span class="field">
                     <input type="radio" name="condition" value="0"  class="required"/> No
                     <input type="radio" name="condition" value="1"  class="required"/> Yes.  If so, please explain:
@@ -471,12 +447,14 @@
             <!-- Longsword Tournament -->
             <p class="entry">
                 <span class="field-label">
-                    Do you want to participate in the <br/> longsword tournament?</span>
+                    Do you want to participate in the <br/> Deed of Arms?</span>
                 <span class="field">
-                    <input type="radio" name="longsword" value="0" /> No
-                    <input type="radio" name="longsword" value="1" /> Yes
+                    <input type="radio" name="deed" value="0" /> No
+                    <input type="radio" name="deed" value="1" /> Yes
                 </span>
             </p>
+
+            <!-- Need a horse? -->
             <p class="entry">
                 <span class="field-label">Do you need a horse?</span>
                 <span class="field">
@@ -484,181 +462,165 @@
                     <input type="radio" name="need_horse" value="1" />Yes
                 </span>
             </p>
+
+            <p class="entry">
+                <span class="field-label">Do you want to purchase a meal plan? (+$200.00)<span class="red-note">*</span><br>
+                    Meal plan includes Breakfast, Lunch, and Dinner Tuesday-Thursday.
+                </span>
+                <span class="field">
+                    <input type="radio" name="meal_plan" value="0" class="required"/>No
+                    <input type="radio" name="meal_plan" value="1" class="required"/>Yes
+                </span>
+            </p>
             <p>
-                <span class="section-heading">Please make your class selections below:</span>
+                <span class="section-heading">Please make your class selections below:</span><br>
+                <span class="field-label">
+                    $150 for any or all foot classes<br>
+                    +$100 to add any or all equestrian classes
+                </span>
             </p>
 
-            <br>
             <table class="schedule-table">
                 <tr>
-                    <td class="schedule-day" colspan="5">Tuesday 5/8</td>
+                    <td class="schedule-day" colspan="4">Tuesday 5/8</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     <td class="eq-field">Equestrian</td>
-                    <td class="harness-field">Harness Focus Field</td>
-                    <td class="foot-field-2">Foot Two</td>
+                    <td class="foot-field">Foot Field</td>
                     <td class="classroom">Classroom</td>
                 </tr>
                 <tr>
                     <td class="time">9:00a</td>
-                    <td colspan="4">Introduction to CMAI Horses, armor, weapons and the rules &mdash;All instructors</td>
+                    <td colspan="3">Introduction to CMAI Horses, armor, weapons and the rules &mdash;All instructors</td>
                 </tr>
                 <tr>
                     <td class="time">10:45a<br/><input type="radio" name="t_1045" value="-1" checked="true"/></td>
                     <td><input type="radio" name="t_1045" value="1"/>Jousting 1: The Rider's Seat - Luke Binks</td>
-                    <td><input type="radio" name="t_1045" value="19"/>Basic movement focus</td>
-                    <td><input type="radio" name="t_1045" value="37"/>Great stick ---Ken Mondeshein</td>
-                    <td><input type="radio" name="t_1045" value="55"/>Concepts of Modern Chivalry- Randall Parr</td>
+                    <td><input type="radio" name="t_1045" value="15"/>"God, the Art, myself, and my sword": Fiore de Liberi's Unarmoured Combat -- Sean Hayes</td>
+                    <td><input type="radio" name="t_1045" value="29"/>Concepts of Modern Chivalry- Randall Parr</td>
                 </tr>
                 <tr>
                     <td class="lunch">12:30p</td>
-                    <td class="lunch" colspan="4">Lunch</td>
+                    <td class="lunch" colspan="3">Lunch</td>
                 </tr>
                 <tr>
                     <td class="time">1:30p<br/><input type="radio" name="t_1330" value="-1" checked="true"/></td>
                     <td><input type="radio" name="t_1330" value="2"/>Beginner Riding 1 - Tina Walsh</td>
-                    <td rowspan="2"><input type="radio" name="t_1330" value="20"/>Body awareness, Sensitivity, Falling in armor, Wrestling</td>
-                    <td><input type="radio" name="t_1330" value="38"/>Taking control of the dagger fight- Bob Charrette</td>
-                    <td><input type="radio" name="t_1330" value="56"/>An Introduction to the International Jousting League - Fred Piraux</td>
+                    <td><input type="radio" name="t_1330" value="16"/>Armored Combat 1: Basic movement in Harness, Body awareness, Sensitivity -  Scott Wilson,  Ken Mondeshien, Jason Smith</td>
+                    <td><input type="radio" name="t_1330" value="30"/>An Introduction to the International Jousting League - Fred Piraux</td>
                 </tr>
                 <tr>
                     <td class="time">3:15p<br/><input type="radio" name="t_1515" value="-1" checked="true"/></td>
                     <td><input type="radio" name="t_1515" value="3"/>Jousting 2: Weapons Handling - Luke Binks</td>
-                    <td><input type="radio" name="t_1515" value="39"/>"God, the Art, myself, and my sword": Fiore de Liberi's Unarmoured Combat -- Sean Hayes</td>
-                    <td><input type="radio" name="t_1515" value="57"/>A Tour through Il Fior di Battaglia's structure - Bob Charrette</td>
+                    <td><input type="radio" name="t_1515" value="17"/>Fundamentals of the system - footwork, guards, blows and parries. aka "Pollaxe for Dummies" -- Jason Smth</td>
+                    <td><input type="radio" name="t_1515" value="31"/>TBD</td>
                 </tr>
                 <tr>
                     <td class="time">5:00p<br/><input type="radio" name="t_1700" value="-1" checked="true"/></td>
                     <td><input type="radio" name="t_1700" value="4"/>Mounted Combat 1: Rolling and Falling from Horseback - Theresa Wendland</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
                 </tr>
             </table>
 
             <table class="schedule-table">
                 <tr>
-                    <td class="schedule-day" colspan="5">Wednesday 5/9</td>
+                    <td class="schedule-day" colspan="4">Wednesday 5/9</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     <td class="eq-field">Equestrian</td>
-                    <td class="harness-field">Harness Focus Field</td>
-                    <td class="foot-field-2">Foot Two</td>
+                    <td class="foot-field">Foot Field</td>
                     <td class="classroom">Classroom</td>
                 </tr>
                 <tr>
                     <td class="time">9:00a<br/><input type="radio" name="w_0900" value="-1" checked="true"/></td>
                     <td><input type="radio" name="w_0900" value="5"/>Beginner Riding 2 - Tina Walsh</td>
-                    <td><input type="radio" name="w_0900" value="23"/>Beginning Weapons Focus</td>
-                    <td><input type="radio" name="w_0900" value="41"/>Selected sword techniques of Gladiatoria  I- Dierk Hagedorn</td>
-                    <td><input type="radio" name="w_0900" value="59"/>How to Get Started in Competitive Jousting - Fred Piraux</td>
+                    <td><input type="radio" name="w_0900" value="19"/>Great Stick---Ken Mondeshein</td>
+                    <td><input type="radio" name="w_0900" value="33"/>How to Get Started in Competitive Jousting - Fred Piraux</td>
                 </tr>
                 <tr>
                     <td class="time">10:45a<br/><input type="radio" name="w_1045" value="-1" checked="true"/></td>
                     <td><input type="radio" name="w_1045" value="6"/>Jousting 3: Riding in Armour - Luke Binks</td>
-                    <td><input type="radio" name="w_1045" value="24"/>Dagger , Sword, Axe, and Spear</td>
-                    <td><input type="radio" name="w_1045" value="42"/>Two-Ubiquitous Throws of Armizare-- Greg Mele</td>
-                    <td><input type="radio" name="w_1045" value="60"/>TBD- Tom Leoni</td>
+                    <td><input type="radio" name="w_1045" value="20"/>Armored Combat 2: Falling in armor, Wrestling- Scott Wilson, Sean Hayes, Jason Smith</td>
+                    <td><input type="radio" name="w_1045" value="34"/>The Judicial Duel in Italy - Tom Leoni</td>
                 </tr>
                 <tr>
                     <td class="lunch">12:30p</td>
-                    <td class="lunch" colspan="4">Lunch</td>
+                    <td class="lunch" colspan="3">Lunch</td>
                 </tr>
                 <tr>
                     <td class="time">1:30p<br/><input type="radio" name="w_1330" value="-1" checked="true"/></td>
                     <td><input type="radio" name="w_1330" value="7"/>Beginner Riding 3 - Tina Walsh</td>
-                    <td  rowspan="2"><input type="radio" name="w_1330" value="25"/>Dagger , Sword, Axe, and Spear continued</td>
-                    <td><input type="radio" name="w_1330" value="43"/>Fundamentals of the system - footwork, guards, blows and parries. aka "Pollaxe for Dummies" -- Jason Smth</td>
-                    <td><input type="radio" name="w_1330" value="61"/>War, Tournament, Knighthood, and Society- Ken Mondeshien</td>
+                    <td><input type="radio" name="w_1330" value="21"/>Hooks, disarms and binds: Intricacies of the Knightly Swiss Army Knife -- Jason Smith</td>
+                    <td><input type="radio" name="w_1330" value="35"/>War, Tournament, Knighthood, and Society- Ken Mondeshien</td>
                 </tr>
                 <tr>
                     <td class="time">3:15p<br/><input type="radio" name="w_1515" value="-1" checked="true"/></td>
                     <td><input type="radio" name="w_1515" value="8"/>Jousting 4: Weapons Handling in Armour - Luke Binks</td>
-                    <td><input type="radio" name="w_1515" value="44"/>Selected Mordschlag techniques of Gladiatoria II- Dierk Hagedorn</td>
-                    <td><input type="radio" name="w_1515" value="62"/>Building from Interpretation to Curriculum - Sean Hayes</td>
+                    <td><input type="radio" name="w_1515" value="22"/>Armored Combat 3 - Weapons of Knightly combat --Scott Wilson, Jason Smith, Ken Mondeshien</td>
+                    <td><input type="radio" name="w_1515" value="36"/>Building from Interpretation to Curriculum - Sean Hayes</td>
                 </tr>
                 <tr>
                     <td class="time">5:00p<br/><input type="radio" name="w_1700" value="-1" checked="true"/></td>
                     <td><input type="radio" name="w_1700" value="9"/>Mounted Combat 2: Riding for Combat - Theresa Wendland</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="lunch">6:30p</td>
-                    <td class="lunch" colspan="4">Lysts on the Lake Competitor Meet and Greet Dinner</td>
-                </tr>
-                <tr>
-                    <td class="time">8:00p</td>
-                    <td>Lysts on the Lake Joust Practice 1a</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="lunch" colspan="3">Lysts on the Lake Competitor Meet and Greet Dinner</td>
                 </tr>
             </table>
 
             <table class="schedule-table">
                 <tr>
-                    <td class="schedule-day" colspan="5">Thursday 5/10</td>
+                    <td class="schedule-day" colspan="4">Thursday 5/10</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     <td class="eq-field">Equestrian</td>
-                    <td class="harness-field">Harness Focus Field</td>
-                    <td class="foot-field-2">Foot Two</td>
+                    <td class="foot-field">Foot Field</td>
                     <td class="classroom">Classroom</td>
                 </tr>
                 <tr>
                     <td class="time">9:00a<br/><input type="radio" name="th_0900" value="-1" checked="true"/></td>
-                    <td><input type="radio" name="th_0900" value="11"/>Beginner Riding 4 - Tina Walsh</td>
-                    <td><input type="radio" name="th_0900" value="29"/>Coached Combat in Harness</td>
-                    <td><input type="radio" name="th_0900" value="47"/>Hooks, disarms and binds: Intricacies of the Knightly swiss army knife -- Jason Smith</td>
-                    <td><input type="radio" name="th_0900" value="65"/>List Field Operation - Fred Piraux</td>
+                    <td><input type="radio" name="th_0900" value="10"/>Beginner Riding 4 - Tina Walsh</td>
+                    <td><input type="radio" name="th_0900" value="24"/>The Dagger of Fiore - Scott Wilson</td>
+                    <td><input type="radio" name="th_0900" value="38"/>List Field Operation - Fred Piraux</td>
                 </tr>
                 <tr>
                     <td class="time">10:45a<br/><input type="radio" name="th_1045" value="-1" checked="true"/></td>
-                    <td><input type="radio" name="th_1045" value="12"/>Jousting 5: The Joust  - Luke Binks</td>
-                    <td><input type="radio" name="th_1045" value="30"/>Coached Combat in Harness</td>
-                    <td><input type="radio" name="th_1045" value="48"/>Sword in Armour: Fighting at the Full Sword and the Half Sword-- Sean Hayes</td>
-                    <td><input type="radio" name="th_1045" value="66"/>Concepts of Modern Chivalry- Randall Parr</td>
+                    <td><input type="radio" name="th_1045" value="11"/>Jousting 5: The Joust  - Luke Binks</td>
+                    <td><input type="radio" name="th_1045" value="25"/> Sword in Armour: Fighting at the Full Sword and the Half Sword-- Sean Hayes</td>
+                    <td><input type="radio" name="th_1045" value="39"/>Concepts of Modern Chivalry- Randall Parr</td>
                 </tr>
                 <tr>
                     <td class="lunch">12:30p</td>
-                    <td class="lunch" colspan="4">Lunch</td>
+                    <td class="lunch" colspan="3">Lunch</td>
                 </tr>
                 <tr>
                     <td class="time">1:30p<br/><input type="radio" name="th_1330" value="-1" checked="true"/></td>
-                    <td>Lysts on the Lake Joust Practice 1b</td>
-                    <td><input type="radio" name="th_1330" value="31"/>Coached Combat in Harness</td>
-                    <td><input type="radio" name="th_1330" value="49"/>Selected dagger techniques of Gladiatoria III - Dierk Hagedorn</td>
-                    <td><input type="radio" name="th_1330" value="67"/>Historical European Martial Arts: A Historical Overview-Ken Mondeshien</td>
+                    <td>&nbsp;</td>
+                    <td><input type="radio" name="th_1330" value="26"/>The sinister pollaxe: Playing from the left in Le Jeu -- Jason Smith</td>
+                    <td><input type="radio" name="th_1330" value="40"/>Historical European Martial Arts: A Historical Overview-Ken Mondeshien</td&gt
                 </tr>
                 <tr>
                     <td class="time">3:15p<br/><input type="radio" name="th_1515" value="-1" checked="true"/></td>
-                    <td>Lysts on the Lake Joust Practice 2a</td>
-                    <td><input type="radio" name="th_1515" value="32"/>Coached Combat in Harness</td>
-                    <td><input type="radio" name="th_1515" value="50"/>The sinister pollaxe: Playing from the left in Le Jeu -- Jason Smith</td>
-                    <td><input type="radio" name="th_1515" value="68"/>The Condottiere- Greg Mele</td>
+                    <td>&nbsp;</td>
+                    <td><input type="radio" name="th_1515" value="27"/>Armored Combat 4 - Putting it all together- Sean Hayes, Scott Wilson, Jason Smith</td>
+                    <td><input type="radio" name="th_1515" value="41"/>TBD</td>
                 </tr>
                 <tr>
                     <td class="time">5:00p<br/><input type="radio" name="th_1700" value="-1" checked="true"/></td>
-                    <td><input type="radio" name="th_1700" value="15"/>Mounted Combat 3: Introduction to Fiore's Sword on Horseback -  Theresa Wendland</td>
-                    <td>&nbsp;</td>
+                    <td><input type="radio" name="th_1700" value="14"/>Mounted Combat 3: Introduction to Fiore's Sword on Horseback -  Theresa Wendland</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="lunch">6:30p</td>
-                    <td class="lunch" colspan="4">Dinner</td>
-                </tr>
-                <tr>
-                    <td class="time">8:00p</td>
-                    <td>Lysts on the Lake Joust Practice 2b</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="lunch" colspan="3">Dinner</td>
                 </tr>
             </table>
 
@@ -669,34 +631,28 @@
                 <tr>
                     <td>&nbsp;</td>
                     <td class="eq-field">Equestrian</td>
-                    <td class="harness-field">Harness Focus Field</td>
-                    <td class="foot-field-2">Foot Two</td>
+                    <td class="foot-field">Foot Field</td>
                     <td class="classroom">Classroom</td>
                 </tr>
                 <tr>
-                    <td class="time">9:00a<br/><input type="radio" name="f_0900" value="-1" checked="true"/></td>
+                    <td class="time">9:00a</td>
                     <td>Beginner Skill at Arms</td>
-                    <td rowspan="2">Discussion of Rules for Deed at Arms (move to another time)</td>
-                    <td><input type="radio" name="f_0900" value="53"/>Selected sword techniques of Gladiatoria IV - Dierk Hagedorn</td>
-                    <td><input type="radio" name="f_0900" value="71"/>Concepts of Modern Chivalry- Randall Parr</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="time">10:30a<br/><input type="radio" name="f_1030" value="-1" checked="true"/></td>
+                    <td class="time">10:30a</td>
                     <td>Tirocinium </td>
-                    <td><input type="radio" name="f_1030" value="54"/>Train what you Fight: from Cutting Drill to Solo Form to Partnered Exercise --Greg Mele</td>
-                    <td><input type="radio" name="f_1030" value="72"/>The Judicial Duel in Italy - Tom Leoni (move to another time)</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="lunch">12:00n</td>
-                    <td class="lunch" colspan="4">Lunch</td>
+                    <td class="lunch" colspan="3">Lunch</td>
                 </tr>
                 <tr>
                     <td class="time">1:30p</td>
-                    <td colspan="4">Gate opens</td>
-                </tr>
-                <tr>
-                    <td class="time">3:00p</td>
-                    <td colspan="4">&nbsp;</td>
+                    <td colspan="3">Gate opens</td>
                 </tr>
             </table>
             <input type="submit" class="button-small" name="register" value="Register" />

@@ -17,7 +17,7 @@
                 <tr>
                     <td>&nbsp;</td>
                     <td class="eq-field">Equestrian</td>
-                    <td class="harness-field">Foot Field</td>
+                    <td class="foot-field">Foot Field</td>
                     <td class="classroom">Classroom</td>
                 </tr>
                 <tr>
@@ -61,7 +61,7 @@
                 <tr>
                     <td>&nbsp;</td>
                     <td class="eq-field">Equestrian</td>
-                    <td class="harness-field">Foot Field</td>
+                    <td class="foot-field">Foot Field</td>
                     <td class="classroom">Classroom</td>
                 </tr>
                 <tr>
@@ -117,7 +117,7 @@
                 <tr>
                     <td>&nbsp;</td>
                     <td class="eq-field">Equestrian</td>
-                    <td class="harness-field">Foot Field</td>
+                    <td class="foot-field">Foot Field</td>
                     <td class="classroom">Classroom</td>
                 </tr>
                 <tr>
@@ -173,7 +173,7 @@
                 <tr>
                     <td>&nbsp;</td>
                     <td class="eq-field">Equestrian</td>
-                    <td class="harness-field">Foot Field</td>
+                    <td class="foot-field">Foot Field</td>
                     <td class="classroom">Classroom</td>
                 </tr>
                 <tr>
@@ -195,10 +195,6 @@
                 <tr>
                     <td class="time">1:30p</td>
                     <td colspan="3">Gate Opens</td>
-                </tr>
-                <tr>
-                    <td class="time">3:00p</td>
-                    <td colspan="3">&nbsp;</td>
                 </tr>
             </table>
 
