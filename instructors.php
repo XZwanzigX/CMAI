@@ -60,7 +60,10 @@
                 <li>Concepts of Modern Chivalry</li>
             </ul>
 
-            <p><em class="instructor-name">Fred Piraux</em></p>
+            <p><em class="instructor-name">Fred Piraux</em><br/>
+            Fred Piraux was born in the Flemish part of Belgium where his  Sergeant Dad was stationed.  His riding career started at age 19 when he joined the mounted State Police and was loudly welcomed to military riding style.  In his spare time, he developed an interest in travelling, foreign cultures and historical European martial arts… After creating the Hackamores joust troupe, Fred started visiting and sharing experiences with numerous groups around the world. In 2004, he started the International Jousting League with the objective of bringing together groups and individuals based on what they had in common rather than pointing at differences.</p>
+
+            <p>His taste for competition and human relations has seen him travel to the USA, Canada, UK, Norway, Denmark, Netherlands, Belgium, France, Germany, Italy, Poland, Australia and New Zealand. In addition to jousting, Fred, is also versed in the art of horseback archery and its various styles. Now an instructor for the Belgian Federal Police, he uses his natural inclination for teaching and diplomacy in order to further develop the sport of jousting through workshops and seminars.</p>
 
             <ul class="class-listing">
                 <li>An Introduction to the International Jousting League</li>

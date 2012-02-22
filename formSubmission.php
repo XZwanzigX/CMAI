@@ -17,17 +17,21 @@
                 error_reporting(0);
                 session_start();
 
+                $button = '';
                 foreach($_SESSION as $key => $value) {
                     if ($key == 'formResponse') {
                         echo $value;
-                    } else if ($key == 'buttonType') {
-                        echo('To pay for your classes, click the Add To Cart button to the right: ');
-                        include($value);
-                        echo('<p>Add a meal plan:');
-                        include('includes/paypal/mealPlan.htm');
+                    } else if ($key == 'classButton') {
+                        $button = $value;
+                    } else if($key == 'mealPlanDesired') {
+                        $button = $button . $value;
                     }
                 }
 
+                if ($button != '') {
+                    echo 'In order to complete your registration, you must click the "Buy now" button below, and pay with your Paypal account, or a major credit card.<br/>';
+                    include($button . '.htm');
+                }
                 session_destroy();
             ?>
             </p>

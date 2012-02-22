@@ -367,7 +367,7 @@
                         <option value='Web'  >Web Search</option>
                         <option value='Flyer'  >Flyer</option>
                         <option value='Event'  >Event</option>
-                        <option value='Other'  >Other:</option>
+                        <option value='Other'  >Other (Please explain):</option>
                     </select>
                     <input type="text" name="how_heard_text" size="30" maxlength="50" />
                 </span>
@@ -410,7 +410,7 @@
             <!-- Reasons -->
             <p class="entry">
                 <span class="field-label">
-                    What are your primary reasons for <br/> attending this event?<br/> </span>
+                    What are your primary reasons for <br/> attending this event? (Check all that apply)<br/> </span>
                 <span class="field">
                     <input type='checkbox' name='reasons_instructors' value='Instructors'  />Instructors<br/>
                     <input type='checkbox' name='reasons_topics' value='Topic Areas Covered'  />Topic Areas Covered<br/>
@@ -435,7 +435,7 @@
             <!-- Medical Condition -->
             <p class="entry">
                 <span class="field-label">
-                    Do you have any medical <br/> physical or psychological <br/> conditions that could <br/> impair or affect your ability to <br/> participate in this event or <br/> affect others you may work with?<span class="red-note">*</span></span>
+                    Do you have any <br/> physical or psychological <br/> conditions that could <br/> impair or affect your ability to <br/> participate in this event or <br/> affect others you may work with?<span class="red-note">*</span></span>
                 <span class="field">
                     <input type="radio" name="condition" value="0"  class="required"/> No
                     <input type="radio" name="condition" value="1"  class="required"/> Yes.  If so, please explain:
@@ -514,7 +514,7 @@
                     <td class="time">3:15p<br/><input type="radio" name="t_1515" value="-1" checked="true"/></td>
                     <td><input type="radio" name="t_1515" value="3"/>Jousting 2: Weapons Handling - Luke Binks</td>
                     <td><input type="radio" name="t_1515" value="17"/>Fundamentals of the system - footwork, guards, blows and parries. aka "Pollaxe for Dummies" -- Jason Smth</td>
-                    <td><input type="radio" name="t_1515" value="31"/>TBD</td>
+                    <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="time">5:00p<br/><input type="radio" name="t_1700" value="-1" checked="true"/></td>
@@ -610,7 +610,7 @@
                     <td class="time">3:15p<br/><input type="radio" name="th_1515" value="-1" checked="true"/></td>
                     <td>&nbsp;</td>
                     <td><input type="radio" name="th_1515" value="27"/>Armored Combat 4 - Putting it all together- Sean Hayes, Scott Wilson, Jason Smith</td>
-                    <td><input type="radio" name="th_1515" value="41"/>TBD</td>
+                    <td>&nbsp;</td><!--41-->
                 </tr>
                 <tr>
                     <td class="time">5:00p<br/><input type="radio" name="th_1700" value="-1" checked="true"/></td>
@@ -658,6 +658,5 @@
             <input type="submit" class="button-small" name="register" value="Register" />
         </form>
         </div>
-
     </body>
 </html>

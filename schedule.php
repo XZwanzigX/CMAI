@@ -44,7 +44,7 @@
                     <td class="time">3:15p</td>
                     <td>Jousting 2: Weapons Handling - Luke Binks</td>
                     <td>"Fundamentals of the system - footwork, guards, blows and parries. aka "Pollaxe for Dummies" -- Jason Smth</td>
-                    <td>TBD</td>
+                    <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="time">5:00p</td>
@@ -146,7 +146,7 @@
                     <td class="time">3:15p</td>
                     <td>Lysts on the Lake Joust Practice 2a</td>
                     <td>Armored Combat 4 - Putting it all together- Sean Hayes, Scott Wilson, Jason Smith</td>
-                    <td>TBD</td>
+                    <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="time">5:00p</td>
@@ -178,13 +178,13 @@
                 </tr>
                 <tr>
                     <td class="time">9:00a</td>
-                    <td>Beginner Skill at Arms</td>
+                    <td>Beginner Skill at Arms<br/>(Subject to instructor approval)</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="time">10:30a</td>
-                    <td>Tirocinium</td>
+                    <td>Tirocinium<br/>(Subject to instructor approval)</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>

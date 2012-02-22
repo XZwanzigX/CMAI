@@ -1,10 +1,10 @@
 <?php
-include('../../db/dbConnection.php');
-//include('../../../db/dbConnection.php');
+//include('../../db/dbConnection.php');
+include('../../../db/dbConnection.php');
 
 function dbCOnn() {
-    return localConnection();
-//    return evilCupcakes();
+//    return localConnection();
+    return evilCupcakes();
 }
 function processReasonsForAttending() {
     $reasonList = "$_POST[reasons_instructors] , $_POST[reasons_topics] , $_POST[reasons_social], $_POST[reasons_tournament], $_POST[reasons_freeplay], $_POST[reasons_network], $_POST[reasons_location]";
@@ -75,26 +75,38 @@ function equestrianClassSelected() {
             (7 == $_POST['w_1330']) ||
             (8 == $_POST['w_1515']) ||
             (9 == $_POST['w_1700']) ||
-            (11 == $_POST['th_0900']) ||
-            (12 == $_POST['th_1045']) ||
-            (15 == $_POST['th_1700']);
+            (10 == $_POST['th_0900']) ||
+            (11 == $_POST['th_1045']) ||
+            (12 == $_POST['th_1330']) ||
+            (13 == $_POST['th_1515']) ||
+            (14 == $_POST['th_1700']);
 
+}
+
+function sendMealPlan() {
+    if ($_POST['meal_plan'] == 1) {
+        return '_meal';
+    }
+    else {
+        return '';
+    }
 }
 
 function determineButtonType() {
     $eq = equestrianClassSelected();
 
     if ($eq) {
-        return 'includes/paypal/footAndEq.htm';
+        return 'includes/paypal/tmp/eq';
     } else {
-        return 'includes/paypal/foot.htm';
+        return 'includes/paypal/tmp/foot';
     }
 }
 
 function displayFormMessage($message) {
     session_start();
     $_SESSION['formResponse'] = $message;
-    $_SESSION['buttonType'] = determineButtonType();
+    $_SESSION['classButton'] = determineButtonType();
+    $_SESSION['mealPlanDesired'] = sendMealPlan();
     $_SESSION['id'] = obtainRegistrantId();
 
     header('Location: ../formSubmission.php');
