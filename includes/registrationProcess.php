@@ -96,9 +96,9 @@ function determineButtonType() {
     $eq = equestrianClassSelected();
 
     if ($eq) {
-        return 'includes/paypal/tmp/eq';
+        return 'includes/paypal/eq';
     } else {
-        return 'includes/paypal/tmp/foot';
+        return 'includes/paypal/foot';
     }
 }
 
@@ -207,7 +207,7 @@ if (insert_registration()) {
     emailRegistrationData();
     displayFormMessage($responseMessage);
 } else {
-    displayFormMessage("Sorry, we are temporarily unable to process your application.  The webmaster has been notified of the error and will contact you shortly.");
+    displayErrorPage("Sorry, we are temporarily unable to process your application.  The webmaster has been notified of the error and will contact you shortly.");
 }
 
 ?>
