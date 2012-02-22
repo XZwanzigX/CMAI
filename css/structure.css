@@ -34,6 +34,14 @@
     text-align: center;
 }
 
+.registration-body {
+    background: url('../img/structure/bg/RegistrationBG.jpg') no-repeat scroll;
+    background-position: top center;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 12pt;
+    text-align: center;
+}
+
 .home-text-pane {
     position: relative;
     margin: 0 auto;
@@ -69,13 +77,12 @@
     margin: 0 auto;
     width:800px;
     height:2341px;
-    border: 1px solid aqua;
     text-algin:left;
 }
 
 .registration-text-pane {
     position: relative;
-    margin: 0 auto;
+    margin: 0 auto 154px;
     width:800px;
     text-algin:left;
 }
@@ -134,6 +141,11 @@
 .aPlaisance-logo-classes{
     position: relative;
     top:166px;
+}
+
+.aPlaisance-logo-registration {
+    position: relative;
+    top: 61px;
 }
 
 .blank {

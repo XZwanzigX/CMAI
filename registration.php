@@ -16,7 +16,7 @@
             });
         </script>
     </head>
-    <body>
+    <body class="registration-body">
         <?php include('includes/menu.php');?>
         <div class="registration-text-pane">
             <form id="theForm" method="post" enctype="multipart/form-data" action="includes/registrationProcess.php">
@@ -656,6 +656,10 @@
                 </tr>
             </table>
             <input type="submit" class="button-small" name="register" value="Register" />
+
+            <div class="aPlaisance-logo-registration">
+                <a href="http://www.aplaisance.com" onmouseover="document.aPlaisance.src='img/structure/aPlaisanceGlow.png';" onmouseout="document.aPlaisance.src='img/structure/aPlaisance.png'"><img src="img/structure/aPlaisance.png" name="aPlaisance" border="0"></a>
+            </div>
         </form>
         </div>
     </body>
