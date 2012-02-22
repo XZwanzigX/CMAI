@@ -1,10 +1,10 @@
 <?php
-//include('../../db/dbConnection.php');
-include('../../../db/dbConnection.php');
+include('../../db/dbConnection.php');
+//include('../../../db/dbConnection.php');
 
 function dbCOnn() {
-//    return localConnection();
-    return evilCupcakes();
+    return localConnection();
+//    return evilCupcakes();
 }
 function processReasonsForAttending() {
     $reasonList = "$_POST[reasons_instructors] , $_POST[reasons_topics] , $_POST[reasons_social], $_POST[reasons_tournament], $_POST[reasons_freeplay], $_POST[reasons_network], $_POST[reasons_location]";

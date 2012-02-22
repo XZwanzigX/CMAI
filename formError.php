@@ -10,7 +10,7 @@
 
     <body class="other-page-body">
         <?php include('includes/menu.php');?>
-        <div class="registration-text-pane">
+        <div class="registration-error-text-pane">
             <p>
             <?php
                 ini_set('display_errors', 'Off');
@@ -22,7 +22,9 @@
                 session_destroy();
             ?>
             </p>
-            <img src="img/structure/aPlaisance.png">
+            <div class="aPlaisance-logo-form-error">
+                <a href="http://www.aplaisance.com" onmouseover="document.aPlaisance.src='img/structure/aPlaisanceGlow.png';" onmouseout="document.aPlaisance.src='img/structure/aPlaisance.png'"><img src="img/structure/aPlaisance.png" name="aPlaisance" border="0"></a>
+            </div>
         </div>
     </body>
 </html>
