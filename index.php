@@ -38,7 +38,7 @@
 
             <p class="body-text">Our instructors are designing classes for all level of WMA practitioners.  You will have the opportunity to receive hands-on instruction and personal attention from many of the ranking WMA instructors from around the world in a friendly, collegial atmosphere with like-minded practitioners.  It doesn't matter if you're a beginner or a scholar, CMAI will take your practice to a new level.</p>
 
-            <p class="body-text">In addition, participants in the CMAI symposium will also have the opportunity to use their newfound skills in a series of mounted and foot combat tournaments during the Lysts on the Lake jousting tournament on May 4, 5 and 6, 2012.  Show off what you learned in a friendly, but competitive, tournament format.</p>
+            <p class="body-text">In addition, participants in the CMAI symposium will also have the opportunity to use their newfound skills in a series of mounted and foot combat tournaments during the Lysts on the Lake jousting tournament on May 11, 12 and 13, 2012.  Show off what you learned in a friendly, but competitive, tournament format.</p>
 
             <p class="home-page-tag">If you take your martial arts seriously, you can't afford to miss CMAI!</p>
 

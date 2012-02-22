@@ -115,6 +115,20 @@
     text-algin:left;
 }
 
+.cancel-text-pane {
+    position: relative;
+    margin: 0 auto 1101px;
+    width:800px;
+    text-algin:left;
+}
+
+.confirm-text-pane {
+    position: relative;
+    margin: 0 auto 1155px;
+    width:800px;
+    text-algin:left;
+}
+
 .directions-text-pane {
     position: relative;
     margin: 0 auto 798px;
@@ -178,6 +192,16 @@
 .aPlaisance-logo-formSub {
     position: relative;
     top: 722px;
+}
+
+.aPlaisance-logo-cancel {
+    position: relative;
+    top: 1006px;
+}
+
+.aPlaisance-logo-confirm {
+    position: relative;
+    top: 1065px;
 }
 
 .blank {
