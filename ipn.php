@@ -1,10 +1,18 @@
 <?php
-include('../db/dbConnection.php');
-//include('../../../db/dbConnection.php');
+//include('../db/dbConnection.php');
+include('../../db/dbConnection.php');
 
 function dbCOnn() {
-    return localConnection();
-//    return evilCupcakes();
+//    return localConnection();
+    return evilCupcakes();
+}
+function mailToCustomer($email) {
+    $subject = 'Thank you for your payment for CMAI!';
+    $message = "Hi {$_POST['first_name']},\n It seems you used a different name and/or email address for Paypal than you gave us on your registration form.  Please reply to this email and let us know which email you used on your registration so that we can update our records.  \n\nThanks,\n CMAI Webmaster ";
+    $from = 'From: webmaster@aplaisance.com';
+    $replyTo = 'Reply-To: webmaster@aplaisance.com' . "\r\n";
+
+    mail($email, $subject, $message, $from, $replyTo);
 }
 
 function mailInfoToWebmaster($email, $subject, $req) {
@@ -19,34 +27,38 @@ function transactionAlreadyProcessed($id) {
     return checkIfRecordExists('paypal_txn', 's', $id);
 }
 
+function paymentComplete() {
+    return ($_POST['payment_status'] == 'Completed') ? 1 : 0;
+}
+
 function processPayment() {
     $emailExists = checkIfRecordExists('email', 's', $_POST['payer_email']);
-    $nameExists = checkIfRecordExists("concatenate(first_name, ' ', last_name)", 's', $_POST['first_name'] . ' ' . $_POST['last_name']);
+    $nameExists = checkIfRecordExists("concat(first_name, ' ', last_name)", 's', $_POST['first_name'] . ' ' . $_POST['last_name']);
 
     if (!$emailExists && !$nameExists) {
-        mailInfoToWebmaster('webmaster@aplaisance.com', 'email mismatch', 'E-Mail and name supplied for payment did not match email or name in database.');
-        mailToCustomer($_POST['payer_email'], 'Thank you for your payment for CMAI', 'stuff', 'webmaster@aplaisance.com');
+        mailInfoToWebmaster('webmaster@aplaisance.com', 'email mismatch', 'E-Mail and/or name supplied for payment did not match email or name in database.');
+        mailToCustomer($_POST['payer_email']);
     } else {
-        updateRegistrantWithPayment($emailExists);
-        mailInfoToWebmaster('webmaster@aplaisance.com', 'Payment received for: ' . $_POST['first_name'] . $_POST['last_name'], 'Winning!');
+        updateRegistrantWithPayment($emailExists, paymentComplete());
+        mailInfoToWebmaster('webmaster@aplaisance.com', 'Payment received for: ' . $_POST['first_name'] . ' ' . $_POST['last_name'], 'Winning!');
     }
 }
 
-function updateRegistrantWithPayment($emailExists) {
+function updateRegistrantWithPayment($emailExists, $isPaid) {
     $sql = "update cmai_registrant set paid=?, paypal_txn=? where ";
 
     if ($emailExists ) {
          $where = 'email=?';
         $param = $_POST['payer_email'];
     } else {
-        $where = "concatenate(first_name, ' ', last_name)=?";
+        $where = "concat(first_name, ' ', last_name)=?";
         $param = $_POST['first_name'] . ' ' . $_POST['last_name'];
     }
 
     $conn = dbCOnn();
 
     if ($stmt = $conn->prepare($sql . $where)) {
-        $stmt->bind_param('s', $param);
+        $stmt->bind_param('iss', $isPaid, $_POST['txn_id'], $param);
         $stmt->execute();
         $stmt->close();
         $conn->close();
