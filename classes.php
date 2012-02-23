@@ -205,12 +205,12 @@
             <span>Required Equipment:</span> dagger simulator<br>
             The dagger is a person's "go to" weapon of self defense. Fiore's dagger section is the longest and most involved part of the manual. Students will train dagger techniques and learn which ones are "good in armor" and why.</p>
 
-            <p><span>10:45a</span>            	<span class="class-name">Sword in Armour: Fighting at the Full Sword and the Half Sword--</span><br>
+            <p><span>10:45a</span>            	<span class="class-name">Sword in Armour: Fighting at the Full Sword and the Half Sword</span><br>
             <span>Instructor:</span> Sean Hayes<br>
             <span>Required Equipment:</span> steel longsword with rubber or leather blunt attached, harness<br>
-            Armoured combat often employs the sword as a short spear, by grasping the blade with one hand, commonly referred to as "half-swording."  While most of the armoured guards show this style of grip, Fiore also uses the sword in a "standard" grip, at the full sword.  This class will practice the use of both forms in matched and unmatched combinations, and examine the tactical uses of switching between these grips.
+            Armoured combat often employs the sword as a short spear, by grasping the blade with one hand, commonly referred to as "half-swording."  While most of the armoured guards show this style of grip, Fiore also uses the sword in a "standard" grip, at the full sword.  This class will practice the use of both forms in matched and unmatched combinations, and examine the tactical uses of switching between these grips.</p>
 
-            <p><span>1:30p</span>             	<span class="class-name">The sinister pollaxe: Playing from the left in Le Jeu --</span>
+            <p><span>1:30p</span>             	<span class="class-name">The sinister pollaxe: Playing from the left in Le Jeu</span><br>
             <span>Instructor:</span> Jason Smith<br>
             <span>Required Equipment:</span> pollaxe<br>
             In this class, we will visit the left-handed plays of the manuscript and how it deals with playing against someone fighting from the left. Students will visit the plays from both perspectives to experience how the principles illustrated in the manuscript can be applied regardless of handedness, and how the dynamics of off-hand play affect the fight. Having attended the introductory Jeu class "Pollaxe for Dummies" is preferred, or some previous experience with the pollaxe.</p>
@@ -220,9 +220,11 @@
             <span>Required Equipment:</span> Harness, dagger, sword, poleaxe,  spear simulators<br>
             Students will practice the concepts with instructors and other students in a coached environment to improve the students understanding and ability to apply these concepts while in combat in harness.</p>
 
-            <div class="aPlaisance-logo-classes">
-                <a href="http://www.aplaisance.com" onmouseover="document.aPlaisance.src='img/structure/aPlaisanceGlow.png';" onmouseout="document.aPlaisance.src='img/structure/aPlaisance.png'"><img src="img/structure/aPlaisance.png" name="aPlaisance" border="0"></a>
-            </div>
         </div>
+
+        <div class="aPlaisance-logo-classes">
+            <a href="http://www.aplaisance.com" onmouseover="document.aPlaisance.src='img/structure/aPlaisanceGlow.png';" onmouseout="document.aPlaisance.src='img/structure/aPlaisance.png'"><img src="img/structure/aPlaisance.png" name="aPlaisance" border="0"></a>
+        </div>
+        <img src="img/structure/blank.png" class="blank-classes"/>
     </body>
 </html>

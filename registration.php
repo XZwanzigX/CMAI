@@ -662,5 +662,6 @@
             </div>
         </form>
         </div>
+        <img src="img/structure/blank.png" class=blank-registration"/>
     </body>
 </html>

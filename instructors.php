@@ -112,6 +112,9 @@
                 <li>Armored Combat Training</li>
                 <li>The Dagger of Fiore</li>
             </ul>
+            <div class="aPlaisance-logo-instructors">
+                <a href="http://www.aplaisance.com" onmouseover="document.aPlaisance.src='img/structure/aPlaisanceGlow.png';" onmouseout="document.aPlaisance.src='img/structure/aPlaisance.png'"><img src="img/structure/aPlaisance.png" name="aPlaisance" border="0"></a>
+            </div>
         </div>
     </body>
 </html>
