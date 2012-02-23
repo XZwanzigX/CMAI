@@ -107,7 +107,7 @@
 
 .contact-text-pane {
     position: relative;
-    margin: 0 auto 1531px;
+    margin: 0 auto;
     width:800px;
     text-algin:left;
 }
@@ -122,14 +122,14 @@
 .confirm-text-pane {
     position: relative;
     margin: 0 auto 1155px;
-    width:800px;
+    width: 800px;
     text-algin:left;
 }
 
 .directions-text-pane {
     position: relative;
-    margin: 0 auto 798px;
-    width:800px;
+    margin: 0 auto;
+    width: 800px;
     text-algin:left;
 }
 
@@ -227,7 +227,7 @@
 
 .blank-schedule {
     position: absolute;
-    top: 2849px;
+    top: 2829px;
 }
 
 .blank-registration {

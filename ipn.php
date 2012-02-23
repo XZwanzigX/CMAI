@@ -1,6 +1,6 @@
 <?php
 //include('../db/dbConnection.php');
-include('../../db/dbConnection.php');
+include('../db/dbConnection.php');
 
 function dbCOnn() {
 //    return localConnection();
