@@ -1,6 +1,6 @@
 <?php
-include('../../db/cmaiDb.php');
-
+include('../../db/cmaiDb.php'); // LIVE
+//include('../../../db/devDb.php');
 function dbCOnn() {
     return cmai();
 }
@@ -172,9 +172,27 @@ function getClassInformation($br) {
     $th1515 = getClassName('thursday_1515');
     $th1700 = getClassName('thursday_1700');
 
-    $message = "Tuesday:$br 10:45a: $t1045 $br 1:30p: $t1330 $br 3:15p: $t1515 $br 5:00p: $t1700 $br $br
-                Wednesday: $br 9:00a: $w0900 $br 10:45a: $w1045 $br 1:30p: $w1330 $br 3:15p: $w1515 $br 5:00p: $w1700 $br $br
-                Thursday: $br 9:00a: $th0900 $br 10:45a: $th1045 $br 1:30p: $th1330 $br 3:15p: $th1515 $br 5:00p: $th1700 $br $br";
+    $message = "
+
+Tuesday:$br
+    10:45a: $t1045 $br
+    1:30p: $t1330 $br
+    3:15p: $t1515 $br
+    5:00p: $t1700 $br $br
+
+Wednesday: $br
+    9:00a: $w0900 $br
+    10:45a: $w1045 $br
+    1:30p: $w1330 $br
+    3:15p: $w1515 $br
+    5:00p: $w1700 $br $br
+
+Thursday: $br
+    9:00a: $th0900 $br
+    10:45a: $th1045 $br
+    1:30p: $th1330 $br
+    3:15p: $th1515 $br
+    5:00p: $th1700 $br $br";
     return $message;
 }
 
@@ -187,23 +205,23 @@ function getRegistrantInfo($br) {
     $needHorse = $_POST['need_horse'] == 1 ? 'Yes' : 'No';
 
     return "Name: {$_POST['first_name']} {$_POST['last_name']}$br
-            Email:{$_POST['email']}$br
-            City: {$_POST['city']}$br
-            State {$_POST['state']}$br
-            Postal Code: {$_POST['zip']}$br
-            Country: {$_POST['country']}$br
-            Address: {$_POST['address']}$br
-            Phone: {$_POST['phone']}$br
-            How did you hear about us: {$_POST['how_heard']} {$_POST['how_heard_text']}$br
-            Experience level: {$_POST['experience']} $br
-            Club: {$_POST['club']}$br
-            Attended previous WMAs?: {$attendedPrevious} {$_POST['attended_type']}$br
-            Reasons for attending: {$_POST['reasons_for_attending']}$br
-            Has medical insurance: {$medicalInsurance}$br
-            Limiting conditions: {$limitingConditions} {$_POST['condition_type']}$br
-            Participate in Deed of Arms: {$deedOfArms}$br
-            Horse Needed?: {$needHorse}$br
-            Meal Plan: {$mealPlan}$br$br";
+Email:{$_POST['email']}$br
+City: {$_POST['city']}$br
+State {$_POST['state']}$br
+Postal Code: {$_POST['zip']}$br
+Country: {$_POST['country']}$br
+Address: {$_POST['address']}$br
+Phone: {$_POST['phone']}$br
+How did you hear about us: {$_POST['how_heard']} {$_POST['how_heard_text']}$br
+Experience level: {$_POST['experience']} $br
+Club: {$_POST['club']}$br
+Attended previous WMAs?: {$attendedPrevious} {$_POST['attended_type']}$br
+Reasons for attending: {$_POST['reasons_for_attending']}$br
+Has medical insurance: {$medicalInsurance}$br
+Limiting conditions: {$limitingConditions} {$_POST['condition_type']}$br
+Participate in Deed of Arms: {$deedOfArms}$br
+Horse Needed?: {$needHorse}$br
+Meal Plan: {$mealPlan}$br$br";
 }
 
 function constructRegistrationEmail($br) {
