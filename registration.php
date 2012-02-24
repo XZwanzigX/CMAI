@@ -465,7 +465,7 @@
 
             <p class="entry">
                 <span class="field-label">Do you want to purchase a meal plan? (+$200.00)<span class="red-note">*</span><br>
-                    Meal plan includes Breakfast, Lunch, and Dinner Tuesday-Thursday.
+                    Meal plan includes Breakfast, Lunch, and Dinner Tuesday-Sunday.
                 </span>
                 <span class="field">
                     <input type="radio" name="meal_plan" value="0" class="required"/>No
