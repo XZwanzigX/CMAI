@@ -140,9 +140,6 @@
             <p><span>Concepts of Modern Chivalry- Randall Parr</span><br/>
             This presentation will discuss why chivalry is experiencing a revival today, and how traditional ideals of knightly behavior are relevantly translated and applied to modern culture.</p>
 
-            <p><span>The Judicial Duel in Italy - Tom Leoni</span><br/>
-            Understanding the judicial duel is understanding one of the principal contexts framing the martial arts that we study. In this brief lecture, Tom will present the way in which the judicial duel was viewed during its heyday in Italy (mid 1550s); however, please bear in mind that although the duel went in and out of legality throughout the ages, most of its tenets remained firmly established in the moral code of Italian society—practically all the way into the 20th Century.</p>
-
             <p><span>An Introduction to the International Jousting League  - Fred Piraux</span><br/>
             This class will cover the details on how to become involved with the IJL; the mission statement, structure and rules; the state of competitive jousting in the world today; how to become an IJL affiliate (as an individual or event); competitions included in the IJL.</p>
 

@@ -74,7 +74,7 @@
                     <td class="time">10:45a</td>
                     <td>Jousting 3: Riding in Armour - Luke Binks</td>
                     <td>Armored Combat 2: Falling in armor, Wrestling- Scott Wilson, Sean Hayes, Jason Smith</td>
-                    <td>The Judicial Duel in Italy - Tom Leoni</td>
+                    <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="lunch">12:30p</td>
