@@ -137,24 +137,45 @@ function obtainRegistrantId() {
     return $id;
 }
 
-function getClassInformation($br) {
+function getClassName($classTime) {
     $conn = dbCOnn();
 
-    $sql = 'select classname(tuesday_1045), classname(tuesday_1330), classname(tuesday_1515), classname(tuesday_1700),
-                   classname(wednesday_0900), classname(wednesday_1045), classname(wednesday_1330), classname(wednesday_1515), classname(wednesday_1700),
-                   classname(thursday_0900), classname(thursday_1045), classname(thursday_1330), classname(thursday_1515), classname(thursday_1700) from cmai_registrant where email=?';
+    $sql = "SELECT IF(cr.{$classTime} = -1, 'No class selected', cc.name)
+            from cmai_registrant cr, cmai_classes cc
+            where cr.email=?
+            and cr.{$classTime} = cc.class_id";
 
-    if(!$stmt = $conn->prepare($sql)) {'failed to prep statement';}
+    if(!$stmt = $conn->prepare($sql)) {echo 'failed to prep statement';}
     $stmt->bind_param('s', $_POST['email']);
+
     if (!$stmt->execute()) { echo $stmt->error;}
-    $stmt->bind_result($t1045, $t1330, $t1515, $t1700, $w0900, $w1045, $w1330, $w1515, $w1700, $th0900, $th1045, $th1330, $th1515, $th1700);
+    $stmt->bind_result($className);
     $stmt->fetch();
+    $stmt->close();
+    $conn->close();
+
+    return ($className == '') ? 'No class selected' : $className;
+}
+
+function getClassInformation($br) {
+    $t1045 = getClassName('tuesday_1045');
+    $t1330 = getClassName('tuesday_1330');
+    $t1515 = getClassName('tuesday_1515');
+    $t1700 = getClassName('tuesday_1700');
+    $w0900 = getClassName('wednesday_0900');
+    $w1045 = getClassName('wednesday_1045');
+    $w1330 = getClassName('wednesday_1330');
+    $w1515 = getClassName('wednesday_1515');
+    $w1700 = getClassName('wednesday_1700');
+    $th0900 = getClassName('thursday_0900');
+    $th1045 = getClassName('thursday_1045');
+    $th1330 = getClassName('thursday_1330');
+    $th1515 = getClassName('thursday_1515');
+    $th1700 = getClassName('thursday_1700');
 
     $message = "Tuesday:$br 10:45a: $t1045 $br 1:30p: $t1330 $br 3:15p: $t1515 $br 5:00p: $t1700 $br $br
                 Wednesday: $br 9:00a: $w0900 $br 10:45a: $w1045 $br 1:30p: $w1330 $br 3:15p: $w1515 $br 5:00p: $w1700 $br $br
                 Thursday: $br 9:00a: $th0900 $br 10:45a: $th1045 $br 1:30p: $th1330 $br 3:15p: $th1515 $br 5:00p: $th1700 $br $br";
-    $stmt->close();
-    $conn->close();
     return $message;
 }
 
