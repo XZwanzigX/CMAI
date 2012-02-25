@@ -17,7 +17,9 @@
                 <br/>$150 for foot classes<br/>
                 +$100 to add the equestrian classes<br/>
                 +$200 to add the meal plan (breakfast, lunch and dinner, Tuesday through Sunday)</p>
-
+            <p><span class="faq">Where is the event located?</span><br>
+                CMAI is located at the <a href="http://www.taylorrodeo.com" target="_new" class="textLink">East Williamson County Event Center</a> in Taylor Texas (about 30 miles NE of Austin, Texas).  It is a very large outdoor covered arena. The foot classes will be held outside the arena while the equestrian classes will be held inside.  However, if there is foul weather, all of the classes will be held under the cover of the arena.
+            </p>
             <p><span class="faq">What do I need to do to come?</span>
                 <br/>Block out your calender for the second week of May, complete the <a href="registration.php" class="textLink">registration</a> and make plans to join us!</p>
 
@@ -39,6 +41,10 @@
 
             <p><span class="faq">How old do I have to be to participate?</span><br/>
             CMAI participants should be 18 years or older.</p>
+            
+            <p><span class="faq">Are there any competitions associated with CMAI?</span><br>
+                Indeed there are!  There are a number of foot combat tournaments scheduled during the <a href="http://www.texasjoust.com" class="textLink">Lysts on the Lake</a> tournament the weekend of 5/11 - 13.  These details will be listed on the <a href="http://www.texasjoust.com" class="textLink">Lysts on the Lake</a> event website (in development), or <a href="mailto:steve@aplaisance.com" class="textLink">contact us</a> for details.
+            </p>
 
             <p><span class="faq">Is there anything going on in the evening after classes?</span>
             <br/>There will socializing, armor repair, horse maintenance, as well as some possible entertainment.</p>
@@ -59,7 +65,7 @@
             <br/>Yes.  Please indicate on the <a href="registration.php" class="textLink">registration</a> page that you are in need of a horse and we will make arrangements for you to have one during your class.
 
             <p><span class="faq">Can I bring my own horse?</span>
-            <br/>Yes!  There are stalls available on-site with priority going to the jousting competitors in the "Lysts on the Lake". Please contact the event organizer,  <a href="mailto:steve@aplaisance.com" class="textLink">Steve Hemphill</a>, to make arrangements.</p>
+            <br/>Yes!  There are stalls available on-site with priority going to the jousting competitors in the "<a href="http://www.texasjoust.com" class="textLink" target="_new">Lysts on the Lake</a>". Please contact the event organizer,  <a href="mailto:steve@aplaisance.com" class="textLink">Steve Hemphill</a>, to make arrangements.</p>
 
             <p><span class="faq">Do I have to know how to ride?</span>
                 <br/>There will be riding lessons available everyday and every level of instruction. Mounted combat classes will include an equisim ( practice horse), in case you do not feel comfortable on a horse but still wish to learn the mounted combat techniques.</p>
