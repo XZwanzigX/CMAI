@@ -13,7 +13,7 @@
 
             <p><em class="instructor-name">Luke Binks</em>
             <br>'Red Hart Reproductions'.<br>
-            Luke has been coaching jousters for about 8 years, and has done this all over the world, He coached the Historic Enterprises knights school in 2008 and 2009. He now lives in Norway where he spends his days  armouring, coaching riding and jousting professionally with a riding school named Trollspeilet.</p>
+            Luke has been coaching jousters for about 8 years, and has done this all over the world. He assisted in coaching the Historic Enterprises' knights school in 2008 and 2009. He now lives in Norway where he spends his days  armouring, coaching riding and jousting professionally with a riding school named Trollspeilet.</p>
 
             <ul class="class-listing">
                 <li>The Riders Seat</li>
