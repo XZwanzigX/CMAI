@@ -1,6 +1,6 @@
       <?php
         if(!array_key_exists("hidContact",$_POST)) {?>
-	   <form method="POST" name="contactForm" class="contact-form" action=<?php echo htmlentities($_SERVER['PHP_SELF']); ?>>
+	   <form method="POST" name="contactForm" class="contact-form" action="contactForm.php">
 	      <input type="hidden" name="hidContact" value="1">
               <table border="0" class="contact-form">
 	          <tr>
