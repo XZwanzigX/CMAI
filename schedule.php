@@ -37,7 +37,7 @@
                 <tr>
                     <td class="time">1:30p</td>
                     <td>Beginner Riding 1 - Tina Walsh</td>
-                    <td>Armored Combat 1: Basic movement in Harness, Body awareness, Sensitivity -  Scott Wilson,  Ken Mondeshien, Jason Smith</td>
+                    <td>Armored Combat 1: Basic movement in Harness, Body awareness, Sensitivity -  Scott Wilson,  Ken Mondschein, Jason Smith</td>
                     <td>An Introduction to the International Jousting League - Fred Piraux</td>
                 </tr>
                 <tr>
@@ -84,12 +84,12 @@
                     <td class="time">1:30p</td>
                     <td>Beginner Riding 3 - Tina Walsh</td>
                     <td>Hooks, disarms and binds: Intricacies of the Knightly swiss army knife -- Jason Smith</td>
-                    <td>War, Tournament, Knighthood, and Society- Ken Mondeshien</td>
+                    <td>War, Tournament, Knighthood, and Society- Ken Mondschein</td>
                 </tr>
                 <tr>
                     <td class="time">3:15p</td>
                     <td>Jousting 4: Weapons Handling in Armour - Luke Binks</td>
-                    <td>Armored Combat 3 - Weapons of Knightly combat --Scott Wilson, Jason Smith, Ken Mondeshien</td>
+                    <td>Armored Combat 3 - Weapons of Knightly combat --Scott Wilson, Jason Smith, Ken Mondschein</td>
                     <td>Building from Interpretation to Curriculum - Sean Hayes</td>
                 </tr>
                 <tr>
@@ -140,7 +140,7 @@
                     <td class="time">1:30p</td>
                     <td>Lysts on the Lake Joust Practice 1b</td>
                     <td>The sinister pollaxe: Playing from the left in Le Jeu -- Jason Smith</td>
-                    <td>Historical European Martial Arts: A Historical Overview-Ken Mondeshien</td>
+                    <td>Historical European Martial Arts: A Historical Overview-Ken Mondschein</td>
                 </tr>
                 <tr>
                     <td class="time">3:15p</td>

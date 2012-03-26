@@ -112,7 +112,7 @@
             <p><span class="section-heading">Classroom Instruction</span><br>
             Classroom instruction is a great way to slow down, sit back and really delve into many  aspects of knighthood and chivalry during the middle ages and currently as well as some classes geared toward  expanding your understanding of Historical European Martial Arts.</p>
 
-            <p><span>Western Combative theory-Ken Mondeshien</span><br/>
+            <p><span>Western Combative theory-Ken Mondschein</span><br/>
             There is remarkable continuity in the way in which combative actions have
             been described since the late fourteenth century. In order to better
             understand the tactics and strategies described in medieval fencing
@@ -120,7 +120,7 @@
             will explain both the history and current use of the classification of
             fencing actions in the Western tradition.</p>
 
-            <p><span>Historical European Martial Arts: A Historical Overview-Ken Mondeshien</span><br/>
+            <p><span>Historical European Martial Arts: A Historical Overview-Ken Mondschein</span><br/>
             How has fencing evolved from the enigmatic sword and buckler play in I.33
             to the byzantine rules of the modern sort of fencing? How have Western
             Martial Arts changed from a life-and-death martial art to a sport? This
@@ -128,7 +128,7 @@
             how recent history has transformed both the arts and our understanding of
             them.</p>
 
-            <p><span>War, Tournament, Knighthood, and Society- Ken Mondeshien</span><br/>
+            <p><span>War, Tournament, Knighthood, and Society- Ken Mondschein</span><br/>
             What was a knight? What was his role in society? How did the tournament
             fit into this? We will explore the self-conception of the medieval knight,
             and the uses of the tournament from everything from training for battle to
@@ -175,7 +175,7 @@
             <p class="day-heading">Day 2</p>
 
             <p><span>9:00a</span> 		<span class="class-name">Great Stick</span><br>
-            <span>Instructor:</span> Ken Mondeshein<br>
+            <span>Instructor:</span> Ken Mondschein<br>
             <span>Required Equipment:</span> a large stick<br>
             The greatstick is the living descendant of the longsword, and provides an excellent and historically accurate way to begin internalizing both physical mechanics and basic fencing principles. This class will concentrate on basic manipulation and tactical ideas, with a focus on
             giving students a technical basis for the study of medieval martial arts.</p>
