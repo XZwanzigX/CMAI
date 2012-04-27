@@ -56,22 +56,23 @@
 
             <p><span>5:00p</span>             	<span class="class-name">Mounted Combat 1: Rolling and Falling from Horseback</span><br>
             <span>Instructor:</span> Theresa Wendland<br>
-            <span>Required Equipment:</span> Boots with heel , comfortable long pants (riding pants recommended)
-            Basic rolling and falling on the ground and working toward rolling and falling from the saddle as well as emergency dismounts.</p>
+            <span>Required Equipment:</span> Boots with heel , comfortable long pants (riding pants recommended), knee pads or knee cops<br>
+            <p>Basic rolling and falling on the ground and working toward rolling and falling from the saddle as well as emergency dismounts.</p>
 
             <p class="day-heading">Day 2</p>
 
             <p><span>5:00p</span>             	<span class="class-name">Mounted Combat 2: Riding for Combat</span><br>
             <span>Instructor:</span> Theresa Wendland<br>
-            <span>Required Equipment:</span> Boots with heel , comfortable long pants (riding pants recommended)<br>
-            This course focuses on specific riding tactics for fighting one on one or in a melee-like setting.  It will also focus on distance and timing, specific footwork, and riding with partners and in a crowd.</p>
+            <span>Required Equipment:</span> Boots with heel , comfortable long pants (riding pants recommended), knee pads or knee cops<br>
+            <p>This course focuses on specific riding tactics for fighting one on one or in a melee-like setting.  It will also focus on distance and timing, specific footwork, and riding with partners and in a crowd.</p>
 
             <p class="day-heading">Day 3</p>
 
             <p><span>5:00p</span>             	<span class="class-name">Mounted Combat 3: Introduction to Fiore's Sword on Horseback</span><br>
             <span>Instructor:</span> Theresa Wendland<br>
-            <span>Required Equipment:</span> Boots with heel , comfortable long pants (riding pants recommended)<br>
-            Fiore's universal parry and several plays from the universal parry as well as his first counter.</p>
+            <span>Required Equipment:</span> Long pants for riding; boots with a heel; knee pads or knee cops; fencing mask/WMA mask or helm/helmet with full face protection (NOT SCA bar grill); gorget; training longsword or arming sword- blunted steel, nylon, aluminum, or wooden waster; you may in addition to a sword bring your tournament baton
+                                             <br>***A few extra masks and swords will be available, but if you have the equipment, please bring it!<br>
+            <p>Fiore's universal parry and several plays from the universal parry as well as his first counter.</p>
 
             <p><span class="class-heading">The Joust</span><br>
             The purpose of this clinic is to address, diagnose and remedy common misconceptions and issues pertaining to the cavalry man and his horse. Riders interested in participating in the Tirocinium joust (the novice joust on Friday afternoon, 5/11/12) are required to participate in all of these classes. As this track of classes builds on the skill obtained in the previous class, we recommend that riders interested in jousting attend all of these classes.</p>
